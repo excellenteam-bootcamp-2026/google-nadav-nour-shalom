@@ -1,8 +1,10 @@
 from pathlib import Path
 
+from src.normalization.project_text_normalizer import ProjectTextNormalizer
+
 from .loader import FileLoader
 from .models import PreparedSentence
-from .normalizer import get_word_positions, normalize_text
+from .normalizer import get_word_positions
 
 
 class DataPreparer:
@@ -18,6 +20,8 @@ class DataPreparer:
 
     def __init__(self) -> None:
         self.loader = FileLoader()
+        self.normalizer = ProjectTextNormalizer()
+        self._next_sentence_id = 0
 
     def prepare(self, source: str | Path) -> list[PreparedSentence]:
         prepared: list[PreparedSentence] = []
@@ -43,24 +47,26 @@ class DataPreparer:
         # 1 line = 1 sentence.
         # offset is the 1-based line number in the source file.
         for line_number, line in enumerate(content.splitlines(), start=1):
-            original_sentence = line.strip()
-
-            if not original_sentence:
+            if not line.strip():
                 continue
 
-            normalized_sentence = normalize_text(original_sentence)
+            original_text = line
 
-            if not normalized_sentence:
+            normalized_text = self.normalizer.normalize(original_text)
+
+            if not normalized_text:
                 continue
 
             result.append(
                 PreparedSentence(
-                    original_sentence=original_sentence,
-                    normalized_sentence=normalized_sentence,
-                    source_text=source_text,
+                    sentence_id=self._next_sentence_id,
+                    original_text=original_text,
+                    normalized_text=normalized_text,
+                    source_path=source_text,
                     offset=line_number,
-                    word_positions=get_word_positions(normalized_sentence),
+                    word_positions=get_word_positions(normalized_text),
                 )
             )
+            self._next_sentence_id += 1
 
         return result

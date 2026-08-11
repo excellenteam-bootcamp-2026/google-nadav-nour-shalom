@@ -27,8 +27,8 @@ def main() -> None:
     # Small preview only - not part of the search logic.
     for sentence in prepared_sentences[:3]:
         print(
-            f"- {sentence.original_sentence} "
-            f"({sentence.source_text} {sentence.offset})"
+            f"- {sentence.original_text} "
+            f"({sentence.source_path} {sentence.offset})"
         )
 
 
