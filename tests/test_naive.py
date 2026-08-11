@@ -1,15 +1,76 @@
+from dataclasses import FrozenInstanceError
 import unittest
 
 from src.algorithms.naive_search_algorithm import NaiveSearchAlgorithm
+from src.builders.naive_structure_builder import NaiveStructureBuilder
 from src.contracts.search_algorithm import SearchAlgorithm
 from src.models.edit_type import EditType
 from src.models.prepared_sentence import PreparedSentence
 from src.normalization.project_text_normalizer import ProjectTextNormalizer
+from src.search_engine import SearchEngine
+from src.structures.naive_search_structure import NaiveSearchStructure
+
+
+class SearchArchitectureTests(unittest.TestCase):
+    @staticmethod
+    def _sentence(text: str) -> PreparedSentence:
+        return PreparedSentence(
+            sentence_id=1,
+            original_text=text,
+            normalized_text=text,
+            source_path="archive/example.txt",
+            offset=1,
+        )
+
+    def test_naive_builder_creates_immutable_data_only_structure(self) -> None:
+        sentences = [self._sentence("first"), self._sentence("second")]
+        builder = NaiveStructureBuilder()
+
+        structure = builder.build(sentences)
+
+        self.assertIsInstance(structure, NaiveSearchStructure)
+        self.assertEqual(tuple(sentences), structure.sentences)
+        self.assertFalse(hasattr(builder, "search"))
+        for forbidden_operation in ("build", "search", "rank"):
+            self.assertFalse(hasattr(structure, forbidden_operation))
+        with self.assertRaises(FrozenInstanceError):
+            structure.sentences = ()
+
+    def test_engine_coordinates_build_and_search(self) -> None:
+        engine = SearchEngine(NaiveStructureBuilder(), NaiveSearchAlgorithm())
+        sentence = self._sentence("python")
+
+        engine.build([sentence])
+        matches = engine.search("python")
+
+        exact_matches = [
+            match for match in matches if match.edit_type is EditType.EXACT
+        ]
+        self.assertEqual(1, len(exact_matches))
+        self.assertIs(sentence, exact_matches[0].sentence)
+
+    def test_engine_search_before_build_fails_clearly(self) -> None:
+        engine = SearchEngine(NaiveStructureBuilder(), NaiveSearchAlgorithm())
+
+        with self.assertRaisesRegex(RuntimeError, "build"):
+            engine.search("python")
+
+    def test_search_algorithm_owns_only_search_operation(self) -> None:
+        self.assertEqual(
+            frozenset({"search"}),
+            SearchAlgorithm.__abstractmethods__,
+        )
+        algorithm = NaiveSearchAlgorithm()
+        self.assertFalse(hasattr(algorithm, "build"))
+        self.assertFalse(hasattr(algorithm, "_sentences"))
 
 
 class NaiveSearchAlgorithmTests(unittest.TestCase):
     def setUp(self) -> None:
-        self.algorithm = NaiveSearchAlgorithm()
+        self.engine = SearchEngine(
+            NaiveStructureBuilder(),
+            NaiveSearchAlgorithm(),
+        )
 
     @staticmethod
     def _sentence(
@@ -31,8 +92,8 @@ class NaiveSearchAlgorithmTests(unittest.TestCase):
         )
 
     def _search(self, query: str, target: str):
-        self.algorithm.build([self._sentence(target)])
-        return self.algorithm.search(query)
+        self.engine.build([self._sentence(target)])
+        return self.engine.search(query)
 
     @staticmethod
     def _matching(
@@ -146,14 +207,14 @@ class NaiveSearchAlgorithmTests(unittest.TestCase):
         self.assertEqual([0, 1], [match.match_start for match in matches])
 
     def test_empty_query_returns_no_candidates(self) -> None:
-        self.algorithm.build([self._sentence("anything")])
+        self.engine.build([self._sentence("anything")])
 
-        self.assertEqual([], self.algorithm.search(""))
+        self.assertEqual([], self.engine.search(""))
 
     def test_one_character_query_never_matches_empty_target(self) -> None:
-        self.algorithm.build([self._sentence("")])
+        self.engine.build([self._sentence("")])
 
-        self.assertEqual([], self.algorithm.search("a"))
+        self.assertEqual([], self.engine.search("a"))
 
     def test_repeated_character_insertion_exposes_every_valid_slot(self) -> None:
         matches = self._matching(
@@ -179,10 +240,10 @@ class NaiveSearchAlgorithmTests(unittest.TestCase):
             source_path="archive/nested/source.txt",
             offset=19,
         )
-        self.algorithm.build([sentence])
+        self.engine.build([sentence])
 
         match = self._matching(
-            self.algorithm.search("hello world"),
+            self.engine.search("hello world"),
             EditType.EXACT,
         )[0]
 
@@ -191,12 +252,6 @@ class NaiveSearchAlgorithmTests(unittest.TestCase):
         self.assertEqual("hello world", match.sentence.normalized_text)
         self.assertEqual("archive/nested/source.txt", match.sentence.source_path)
         self.assertEqual(19, match.sentence.offset)
-
-    def test_search_contract_has_only_generic_abstract_operations(self) -> None:
-        self.assertEqual(
-            frozenset({"build", "search"}),
-            SearchAlgorithm.__abstractmethods__,
-        )
 
 
 class ProjectTextNormalizerTests(unittest.TestCase):

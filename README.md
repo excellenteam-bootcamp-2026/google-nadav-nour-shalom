@@ -1,38 +1,39 @@
-# AutoComplete - Person 1
+# AutoComplete Project Foundation
 
-This project contains only **Person 1: Data Preparation (Offline)**.
+This repository contains the shared contracts for parallel development of the
+offline preparation, search, and online completion modules.
 
-## Responsibilities
+## Stable boundaries
 
-1. Read folders/files recursively.
-2. Validate `.txt` files.
-3. Prevent the same file from being loaded twice.
-4. Read each line as one sentence.
-5. Normalize each sentence.
-6. Split normalized text into words and store character positions.
-7. Keep sentence metadata.
-8. Output `list[PreparedSentence]`.
+- `DataPreparer` reads source files and produces shared `PreparedSentence`
+  objects without depending on a search implementation.
+- `SearchStructureBuilder` converts prepared sentences into search data.
+- `SearchStructure` represents data/state only.
+- `SearchAlgorithm` searches an already-built structure and returns raw
+  `MatchCandidate` objects.
+- `SearchEngine` is the public facade used to build and search without exposing
+  the configured builder, structure, or algorithm.
+- `ProjectTextNormalizer` is shared by offline preparation and online query
+  processing.
 
-It does **not** build a Trie, HashMap, Q-gram index, search algorithm, scoring,
-ranking, or Top-5 results. Those belong to the next stages.
+The current search pair is intentionally brute-force:
+`NaiveStructureBuilder`, `NaiveSearchStructure`, and `NaiveSearchAlgorithm`.
+Scoring, sentence-level deduplication, ranking, alphabetical tie-breaking, and
+top-5 selection belong to the online completion module and are not implemented
+inside search.
 
-## Run
+## Run data preparation
 
-Place the assignment archive here:
-
-`data/Archive.zip`
-
-Then:
+Place the assignment archive at `data/Archive.zip`, then run:
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements-dev.txt
 python src/main.py
 ```
 
-Tests:
+## Run tests
+
+The test suite uses Python's standard library:
 
 ```powershell
-pytest
+python -m unittest discover -s tests -v
 ```

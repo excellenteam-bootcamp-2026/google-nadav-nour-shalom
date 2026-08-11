@@ -1,32 +1,32 @@
-from collections.abc import Iterable
-
 from src.contracts.search_algorithm import SearchAlgorithm
+from src.contracts.search_structure import SearchStructure
 from src.models.edit_type import EditType
 from src.models.match_candidate import MatchCandidate
 from src.models.prepared_sentence import PreparedSentence
+from src.structures.naive_search_structure import NaiveSearchStructure
 
 
 class NaiveSearchAlgorithm(SearchAlgorithm):
     """Correctness-first exhaustive implementation of ``SearchAlgorithm``."""
 
-    def __init__(self) -> None:
-        self._sentences: tuple[PreparedSentence, ...] = ()
-
-    def build(self, sentences: Iterable[PreparedSentence]) -> None:
-        """Store prepared sentences; this implementation builds no index."""
-        self._sentences = tuple(sentences)
-
-    def search(self, normalized_query: str) -> list[MatchCandidate]:
+    def search(
+        self,
+        normalized_query: str,
+        structure: SearchStructure,
+    ) -> list[MatchCandidate]:
         """Return raw matches for a non-empty, already-normalized query.
 
         Multiple occurrences and multiple valid one-edit interpretations
         are intentionally preserved for the online scoring layer.
         """
+        if not isinstance(structure, NaiveSearchStructure):
+            raise TypeError("NaiveSearchAlgorithm requires NaiveSearchStructure.")
+
         if not normalized_query:
             return []
 
         matches: list[MatchCandidate] = []
-        for sentence in self._sentences:
+        for sentence in structure.sentences:
             matches.extend(
                 self._search_sentence(
                     query=normalized_query,
