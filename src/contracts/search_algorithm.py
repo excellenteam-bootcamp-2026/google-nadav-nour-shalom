@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 from collections.abc import Iterable
 
-from models.prepared_sentence import PreparedSentence
-from models.match_candidate import MatchCandidate
+from src.models.prepared_sentence import PreparedSentence
+from src.models.match_candidate import MatchCandidate
 
 
 class SearchAlgorithm(ABC):

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from autocomplete import DataPreparer
+from src.autocomplete import DataPreparer
 
 
 def main() -> None:

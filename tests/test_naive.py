@@ -1,10 +1,10 @@
 import unittest
 
-from algorithms.naive_search_algorithm import NaiveSearchAlgorithm
-from contracts.search_algorithm import SearchAlgorithm
-from models.edit_type import EditType
-from models.prepared_sentence import PreparedSentence
-from normalization.project_text_normalizer import ProjectTextNormalizer
+from src.algorithms.naive_search_algorithm import NaiveSearchAlgorithm
+from src.contracts.search_algorithm import SearchAlgorithm
+from src.models.edit_type import EditType
+from src.models.prepared_sentence import PreparedSentence
+from src.normalization.project_text_normalizer import ProjectTextNormalizer
 
 
 class NaiveSearchAlgorithmTests(unittest.TestCase):

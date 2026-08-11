@@ -1,9 +1,9 @@
 from collections.abc import Iterable
 
-from contracts.search_algorithm import SearchAlgorithm
-from models.edit_type import EditType
-from models.match_candidate import MatchCandidate
-from models.prepared_sentence import PreparedSentence
+from src.contracts.search_algorithm import SearchAlgorithm
+from src.models.edit_type import EditType
+from src.models.match_candidate import MatchCandidate
+from src.models.prepared_sentence import PreparedSentence
 
 
 class NaiveSearchAlgorithm(SearchAlgorithm):

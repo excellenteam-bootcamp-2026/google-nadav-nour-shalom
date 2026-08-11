@@ -1,7 +1,7 @@
 import re
 import string
 
-from contracts.text_normalizer import TextNormalizer
+from src.contracts.text_normalizer import TextNormalizer
 
 
 class ProjectTextNormalizer(TextNormalizer):
