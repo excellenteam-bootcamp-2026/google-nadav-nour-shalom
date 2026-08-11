@@ -1,6 +1,7 @@
 from pathlib import Path
 
 from src.autocomplete import DataPreparer
+from src.autocomplete.engine import run
 
 
 def main() -> None:
@@ -30,6 +31,8 @@ def main() -> None:
             f"- {sentence.original_text} "
             f"({sentence.source_path} {sentence.offset})"
         )
+
+    run(prepared_sentences)
 
 
 if __name__ == "__main__":
