@@ -4,7 +4,7 @@ Completion layer (Steps 5-7): rank candidates and return the top K results.
 Pipeline:
   1. Score every MatchCandidate via calculate_score.
   2. Sort: highest score first; alphabetical on the original text as a tiebreaker.
-  3. Deduplicate: keep only the first occurrence of each unique sentence.
+  3. Deduplicate: keep only the best match per (text, source file, offset).
   4. Take the top K results and wrap each one in AutoCompleteData.
 """
 
@@ -32,15 +32,26 @@ def get_best_k_completions(
     # Step 5b: sort — highest score first; alphabetical original text as tiebreaker.
     scored.sort(key=lambda pair: (-pair[1], pair[0].sentence.original_text))
 
-    # Steps 6-7: deduplicate by sentence text, then take the top K.
-    seen: set[str] = set()
+    # Steps 6-7: deduplicate by source record, then take the top K.
+    #
+    # The key is the full identity of the source sentence, not its text
+    # alone. Two sentences with identical text in different files (or at
+    # different offsets in one file) are genuinely distinct results and
+    # must both survive - RFC boilerplate such as "Status of This Memo"
+    # appears once per document. Keying on text alone silently dropped
+    # them. Because the list is already sorted best-first, this still
+    # collapses the several interpretations search returns for the same
+    # (sentence, position) match, keeping only the highest scoring one.
+    seen: set[tuple[str, str, int]] = set()
     results: list[AutoCompleteData] = []
 
     for candidate, score in scored:
-        text = candidate.sentence.original_text
-        if text in seen:
+        sentence = candidate.sentence
+        text = sentence.original_text
+        key = (text, sentence.source_path, sentence.offset)
+        if key in seen:
             continue
-        seen.add(text)
+        seen.add(key)
         results.append(
             AutoCompleteData(
                 completed_sentence=text,

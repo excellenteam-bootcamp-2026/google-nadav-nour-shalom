@@ -1,30 +1,18 @@
 import re
-import unicodedata
 
-from .models import WordPosition
+from src.models.word_position import WordPosition
+from src.normalization.project_text_normalizer import ProjectTextNormalizer
+
+
+_project_normalizer = ProjectTextNormalizer()
 
 
 def normalize_text(text: str) -> str:
-    """
-    Normalize text for search:
-    - ignore upper/lower case
-    - ignore punctuation
-    - collapse repeated whitespace
-    """
-    text = text.lower()
-
-    # Remove Unicode punctuation while keeping letters, digits and spaces.
-    text = "".join(
-        char
-        for char in text
-        if not unicodedata.category(char).startswith("P")
-    )
-
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
+    """Normalize with the same concrete implementation used online."""
+    return _project_normalizer.normalize(text)
 
 
-def get_word_positions(normalized_text: str) -> list[WordPosition]:
+def get_word_positions(normalized_text: str) -> tuple[WordPosition, ...]:
     """
     Return each word and its character range in the normalized sentence.
     'end' is exclusive.
@@ -40,4 +28,4 @@ def get_word_positions(normalized_text: str) -> list[WordPosition]:
             )
         )
 
-    return positions
+    return tuple(positions)

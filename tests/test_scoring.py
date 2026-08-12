@@ -61,9 +61,9 @@ def test_insertion_at_index_0():
 
 
 def test_deletion_at_index_2():
-    """Deletion (extra char) at position 2 applies the mid-range penalty (-4)."""
+    """Deletion (extra char) at position 2 applies the same penalty as insertion (-6)."""
     candidate = _make_candidate(EditType.DELETION, 2, 5)
-    assert calculate_score(candidate) == 10 - 4  # 6
+    assert calculate_score(candidate) == 10 - 6  # 4
 
 
 def test_penalty_capped_at_last_position():
@@ -71,3 +71,35 @@ def test_penalty_capped_at_last_position():
     candidate_at_4  = _make_candidate(EditType.REPLACEMENT, 4, 5)
     candidate_at_10 = _make_candidate(EditType.REPLACEMENT, 10, 5)
     assert calculate_score(candidate_at_4) == calculate_score(candidate_at_10)
+
+
+@pytest.mark.parametrize("edit_index", [0, 1, 2, 3, 4, 5, 12])
+def test_insertion_and_deletion_tables_are_identical(edit_index):
+    """The spec gives insertion and deletion one shared penalty table."""
+    insertion = _make_candidate(EditType.INSERTION, edit_index, 5)
+    deletion  = _make_candidate(EditType.DELETION,  edit_index, 5)
+    assert calculate_score(insertion) == calculate_score(deletion)
+
+
+@pytest.mark.parametrize(
+    ("edit_type", "expected_penalties"),
+    [
+        (EditType.REPLACEMENT, [-5, -4, -3, -2, -1, -1, -1]),
+        (EditType.INSERTION,   [-10, -8, -6, -4, -2, -2, -2]),
+        (EditType.DELETION,    [-10, -8, -6, -4, -2, -2, -2]),
+    ],
+)
+def test_full_penalty_table_matches_spec(edit_type, expected_penalties):
+    """Re-derive every penalty position directly from the specification."""
+    base = 10  # correct_characters=5 -> 5 * 2
+    actual = [
+        calculate_score(_make_candidate(edit_type, index, 5)) - base
+        for index in range(len(expected_penalties))
+    ]
+    assert actual == expected_penalties
+
+
+def test_deletion_of_extra_character_worked_example():
+    """Spec example: 'להייות או לא' -> base 22, deletion at position 3 -> 18."""
+    candidate = _make_candidate(EditType.DELETION, 3, 11)
+    assert calculate_score(candidate) == 22 - 4  # 18
