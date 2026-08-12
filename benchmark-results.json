@@ -14,18 +14,18 @@
     },
     "naive": {
       "latency": {
-        "mean_ns": 43384254.166666664,
-        "median_ns": 44476550.0,
-        "p95_ns": 54739500.0
+        "mean_ns": 43623108.333333336,
+        "median_ns": 43000500.0,
+        "p95_ns": 52881500.0
       },
       "verifier_calls": 126429,
       "candidate_contexts": 126429
     },
     "bi_anchor": {
       "latency": {
-        "mean_ns": 7374866.666666667,
-        "median_ns": 159950.0,
-        "p95_ns": 53703600.0
+        "mean_ns": 4701916.666666667,
+        "median_ns": 180250.0,
+        "p95_ns": 37099300.0
       },
       "verifier_calls": 16275,
       "candidate_contexts": 16275
@@ -34,33 +34,33 @@
       "medium": {
         "queries": 7,
         "naive": {
-          "mean_ns": 42514042.85714286,
-          "median_ns": 44132200,
-          "p95_ns": 54056700.0
+          "mean_ns": 44206590.47619048,
+          "median_ns": 43185600,
+          "p95_ns": 52881500.0
         },
         "bi_anchor": {
-          "mean_ns": 164814.2857142857,
-          "median_ns": 154600,
-          "p95_ns": 230900.0
+          "mean_ns": 165600.0,
+          "median_ns": 170400,
+          "p95_ns": 233000.0
         },
-        "speedup": 285.46054333764556
+        "speedup": 253.43661971830986
       },
       "short": {
         "queries": 1,
         "naive": {
-          "mean_ns": 49475733.333333336,
-          "median_ns": 48540600,
-          "p95_ns": 57833200.0
+          "mean_ns": 39538733.333333336,
+          "median_ns": 37085900,
+          "p95_ns": 44821800.0
         },
         "bi_anchor": {
-          "mean_ns": 57845233.333333336,
-          "median_ns": 53703600,
-          "p95_ns": 74972200.0
+          "mean_ns": 36456133.333333336,
+          "median_ns": 37099300,
+          "p95_ns": 38254300.0
         },
-        "speedup": 0.9038611936629947
+        "speedup": 0.999638807201214
       }
     },
-    "speedup": 278.0653329165364,
+    "speedup": 238.5603328710125,
     "candidate_reduction_ratio": 0.8712716228080583,
     "verifier_call_reduction_ratio": 0.8712716228080583,
     "fallback_rate": 0.125,
@@ -69,7 +69,7 @@
     "candidate_contexts_before_dedup": 16308,
     "candidate_contexts_after_dedup": 16275,
     "index": {
-      "build_ns": 33505900,
+      "build_ns": 36773900,
       "peak_memory_bytes": 585040,
       "unique_words": 407,
       "word_occurrences": 986,
@@ -94,18 +94,18 @@
     },
     "naive": {
       "latency": {
-        "mean_ns": 77833312.5,
-        "median_ns": 76001800.0,
-        "p95_ns": 109655700.0
+        "mean_ns": 66830695.833333336,
+        "median_ns": 66722450.0,
+        "p95_ns": 76227900.0
       },
       "verifier_calls": 88056,
       "candidate_contexts": 88056
     },
     "bi_anchor": {
       "latency": {
-        "mean_ns": 9309933.333333334,
-        "median_ns": 9088700.0,
-        "p95_ns": 17398500.0
+        "mean_ns": 8115895.833333333,
+        "median_ns": 7912800.0,
+        "p95_ns": 13930200.0
       },
       "verifier_calls": 8687,
       "candidate_contexts": 8687
@@ -114,19 +114,19 @@
       "long": {
         "queries": 8,
         "naive": {
-          "mean_ns": 77833312.5,
-          "median_ns": 76001800.0,
-          "p95_ns": 109655700.0
+          "mean_ns": 66830695.833333336,
+          "median_ns": 66722450.0,
+          "p95_ns": 76227900.0
         },
         "bi_anchor": {
-          "mean_ns": 9309933.333333334,
-          "median_ns": 9088700.0,
-          "p95_ns": 17398500.0
+          "mean_ns": 8115895.833333333,
+          "median_ns": 7912800.0,
+          "p95_ns": 13930200.0
         },
-        "speedup": 8.362230021895321
+        "speedup": 8.432217419876656
       }
     },
-    "speedup": 8.362230021895321,
+    "speedup": 8.432217419876656,
     "candidate_reduction_ratio": 0.9013468701735259,
     "verifier_call_reduction_ratio": 0.9013468701735259,
     "fallback_rate": 0.0,
@@ -135,8 +135,8 @@
     "candidate_contexts_before_dedup": 9133,
     "candidate_contexts_after_dedup": 8687,
     "index": {
-      "build_ns": 17126900,
-      "peak_memory_bytes": 210969,
+      "build_ns": 20748600,
+      "peak_memory_bytes": 211016,
       "unique_words": 6,
       "word_occurrences": 1000,
       "intra_word_seed_keys": 18,
@@ -160,18 +160,18 @@
     },
     "naive": {
       "latency": {
-        "mean_ns": 193131504.16666666,
-        "median_ns": 164677550.0,
-        "p95_ns": 340789400.0
+        "mean_ns": 171147870.83333334,
+        "median_ns": 108579450.0,
+        "p95_ns": 433877900.0
       },
       "verifier_calls": 136800,
       "candidate_contexts": 136800
     },
     "bi_anchor": {
       "latency": {
-        "mean_ns": 193639179.16666666,
-        "median_ns": 119866700.0,
-        "p95_ns": 525456300.0
+        "mean_ns": 164725154.16666666,
+        "median_ns": 81233800.0,
+        "p95_ns": 450117600.0
       },
       "verifier_calls": 59950,
       "candidate_contexts": 59950
@@ -180,19 +180,19 @@
       "long": {
         "queries": 8,
         "naive": {
-          "mean_ns": 193131504.16666666,
-          "median_ns": 164677550.0,
-          "p95_ns": 340789400.0
+          "mean_ns": 171147870.83333334,
+          "median_ns": 108579450.0,
+          "p95_ns": 433877900.0
         },
         "bi_anchor": {
-          "mean_ns": 193639179.16666666,
-          "median_ns": 119866700.0,
-          "p95_ns": 525456300.0
+          "mean_ns": 164725154.16666666,
+          "median_ns": 81233800.0,
+          "p95_ns": 450117600.0
         },
-        "speedup": 1.3738390228478803
+        "speedup": 1.3366289647905183
       }
     },
-    "speedup": 1.3738390228478803,
+    "speedup": 1.3366289647905183,
     "candidate_reduction_ratio": 0.5617690058479532,
     "verifier_call_reduction_ratio": 0.5617690058479532,
     "fallback_rate": 0.0,
@@ -201,8 +201,8 @@
     "candidate_contexts_before_dedup": 192500,
     "candidate_contexts_after_dedup": 59950,
     "index": {
-      "build_ns": 18560800,
-      "peak_memory_bytes": 213442,
+      "build_ns": 16591700,
+      "peak_memory_bytes": 211515,
       "unique_words": 2,
       "word_occurrences": 1050,
       "intra_word_seed_keys": 2,
@@ -226,18 +226,18 @@
     },
     "naive": {
       "latency": {
-        "mean_ns": 48192145.833333336,
-        "median_ns": 49092400.0,
-        "p95_ns": 56388200.0
+        "mean_ns": 50521554.166666664,
+        "median_ns": 49218350.0,
+        "p95_ns": 62740000.0
       },
       "verifier_calls": 57360,
       "candidate_contexts": 57360
     },
     "bi_anchor": {
       "latency": {
-        "mean_ns": 6382858.333333333,
-        "median_ns": 5842350.0,
-        "p95_ns": 10833000.0
+        "mean_ns": 6962700.0,
+        "median_ns": 6942050.0,
+        "p95_ns": 9002700.0
       },
       "verifier_calls": 4800,
       "candidate_contexts": 4800
@@ -246,19 +246,19 @@
       "long": {
         "queries": 8,
         "naive": {
-          "mean_ns": 48192145.833333336,
-          "median_ns": 49092400.0,
-          "p95_ns": 56388200.0
+          "mean_ns": 50521554.166666664,
+          "median_ns": 49218350.0,
+          "p95_ns": 62740000.0
         },
         "bi_anchor": {
-          "mean_ns": 6382858.333333333,
-          "median_ns": 5842350.0,
-          "p95_ns": 10833000.0
+          "mean_ns": 6962700.0,
+          "median_ns": 6942050.0,
+          "p95_ns": 9002700.0
         },
-        "speedup": 8.402851592253118
+        "speedup": 7.089886993035199
       }
     },
-    "speedup": 8.402851592253118,
+    "speedup": 7.089886993035199,
     "candidate_reduction_ratio": 0.9163179916317992,
     "verifier_call_reduction_ratio": 0.9163179916317992,
     "fallback_rate": 0.0,
@@ -267,8 +267,8 @@
     "candidate_contexts_before_dedup": 7200,
     "candidate_contexts_after_dedup": 4800,
     "index": {
-      "build_ns": 83472700,
-      "peak_memory_bytes": 226518,
+      "build_ns": 30624600,
+      "peak_memory_bytes": 228821,
       "unique_words": 107,
       "word_occurrences": 900,
       "intra_word_seed_keys": 20,
@@ -292,18 +292,18 @@
     },
     "naive": {
       "latency": {
-        "mean_ns": 28874950.0,
-        "median_ns": 26392200.0,
-        "p95_ns": 37924200.0
+        "mean_ns": 37730162.5,
+        "median_ns": 36857250.0,
+        "p95_ns": 47449500.0
       },
       "verifier_calls": 30960,
       "candidate_contexts": 30960
     },
     "bi_anchor": {
       "latency": {
-        "mean_ns": 6715958.333333333,
-        "median_ns": 5694000.0,
-        "p95_ns": 10654800.0
+        "mean_ns": 9233925.0,
+        "median_ns": 8604300.0,
+        "p95_ns": 14211100.0
       },
       "verifier_calls": 4800,
       "candidate_contexts": 4800
@@ -312,19 +312,19 @@
       "long": {
         "queries": 8,
         "naive": {
-          "mean_ns": 28874950.0,
-          "median_ns": 26392200.0,
-          "p95_ns": 37924200.0
+          "mean_ns": 37730162.5,
+          "median_ns": 36857250.0,
+          "p95_ns": 47449500.0
         },
         "bi_anchor": {
-          "mean_ns": 6715958.333333333,
-          "median_ns": 5694000.0,
-          "p95_ns": 10654800.0
+          "mean_ns": 9233925.0,
+          "median_ns": 8604300.0,
+          "p95_ns": 14211100.0
         },
-        "speedup": 4.63508956796628
+        "speedup": 4.283584951710192
       }
     },
-    "speedup": 4.63508956796628,
+    "speedup": 4.283584951710192,
     "candidate_reduction_ratio": 0.8449612403100775,
     "verifier_call_reduction_ratio": 0.8449612403100775,
     "fallback_rate": 0.0,
@@ -333,8 +333,8 @@
     "candidate_contexts_before_dedup": 7200,
     "candidate_contexts_after_dedup": 4800,
     "index": {
-      "build_ns": 13821300,
-      "peak_memory_bytes": 162789,
+      "build_ns": 18744500,
+      "peak_memory_bytes": 161708,
       "unique_words": 105,
       "word_occurrences": 600,
       "intra_word_seed_keys": 19,
