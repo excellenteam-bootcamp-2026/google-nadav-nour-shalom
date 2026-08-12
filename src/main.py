@@ -11,6 +11,8 @@ if str(PROJECT_ROOT) not in sys.path:
 from src.algorithms.naive_search_algorithm import NaiveSearchAlgorithm  # noqa: E402
 from src.autocomplete import DataPreparer  # noqa: E402
 from src.autocomplete.engine import run  # noqa: E402
+from src.builders.naive_structure_builder import NaiveStructureBuilder  # noqa: E402
+from src.search_engine import SearchEngine  # noqa: E402
 
 
 def main() -> None:
@@ -41,7 +43,10 @@ def main() -> None:
             f"({sentence.source_path} {sentence.offset})"
         )
 
-    search_engine = NaiveSearchAlgorithm()
+    search_engine = SearchEngine(
+        builder=NaiveStructureBuilder(),
+        algorithm=NaiveSearchAlgorithm(),
+    )
     search_engine.build(prepared_sentences)
     print("Search engine is ready.")
 
