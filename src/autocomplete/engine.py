@@ -1,14 +1,16 @@
-def run(prepared_sentences) -> None:
+from src.autocomplete.normalizer import normalize_text
+
+
+def run(search_engine) -> None:
     """
     Main loop of the online autocomplete system.
 
-    Receives raw user queries one at a time, skips empty input,
-    and will progressively delegate to normalization, search,
-    scoring, and ranking in later steps.
+    Normalizes each user query and delegates to the search engine.
+    Scoring and ranking will be added in the next steps.
 
     Args:
-        prepared_sentences: List of PreparedSentence objects built
-                            by the offline data preparation stage.
+        search_engine: A built SearchAlgorithm instance ready to accept
+                       normalized queries and return MatchCandidate lists.
     """
     print("System ready. Start typing to search (press Ctrl+C to exit):")
 
@@ -19,8 +21,9 @@ def run(prepared_sentences) -> None:
             if not query.strip():
                 continue  # Skip empty or whitespace-only input
 
-            # Step 2 (Normalize) and beyond will be added here.
-            print(f"[DEBUG] Received query: '{query}'")
+            normalized = normalize_text(query)           # Step 2: Normalize
+            candidates = search_engine.search(normalized) # Step 3: Search
+            print(f"[DEBUG] Found {len(candidates)} candidates")  # Temporary
 
         except KeyboardInterrupt:
             print("\nGoodbye!")
