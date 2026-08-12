@@ -1,4 +1,5 @@
 import sys
+from collections.abc import Iterable
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -11,10 +12,32 @@ if str(PROJECT_ROOT) not in sys.path:
 from src.algorithms.qgram_trie_search_algorithm import QGramTrieSearchAlgorithm  # noqa: E402
 from src.autocomplete import DataPreparer  # noqa: E402
 from src.autocomplete.engine import run  # noqa: E402
+from src.algorithms.bi_anchor_search_algorithm import (  # noqa: E402
+    BiAnchorSearchAlgorithm,
+)
+from src.autocomplete import DataPreparer  # noqa: E402
+from src.autocomplete.engine import run  # noqa: E402
+from src.builders.bi_anchor_structure_builder import (  # noqa: E402
+    BiAnchorStructureBuilder,
+)
+from src.models.prepared_sentence import PreparedSentence  # noqa: E402
+from src.search_engine import SearchEngine  # noqa: E402
+
+
+def build_default_search_engine(
+    prepared_sentences: Iterable[PreparedSentence],
+) -> SearchEngine:
+    """Build the correctness-gated default Bi-Anchor composition."""
+    engine = SearchEngine(
+        builder=BiAnchorStructureBuilder(),
+        algorithm=BiAnchorSearchAlgorithm(),
+    )
+    engine.build(prepared_sentences)
+    return engine
 
 
 def main() -> None:
-    source = PROJECT_ROOT / "data" / "Archive.zip"
+    source = PROJECT_ROOT / "data" / "Archive3.zip"
 
     print("Loading the files and preparing the system...")
 
@@ -43,6 +66,7 @@ def main() -> None:
 
     search_engine = QGramTrieSearchAlgorithm()
     search_engine.build(prepared_sentences)
+    search_engine = build_default_search_engine(prepared_sentences)
     print("Search engine is ready.")
 
     run(search_engine)
