@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from src.algorithms.naive_search_algorithm import NaiveSearchAlgorithm
 from src.autocomplete import DataPreparer
 from src.autocomplete.engine import run
 
@@ -32,7 +33,11 @@ def main() -> None:
             f"({sentence.source_text} {sentence.offset})"
         )
 
-    run(prepared_sentences)
+    search_engine = NaiveSearchAlgorithm()
+    search_engine.build(prepared_sentences)
+    print("Search engine is ready.")
+
+    run(search_engine)
 
 
 if __name__ == "__main__":
