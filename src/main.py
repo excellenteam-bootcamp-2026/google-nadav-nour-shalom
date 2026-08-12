@@ -34,7 +34,7 @@ def build_default_search_engine(
 
 
 def main() -> None:
-    source = PROJECT_ROOT / "data" / "Archive.zip"
+    source = PROJECT_ROOT / "data" / "Archive3.zip"
 
     print("Loading the files and preparing the system...")
 
