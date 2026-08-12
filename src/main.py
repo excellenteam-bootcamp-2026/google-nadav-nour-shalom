@@ -8,6 +8,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+from src.algorithms.naive_search_algorithm import NaiveSearchAlgorithm  # noqa: E402
 from src.autocomplete import DataPreparer  # noqa: E402
 from src.autocomplete.engine import run  # noqa: E402
 
@@ -40,7 +41,11 @@ def main() -> None:
             f"({sentence.source_path} {sentence.offset})"
         )
 
-    run(prepared_sentences)
+    search_engine = NaiveSearchAlgorithm()
+    search_engine.build(prepared_sentences)
+    print("Search engine is ready.")
+
+    run(search_engine)
 
 
 if __name__ == "__main__":
