@@ -1,0 +1,346 @@
+[
+  {
+    "dataset": "archive-real-sample",
+    "q": 3,
+    "corpus_sentences": 100,
+    "queries": 8,
+    "repeats": 3,
+    "correctness": {
+      "total_queries": 8,
+      "matching_result_sets": 8,
+      "mismatches": 0,
+      "false_negatives": 0,
+      "false_positives": 0
+    },
+    "naive": {
+      "latency": {
+        "mean_ns": 43384254.166666664,
+        "median_ns": 44476550.0,
+        "p95_ns": 54739500.0
+      },
+      "verifier_calls": 126429,
+      "candidate_contexts": 126429
+    },
+    "bi_anchor": {
+      "latency": {
+        "mean_ns": 7374866.666666667,
+        "median_ns": 159950.0,
+        "p95_ns": 53703600.0
+      },
+      "verifier_calls": 16275,
+      "candidate_contexts": 16275
+    },
+    "categories": {
+      "medium": {
+        "queries": 7,
+        "naive": {
+          "mean_ns": 42514042.85714286,
+          "median_ns": 44132200,
+          "p95_ns": 54056700.0
+        },
+        "bi_anchor": {
+          "mean_ns": 164814.2857142857,
+          "median_ns": 154600,
+          "p95_ns": 230900.0
+        },
+        "speedup": 285.46054333764556
+      },
+      "short": {
+        "queries": 1,
+        "naive": {
+          "mean_ns": 49475733.333333336,
+          "median_ns": 48540600,
+          "p95_ns": 57833200.0
+        },
+        "bi_anchor": {
+          "mean_ns": 57845233.333333336,
+          "median_ns": 53703600,
+          "p95_ns": 74972200.0
+        },
+        "speedup": 0.9038611936629947
+      }
+    },
+    "speedup": 278.0653329165364,
+    "candidate_reduction_ratio": 0.8712716228080583,
+    "verifier_call_reduction_ratio": 0.8712716228080583,
+    "fallback_rate": 0.125,
+    "average_selected_seed_frequency": 2.142857142857143,
+    "seed_occurrences_expanded": 30,
+    "candidate_contexts_before_dedup": 16308,
+    "candidate_contexts_after_dedup": 16275,
+    "index": {
+      "build_ns": 33505900,
+      "peak_memory_bytes": 585040,
+      "unique_words": 407,
+      "word_occurrences": 986,
+      "intra_word_seed_keys": 873,
+      "intra_word_seed_references": 1738,
+      "boundary_seed_keys": 486,
+      "boundary_occurrences": 2612
+    }
+  },
+  {
+    "dataset": "synthetic",
+    "q": 3,
+    "corpus_sentences": 100,
+    "queries": 8,
+    "repeats": 3,
+    "correctness": {
+      "total_queries": 8,
+      "matching_result_sets": 8,
+      "mismatches": 0,
+      "false_negatives": 0,
+      "false_positives": 0
+    },
+    "naive": {
+      "latency": {
+        "mean_ns": 77833312.5,
+        "median_ns": 76001800.0,
+        "p95_ns": 109655700.0
+      },
+      "verifier_calls": 88056,
+      "candidate_contexts": 88056
+    },
+    "bi_anchor": {
+      "latency": {
+        "mean_ns": 9309933.333333334,
+        "median_ns": 9088700.0,
+        "p95_ns": 17398500.0
+      },
+      "verifier_calls": 8687,
+      "candidate_contexts": 8687
+    },
+    "categories": {
+      "long": {
+        "queries": 8,
+        "naive": {
+          "mean_ns": 77833312.5,
+          "median_ns": 76001800.0,
+          "p95_ns": 109655700.0
+        },
+        "bi_anchor": {
+          "mean_ns": 9309933.333333334,
+          "median_ns": 9088700.0,
+          "p95_ns": 17398500.0
+        },
+        "speedup": 8.362230021895321
+      }
+    },
+    "speedup": 8.362230021895321,
+    "candidate_reduction_ratio": 0.9013468701735259,
+    "verifier_call_reduction_ratio": 0.9013468701735259,
+    "fallback_rate": 0.0,
+    "average_selected_seed_frequency": 89.5,
+    "seed_occurrences_expanded": 1432,
+    "candidate_contexts_before_dedup": 9133,
+    "candidate_contexts_after_dedup": 8687,
+    "index": {
+      "build_ns": 17126900,
+      "peak_memory_bytes": 210969,
+      "unique_words": 6,
+      "word_occurrences": 1000,
+      "intra_word_seed_keys": 18,
+      "intra_word_seed_references": 18,
+      "boundary_seed_keys": 23,
+      "boundary_occurrences": 2700
+    }
+  },
+  {
+    "dataset": "repetitive",
+    "q": 3,
+    "corpus_sentences": 100,
+    "queries": 8,
+    "repeats": 3,
+    "correctness": {
+      "total_queries": 8,
+      "matching_result_sets": 8,
+      "mismatches": 0,
+      "false_negatives": 0,
+      "false_positives": 0
+    },
+    "naive": {
+      "latency": {
+        "mean_ns": 193131504.16666666,
+        "median_ns": 164677550.0,
+        "p95_ns": 340789400.0
+      },
+      "verifier_calls": 136800,
+      "candidate_contexts": 136800
+    },
+    "bi_anchor": {
+      "latency": {
+        "mean_ns": 193639179.16666666,
+        "median_ns": 119866700.0,
+        "p95_ns": 525456300.0
+      },
+      "verifier_calls": 59950,
+      "candidate_contexts": 59950
+    },
+    "categories": {
+      "long": {
+        "queries": 8,
+        "naive": {
+          "mean_ns": 193131504.16666666,
+          "median_ns": 164677550.0,
+          "p95_ns": 340789400.0
+        },
+        "bi_anchor": {
+          "mean_ns": 193639179.16666666,
+          "median_ns": 119866700.0,
+          "p95_ns": 525456300.0
+        },
+        "speedup": 1.3738390228478803
+      }
+    },
+    "speedup": 1.3738390228478803,
+    "candidate_reduction_ratio": 0.5617690058479532,
+    "verifier_call_reduction_ratio": 0.5617690058479532,
+    "fallback_rate": 0.0,
+    "average_selected_seed_frequency": 1818.75,
+    "seed_occurrences_expanded": 29100,
+    "candidate_contexts_before_dedup": 192500,
+    "candidate_contexts_after_dedup": 59950,
+    "index": {
+      "build_ns": 18560800,
+      "peak_memory_bytes": 213442,
+      "unique_words": 2,
+      "word_occurrences": 1050,
+      "intra_word_seed_keys": 2,
+      "intra_word_seed_references": 79,
+      "boundary_seed_keys": 3,
+      "boundary_occurrences": 2850
+    }
+  },
+  {
+    "dataset": "high-frequency",
+    "q": 3,
+    "corpus_sentences": 100,
+    "queries": 8,
+    "repeats": 3,
+    "correctness": {
+      "total_queries": 8,
+      "matching_result_sets": 8,
+      "mismatches": 0,
+      "false_negatives": 0,
+      "false_positives": 0
+    },
+    "naive": {
+      "latency": {
+        "mean_ns": 48192145.833333336,
+        "median_ns": 49092400.0,
+        "p95_ns": 56388200.0
+      },
+      "verifier_calls": 57360,
+      "candidate_contexts": 57360
+    },
+    "bi_anchor": {
+      "latency": {
+        "mean_ns": 6382858.333333333,
+        "median_ns": 5842350.0,
+        "p95_ns": 10833000.0
+      },
+      "verifier_calls": 4800,
+      "candidate_contexts": 4800
+    },
+    "categories": {
+      "long": {
+        "queries": 8,
+        "naive": {
+          "mean_ns": 48192145.833333336,
+          "median_ns": 49092400.0,
+          "p95_ns": 56388200.0
+        },
+        "bi_anchor": {
+          "mean_ns": 6382858.333333333,
+          "median_ns": 5842350.0,
+          "p95_ns": 10833000.0
+        },
+        "speedup": 8.402851592253118
+      }
+    },
+    "speedup": 8.402851592253118,
+    "candidate_reduction_ratio": 0.9163179916317992,
+    "verifier_call_reduction_ratio": 0.9163179916317992,
+    "fallback_rate": 0.0,
+    "average_selected_seed_frequency": 75.0,
+    "seed_occurrences_expanded": 1200,
+    "candidate_contexts_before_dedup": 7200,
+    "candidate_contexts_after_dedup": 4800,
+    "index": {
+      "build_ns": 83472700,
+      "peak_memory_bytes": 226518,
+      "unique_words": 107,
+      "word_occurrences": 900,
+      "intra_word_seed_keys": 20,
+      "intra_word_seed_references": 20,
+      "boundary_seed_keys": 121,
+      "boundary_occurrences": 2390
+    }
+  },
+  {
+    "dataset": "cross-word",
+    "q": 3,
+    "corpus_sentences": 100,
+    "queries": 8,
+    "repeats": 3,
+    "correctness": {
+      "total_queries": 8,
+      "matching_result_sets": 8,
+      "mismatches": 0,
+      "false_negatives": 0,
+      "false_positives": 0
+    },
+    "naive": {
+      "latency": {
+        "mean_ns": 28874950.0,
+        "median_ns": 26392200.0,
+        "p95_ns": 37924200.0
+      },
+      "verifier_calls": 30960,
+      "candidate_contexts": 30960
+    },
+    "bi_anchor": {
+      "latency": {
+        "mean_ns": 6715958.333333333,
+        "median_ns": 5694000.0,
+        "p95_ns": 10654800.0
+      },
+      "verifier_calls": 4800,
+      "candidate_contexts": 4800
+    },
+    "categories": {
+      "long": {
+        "queries": 8,
+        "naive": {
+          "mean_ns": 28874950.0,
+          "median_ns": 26392200.0,
+          "p95_ns": 37924200.0
+        },
+        "bi_anchor": {
+          "mean_ns": 6715958.333333333,
+          "median_ns": 5694000.0,
+          "p95_ns": 10654800.0
+        },
+        "speedup": 4.63508956796628
+      }
+    },
+    "speedup": 4.63508956796628,
+    "candidate_reduction_ratio": 0.8449612403100775,
+    "verifier_call_reduction_ratio": 0.8449612403100775,
+    "fallback_rate": 0.0,
+    "average_selected_seed_frequency": 75.0,
+    "seed_occurrences_expanded": 1200,
+    "candidate_contexts_before_dedup": 7200,
+    "candidate_contexts_after_dedup": 4800,
+    "index": {
+      "build_ns": 13821300,
+      "peak_memory_bytes": 162789,
+      "unique_words": 105,
+      "word_occurrences": 600,
+      "intra_word_seed_keys": 19,
+      "intra_word_seed_references": 19,
+      "boundary_seed_keys": 112,
+      "boundary_occurrences": 1490
+    }
+  }
+]

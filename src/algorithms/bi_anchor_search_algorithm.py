@@ -8,6 +8,7 @@ from src.structures.naive_search_structure import NaiveSearchStructure
 
 from .bi_anchor_search_stats import BiAnchorSearchStats
 from .naive_search_algorithm import NaiveSearchAlgorithm
+from .naive_search_stats import NaiveSearchStats
 from .one_edit_verifier import OneEditVerifier
 
 
@@ -81,10 +82,20 @@ class BiAnchorSearchAlgorithm(SearchAlgorithm):
         structure: BiAnchorSearchStructure,
     ) -> list[MatchCandidate]:
         self._increment("fallback_count")
-        return NaiveSearchAlgorithm().search(
+        fallback_stats = NaiveSearchStats()
+        matches = NaiveSearchAlgorithm(stats=fallback_stats).search(
             normalized_query,
             NaiveSearchStructure(sentences=structure.sentences),
         )
+        if self._stats is not None:
+            self._stats.verifier_calls += fallback_stats.verifier_calls
+            self._stats.candidate_contexts_generated += (
+                fallback_stats.verifier_calls
+            )
+            self._stats.candidate_contexts_after_dedup += (
+                fallback_stats.verifier_calls
+            )
+        return matches
 
     @staticmethod
     def _query_seeds(

@@ -4,11 +4,15 @@ from src.models.match_candidate import MatchCandidate
 from src.models.prepared_sentence import PreparedSentence
 from src.structures.naive_search_structure import NaiveSearchStructure
 
+from .naive_search_stats import NaiveSearchStats
 from .one_edit_verifier import OneEditVerifier
 
 
 class NaiveSearchAlgorithm(SearchAlgorithm):
     """Correctness-first exhaustive implementation of ``SearchAlgorithm``."""
+
+    def __init__(self, stats: NaiveSearchStats | None = None) -> None:
+        self._stats = stats
 
     def search(
         self,
@@ -22,6 +26,9 @@ class NaiveSearchAlgorithm(SearchAlgorithm):
         """
         if not isinstance(structure, NaiveSearchStructure):
             raise TypeError("NaiveSearchAlgorithm requires NaiveSearchStructure.")
+
+        if self._stats is not None:
+            self._stats.query_count += 1
 
         if not normalized_query:
             return []
@@ -81,6 +88,8 @@ class NaiveSearchAlgorithm(SearchAlgorithm):
             if end > len(text):
                 continue
 
+            if self._stats is not None:
+                self._stats.verifier_calls += 1
             results.extend(
                 OneEditVerifier.compare(
                     query=query,

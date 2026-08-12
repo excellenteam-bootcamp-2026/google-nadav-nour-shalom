@@ -148,6 +148,7 @@ def test_short_query_delegates_to_naive() -> None:
 
     assert {match.edit_index for match in matches} == {0, 1, 2}
     assert stats.fallback_count == 1
+    assert stats.verifier_calls > 0
 
 
 def test_wrong_structure_type_is_rejected() -> None:
