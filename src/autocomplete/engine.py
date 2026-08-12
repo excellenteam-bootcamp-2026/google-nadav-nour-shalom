@@ -1,13 +1,15 @@
+from src.autocomplete.completion import get_best_k_completions
 from src.autocomplete.normalizer import normalize_text
-from src.autocomplete.scoring import calculate_score
 
 
 def run(search_engine) -> None:
-    """
-    Main loop of the online autocomplete system.
+    """Main loop of the online autocomplete system.
 
-    Normalizes each user query and delegates to the search engine.
-    Scoring and ranking will be added in the next steps.
+    For each user query:
+      1. Normalize the raw input.
+      2. Search for matching candidates.
+      3. Rank and deduplicate via get_best_k_completions.
+      4. Print the top results to the user.
 
     Args:
         search_engine: A built SearchAlgorithm instance ready to accept
@@ -22,13 +24,20 @@ def run(search_engine) -> None:
             if not query.strip():
                 continue  # Skip empty or whitespace-only input
 
-            normalized = normalize_text(query)            # Step 2: Normalize
+            normalized = normalize_text(query)             # Step 2: Normalize
             candidates = search_engine.search(normalized)  # Step 3: Search
+            results = get_best_k_completions(candidates)   # Steps 4-7: Score, rank, top 5
 
-            # Step 4: Score every candidate
-            scored = [(c, calculate_score(c)) for c in candidates]
-            top = max(scored, key=lambda x: x[1])[1] if scored else 0
-            print(f"[DEBUG] {len(scored)} candidates, top score: {top}")  # Temporary
+            if not results:
+                print("No results found.")
+                continue
+
+            for i, result in enumerate(results, start=1):
+                print(
+                    f"{i}. {result.completed_sentence} "
+                    f"({result.source_text}, line {result.offset}) "
+                    f"[score: {result.score}]"
+                )
 
         except KeyboardInterrupt:
             print("\nGoodbye!")
