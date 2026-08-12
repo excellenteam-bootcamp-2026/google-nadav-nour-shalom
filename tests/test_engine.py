@@ -4,12 +4,22 @@ Tests for the autocomplete engine input loop (Steps 1-3: Receive, Normalize, Sea
 from unittest.mock import MagicMock, patch
 
 from src.autocomplete.engine import run
+from src.models.edit_type import EditType
 
 
 def _make_engine(candidate_count: int = 0) -> MagicMock:
     """Return a mock search engine that returns a fixed number of candidates."""
     engine = MagicMock()
-    engine.search.return_value = [MagicMock()] * candidate_count
+    candidates = []
+    for i in range(candidate_count):
+        mock_candidate = MagicMock()
+        mock_candidate.sentence.original_text = f"Result {i}"
+        mock_candidate.sentence.source_path = "test.txt"
+        mock_candidate.sentence.offset = i
+        mock_candidate.edit_type = EditType.EXACT
+        mock_candidate.correct_characters = 5
+        candidates.append(mock_candidate)
+    engine.search.return_value = candidates
     return engine
 
 

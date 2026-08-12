@@ -1,8 +1,8 @@
 from pathlib import Path
 import zipfile
 
-from autocomplete import DataPreparer
-from autocomplete.normalizer import get_word_positions, normalize_text
+from src.autocomplete import DataPreparer
+from src.autocomplete.normalizer import get_word_positions, normalize_text
 
 
 def test_normalize_text():

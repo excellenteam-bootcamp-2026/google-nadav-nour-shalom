@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from src.algorithms.naive_search_algorithm import NaiveSearchAlgorithm
+from src.algorithms.qgram_trie_search_algorithm import QGramTrieSearchAlgorithm
 from src.autocomplete import DataPreparer
 from src.autocomplete.engine import run
 
@@ -33,7 +33,7 @@ def main() -> None:
             f"({sentence.source_text} {sentence.offset})"
         )
 
-    search_engine = NaiveSearchAlgorithm()
+    search_engine = QGramTrieSearchAlgorithm()
     search_engine.build(prepared_sentences)
     print("Search engine is ready.")
 

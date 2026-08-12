@@ -15,3 +15,15 @@ class PreparedSentence:
     source_text: str
     offset: int
     word_positions: list[WordPosition]
+
+    @property
+    def original_text(self) -> str:
+        return self.original_sentence
+
+    @property
+    def normalized_text(self) -> str:
+        return self.normalized_sentence
+
+    @property
+    def source_path(self) -> str:
+        return self.source_text

@@ -42,7 +42,7 @@ class DataPreparer:
         # According to the project design:
         # 1 line = 1 sentence.
         # offset is the 1-based line number in the source file.
-        for line_number, line in enumerate(content.splitlines(), start=1):
+        for line_number, line in enumerate(content.split("\n"), start=1):
             original_sentence = line.strip()
 
             if not original_sentence:
