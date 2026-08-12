@@ -1,29 +1,6 @@
-from dataclasses import dataclass
+"""Compatibility exports for the shared preparation models."""
 
+from src.models.prepared_sentence import PreparedSentence
+from src.models.word_position import WordPosition
 
-@dataclass
-class WordPosition:
-    word: str
-    start: int
-    end: int
-
-
-@dataclass
-class PreparedSentence:
-    original_sentence: str
-    normalized_sentence: str
-    source_text: str
-    offset: int
-    word_positions: list[WordPosition]
-
-    @property
-    def original_text(self) -> str:
-        return self.original_sentence
-
-    @property
-    def normalized_text(self) -> str:
-        return self.normalized_sentence
-
-    @property
-    def source_path(self) -> str:
-        return self.source_text
+__all__ = ["PreparedSentence", "WordPosition"]

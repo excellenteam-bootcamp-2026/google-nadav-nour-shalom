@@ -1,12 +1,20 @@
+import sys
 from pathlib import Path
 
-from src.algorithms.qgram_trie_search_algorithm import QGramTrieSearchAlgorithm
-from src.autocomplete import DataPreparer
-from src.autocomplete.engine import run
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+# Allow running this file directly (python src/main.py) and as a module
+# (python -m src.main) by making the project root importable either way.
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from src.algorithms.qgram_trie_search_algorithm import QGramTrieSearchAlgorithm  # noqa: E402
+from src.autocomplete import DataPreparer  # noqa: E402
+from src.autocomplete.engine import run  # noqa: E402
 
 
 def main() -> None:
-    source = Path("data/Archive.zip")
+    source = PROJECT_ROOT / "data" / "Archive.zip"
 
     print("Loading the files and preparing the system...")
 
@@ -29,8 +37,8 @@ def main() -> None:
     # Small preview only - not part of the search logic.
     for sentence in prepared_sentences[:3]:
         print(
-            f"- {sentence.original_sentence} "
-            f"({sentence.source_text} {sentence.offset})"
+            f"- {sentence.original_text} "
+            f"({sentence.source_path} {sentence.offset})"
         )
 
     search_engine = QGramTrieSearchAlgorithm()

@@ -72,7 +72,7 @@ def test_tie_broken_alphabetically():
 
 
 def test_duplicate_sentences_appear_only_once():
-    """The same sentence text must not appear more than once in the results."""
+    """Repeated interpretations of one source record collapse to one result."""
     candidates = [
         _make_candidate("hello world"),
         _make_candidate("hello world"),
@@ -81,6 +81,53 @@ def test_duplicate_sentences_appear_only_once():
     results = get_best_k_completions(candidates)
     assert len(results) == 1
     assert results[0].completed_sentence == "hello world"
+
+
+def test_identical_text_in_different_files_both_survive():
+    """Same text, different source files: both are distinct results."""
+    candidates = [
+        _make_candidate("Status of This Memo", source_path="rfc8448.txt", offset=23),
+        _make_candidate("Status of This Memo", source_path="rfc8452.txt", offset=26),
+        _make_candidate("Status of This Memo", source_path="rfc8482.txt", offset=32),
+    ]
+
+    results = get_best_k_completions(candidates)
+
+    assert len(results) == 3
+    assert {(r.source_text, r.offset) for r in results} == {
+        ("rfc8448.txt", 23),
+        ("rfc8452.txt", 26),
+        ("rfc8482.txt", 32),
+    }
+
+
+def test_identical_text_at_different_offsets_both_survive():
+    """Same text repeated within one file is still two distinct results."""
+    candidates = [
+        _make_candidate("Abstract", source_path="rfc8448.txt", offset=15),
+        _make_candidate("Abstract", source_path="rfc8448.txt", offset=402),
+    ]
+
+    results = get_best_k_completions(candidates)
+
+    assert len(results) == 2
+    assert {r.offset for r in results} == {15, 402}
+
+
+def test_same_record_matched_twice_still_collapses():
+    """Two interpretations of the exact same record keep only the best one."""
+    candidates = [
+        # Same text, file and offset: one record, matched two ways.
+        _make_candidate("hello world", EditType.EXACT, None, correct_characters=8),
+        _make_candidate(
+            "hello world", EditType.REPLACEMENT, 0, correct_characters=5
+        ),
+    ]
+
+    results = get_best_k_completions(candidates)
+
+    assert len(results) == 1
+    assert results[0].score == 16  # the EXACT interpretation, not 10 - 5
 
 
 def test_result_is_auto_complete_data():

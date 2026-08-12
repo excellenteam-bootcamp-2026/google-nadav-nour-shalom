@@ -131,7 +131,13 @@ def test_same_results_as_naive_for_single_word_sentences():
     texts = ["python", "programming", "hello", "learning"]
     sentences = [_make_sentence(t, i) for i, t in enumerate(texts)]
 
-    naive = NaiveSearchAlgorithm()
+    from src.search_engine import SearchEngine
+    from src.builders.naive_structure_builder import NaiveStructureBuilder
+
+    naive = SearchEngine(
+        builder=NaiveStructureBuilder(),
+        algorithm=NaiveSearchAlgorithm(),
+    )
     naive.build(sentences)
 
     trie = QGramTrieSearchAlgorithm()

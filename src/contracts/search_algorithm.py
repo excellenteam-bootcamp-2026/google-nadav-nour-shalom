@@ -1,24 +1,17 @@
 from abc import ABC, abstractmethod
-from collections.abc import Iterable
 
-from src.models.prepared_sentence import PreparedSentence
+from src.contracts.search_structure import SearchStructure
 from src.models.match_candidate import MatchCandidate
 
 
 class SearchAlgorithm(ABC):
-
-    @abstractmethod
-    def build(
-        self,
-        sentences: Iterable[PreparedSentence],
-    ) -> None:
-        """Prepare the internal search structure."""
-        raise NotImplementedError
+    """Search an already-built structure without owning corpus state."""
 
     @abstractmethod
     def search(
         self,
         normalized_query: str,
+        structure: SearchStructure,
     ) -> list[MatchCandidate]:
         """Return every raw valid match for an already-normalized query.
 
