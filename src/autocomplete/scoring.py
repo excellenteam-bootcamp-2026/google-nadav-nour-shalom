@@ -11,10 +11,15 @@ from src.models.match_candidate import MatchCandidate
 
 # Penalty table indexed by edit position (0 = first character).
 # Positions beyond index 4 use the last value in the list.
+#
+# Per the specification, INSERTION and DELETION share one identical table:
+# an added or a missing character costs the same at the same position.
+_INSERT_DELETE_PENALTIES: list[int] = [-10, -8, -6, -4, -2]
+
 _PENALTIES: dict[EditType, list[int]] = {
     EditType.REPLACEMENT: [-5, -4, -3, -2, -1],
-    EditType.INSERTION:   [-10, -8, -6, -4, -2],
-    EditType.DELETION:    [-8, -6, -4, -2, -1],
+    EditType.INSERTION:   _INSERT_DELETE_PENALTIES,
+    EditType.DELETION:    _INSERT_DELETE_PENALTIES,
 }
 
 
