@@ -74,7 +74,6 @@ class HashSeedLookup(SeedLookup):
     word-occurrence table, so adding a q costs only its own seed maps.
     """
 
-    q: int
     q_values: tuple[int, ...]
     _unique_words: tuple[str, ...]
     _word_occurrences: Mapping[int, tuple[tuple[int, int], ...]]
@@ -131,7 +130,6 @@ class HashSeedLookup(SeedLookup):
             per_q=MappingProxyType(per_q),
         )
         return cls(
-            q=requested[-1],
             q_values=requested,
             _unique_words=unique_words,
             _word_occurrences=MappingProxyType(word_occurrences),

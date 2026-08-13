@@ -15,7 +15,12 @@ class BiAnchorBuildStats:
 
 @dataclass(frozen=True, slots=True)
 class BiAnchorSearchStructure(SearchStructure):
-    """Immutable prepared corpus and seed access for Bi-Anchor search."""
+    """Immutable prepared corpus and seed access for Bi-Anchor search.
+
+    ``q_values`` are every indexed seed length, and are what search may
+    choose among. ``q`` is only the configured default, retained for
+    reporting; search selects per query and does not read it.
+    """
 
     sentences: tuple[PreparedSentence, ...]
     sentences_by_id: Mapping[int, PreparedSentence]
