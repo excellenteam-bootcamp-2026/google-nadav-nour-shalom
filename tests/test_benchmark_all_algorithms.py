@@ -2,6 +2,9 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 from dataclasses import dataclass, replace
+import hashlib
+import inspect
+import json
 from pathlib import Path
 import shutil
 import tracemalloc
@@ -16,11 +19,14 @@ from src.models.match_candidate import MatchCandidate
 from src.models.prepared_sentence import PreparedSentence
 
 
+SAVED_QUERY_FIXTURE = Path("tests/fixtures/search_correctness_queries.json")
+
+
 def test_default_mode_is_standard_with_trustworthy_defaults() -> None:
     config = benchmark.resolve_config(benchmark.parse_args([]))
 
     assert config.mode == "standard"
-    assert config.source == Path("data/Archive3.zip")
+    assert config.source == Path("data/Archive2.zip")
     assert config.output_base == Path("benchmark/output")
     assert config.query_count == 700
     assert config.repetitions == 3
@@ -332,6 +338,33 @@ def test_actual_registry_builds_all_four_runtimes_and_exposes_metrics() -> None:
     assert all(runtime.search("python") is not None for runtime in runtimes.values())
 
 
+def test_registry_classes_load_from_this_repository() -> None:
+    root = Path.cwd().resolve()
+    expected = {
+        "naive": benchmark.NaiveSearchAlgorithm,
+        "qgram_verifier": benchmark.QGramSearchAlgorithm,
+        "qgram_tree_hybrid": benchmark.QGramTrieSearchAlgorithm,
+        "bi_anchor": benchmark.BiAnchorSearchAlgorithm,
+    }
+
+    for spec in benchmark.algorithm_specs():
+        implementation = expected[spec.algorithm_id]
+        source = Path(inspect.getsourcefile(implementation)).resolve()
+        assert source.is_relative_to(root)
+        assert source == root / Path(*implementation.__module__.split(".")).with_suffix(".py")
+
+
+def test_tree_benchmark_adapter_preserves_raw_search_semantics() -> None:
+    corpus = _real_corpus()
+    plain = benchmark._make_tree(corpus, instrument=False)
+    observed = benchmark._make_tree(corpus, instrument=True)
+
+    for query in ("python", "pyton", "cross", "ra", ""):
+        assert benchmark.canonical_signature(observed.search(query)) == (
+            benchmark.canonical_signature(plain.search(query))
+        )
+
+
 def _stored_dataset(queries: tuple[Archive3Query, ...]) -> dict[str, object]:
     timing_rows = []
     correctness_rows = []
@@ -535,6 +568,60 @@ def test_prepare_queries_is_deterministic_and_honors_query_file() -> None:
         query_file.unlink(missing_ok=True)
 
 
+def test_saved_query_file_is_loaded_without_generation_and_has_identity(
+    monkeypatch,
+) -> None:
+    payload = json.loads(SAVED_QUERY_FIXTURE.read_text(encoding="utf-8"))
+    config = replace(
+        _tiny_standard_config(query_count=999),
+        query_file=SAVED_QUERY_FIXTURE,
+        seed=999,
+    )
+
+    def forbidden_generation(*_args, **_kwargs):
+        raise AssertionError("saved queries must not invoke generation")
+
+    monkeypatch.setattr(benchmark, "generate_workload", forbidden_generation)
+    loaded = benchmark.prepare_queries((), config)
+    metadata = benchmark.query_workload_metadata(config, loaded)
+
+    assert [query.query_id for query in loaded] == [
+        item["query_id"] for item in payload["queries"]
+    ]
+    assert [query.normalized_query for query in loaded] == [
+        item["normalized_query"] for item in payload["queries"]
+    ]
+    assert metadata == {
+        "source": "SAVED",
+        "file": str(SAVED_QUERY_FIXTURE.resolve()),
+        "query_count": payload["query_count"],
+        "sha256": hashlib.sha256(SAVED_QUERY_FIXTURE.read_bytes()).hexdigest(),
+        "seed": payload["random_seed_used_to_create_it"],
+    }
+
+
+def test_report_records_saved_query_source_file_count_and_hash() -> None:
+    config = replace(
+        _tiny_standard_config(),
+        query_file=SAVED_QUERY_FIXTURE,
+    )
+    queries = benchmark.prepare_queries((), config)
+    config = replace(config, query_count=len(queries))
+    summary = benchmark.analyze_dataset(
+        config,
+        queries,
+        _stored_builds(),
+        _stored_dataset(queries),
+    )
+
+    report = benchmark.render_report(summary)
+
+    assert "Query source: **SAVED**" in report
+    assert f"Query file: `{SAVED_QUERY_FIXTURE.resolve()}`" in report
+    assert f"Query count: {len(queries)}" in report
+    assert hashlib.sha256(SAVED_QUERY_FIXTURE.read_bytes()).hexdigest() in report
+
+
 def test_validity_gate_reports_complete_standard_and_exact_failures() -> None:
     queries = _six_lengths()
     config = _tiny_standard_config(query_count=6)
@@ -552,6 +639,31 @@ def test_validity_gate_reports_complete_standard_and_exact_failures() -> None:
     )
     assert any("length 6" in reason for reason in reasons)
     assert any("failed" in reason for reason in reasons)
+
+    incorrect = {
+        **dataset,
+        "correctness_rows": [dict(row) for row in dataset["correctness_rows"]],
+    }
+    tree_row = next(
+        row
+        for row in incorrect["correctness_rows"]
+        if row["algorithm_id"] == "qgram_tree_hybrid"
+    )
+    tree_row.update(
+        correct=False,
+        status="raw_result_mismatch",
+        false_negatives=1,
+        false_positives=0,
+    )
+
+    reasons = benchmark.validity_reasons(
+        config, queries, builds, incorrect, corpus
+    )
+
+    assert any(
+        "qgram_tree_hybrid" in reason and "correctness" in reason
+        for reason in reasons
+    )
 
 
 def test_secondary_study_plan_keeps_standard_lean_and_honors_explicit_q_study() -> None:

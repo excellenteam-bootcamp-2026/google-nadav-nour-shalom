@@ -1,0 +1,7433 @@
+[
+  {
+    "query": " ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 9,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": " ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 9,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": " ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 9,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": " ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 9,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "e",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 6,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "e",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 6,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "e",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 6,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "e",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 6,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "t",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 5,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "t",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 5,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "t",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 5,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "t",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 5,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ö",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ö",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ö",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ö",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ê",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ê",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ê",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ê",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "é",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "é",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "é",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "é",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "n",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 4,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "n",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 4,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "n",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 4,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "n",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 4,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "q",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "q",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "q",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "q",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "i",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.policy.txt",
+    "source_sentence_id": 65685,
+    "expected_start": 22,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "i",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.policy.txt",
+    "source_sentence_id": 65685,
+    "expected_start": 22,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "i",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.policy.txt",
+    "source_sentence_id": 65685,
+    "expected_start": 22,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "i",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.policy.txt",
+    "source_sentence_id": 65685,
+    "expected_start": 22,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "l",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.7.txt",
+    "source_sentence_id": 164486,
+    "expected_start": 42,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "l",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.7.txt",
+    "source_sentence_id": 164486,
+    "expected_start": 42,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "l",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.7.txt",
+    "source_sentence_id": 164486,
+    "expected_start": 42,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "l",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.7.txt",
+    "source_sentence_id": 164486,
+    "expected_start": 42,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "w",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/decimal.txt",
+    "source_sentence_id": 59182,
+    "expected_start": 28,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "w",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/decimal.txt",
+    "source_sentence_id": 59182,
+    "expected_start": 28,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "w",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/decimal.txt",
+    "source_sentence_id": 59182,
+    "expected_start": 28,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "w",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/decimal.txt",
+    "source_sentence_id": 59182,
+    "expected_start": 28,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "r",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/changelog.txt",
+    "source_sentence_id": 186876,
+    "expected_start": 66,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "r",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/changelog.txt",
+    "source_sentence_id": 186876,
+    "expected_start": 66,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "r",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/changelog.txt",
+    "source_sentence_id": 186876,
+    "expected_start": 66,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "r",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/changelog.txt",
+    "source_sentence_id": 186876,
+    "expected_start": 66,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "s",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/stdtypes.txt",
+    "source_sentence_id": 111290,
+    "expected_start": 22,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "s",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/stdtypes.txt",
+    "source_sentence_id": 111290,
+    "expected_start": 22,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "s",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/stdtypes.txt",
+    "source_sentence_id": 111290,
+    "expected_start": 22,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "s",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/stdtypes.txt",
+    "source_sentence_id": 111290,
+    "expected_start": 22,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "o",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/binary.txt",
+    "source_sentence_id": 45518,
+    "expected_start": 19,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "o",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/binary.txt",
+    "source_sentence_id": 45518,
+    "expected_start": 19,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "o",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/binary.txt",
+    "source_sentence_id": 45518,
+    "expected_start": 19,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "o",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/binary.txt",
+    "source_sentence_id": 45518,
+    "expected_start": 19,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "h",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/argparse.txt",
+    "source_sentence_id": 39460,
+    "expected_start": 48,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "h",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/argparse.txt",
+    "source_sentence_id": 39460,
+    "expected_start": 48,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "h",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/argparse.txt",
+    "source_sentence_id": 39460,
+    "expected_start": 48,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "h",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/argparse.txt",
+    "source_sentence_id": 39460,
+    "expected_start": 48,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "f",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/urllib.request.txt",
+    "source_sentence_id": 132397,
+    "expected_start": 47,
+    "length": 1,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "f",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/urllib.request.txt",
+    "source_sentence_id": 132397,
+    "expected_start": 47,
+    "length": 1,
+    "runtime": "adaptive",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "f",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/urllib.request.txt",
+    "source_sentence_id": 132397,
+    "expected_start": 47,
+    "length": 1,
+    "runtime": "q1",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "f",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/urllib.request.txt",
+    "source_sentence_id": 132397,
+    "expected_start": 47,
+    "length": 1,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": " ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 9,
+    "length": 1,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 35304949600
+  },
+  {
+    "query": "e",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 6,
+    "length": 1,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 33798315400
+  },
+  {
+    "query": "t",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 5,
+    "length": 1,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 34164788200
+  },
+  {
+    "query": "e ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 25,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 1983024,
+    "status": "guarded"
+  },
+  {
+    "query": "e ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 25,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 1983024,
+    "status": "guarded"
+  },
+  {
+    "query": "e ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 25,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "e ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 25,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "th",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 29,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 908428,
+    "status": "guarded"
+  },
+  {
+    "query": "th",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 29,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "th",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 29,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "th",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 29,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 908428,
+    "status": "guarded"
+  },
+  {
+    "query": " t",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 52,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": " t",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 52,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": " t",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 52,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 1782193,
+    "status": "guarded"
+  },
+  {
+    "query": " t",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 52,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 1782193,
+    "status": "guarded"
+  },
+  {
+    "query": "öw",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "öw",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 84161,
+    "status": "executed",
+    "latency_ns": 2575495900,
+    "seed_occurrences_expanded": 84161,
+    "candidate_contexts_generated": 713269,
+    "candidate_contexts_after_dedup": 707871,
+    "verifier_calls": 707871
+  },
+  {
+    "query": "öw",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 84161,
+    "status": "executed",
+    "latency_ns": 2658986000,
+    "seed_occurrences_expanded": 84161,
+    "candidate_contexts_generated": 713269,
+    "candidate_contexts_after_dedup": 707871,
+    "verifier_calls": 707871
+  },
+  {
+    "query": "öw",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ê ",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 1113504,
+    "status": "guarded"
+  },
+  {
+    "query": "ê ",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 1113504,
+    "status": "guarded"
+  },
+  {
+    "query": "ê ",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ê ",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "éj",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 17043,
+    "status": "executed",
+    "latency_ns": 554951100,
+    "seed_occurrences_expanded": 17043,
+    "candidate_contexts_generated": 150604,
+    "candidate_contexts_after_dedup": 150496,
+    "verifier_calls": 150496
+  },
+  {
+    "query": "éj",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "éj",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "éj",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 17043,
+    "status": "executed",
+    "latency_ns": 1943684900,
+    "seed_occurrences_expanded": 17043,
+    "candidate_contexts_generated": 150604,
+    "candidate_contexts_after_dedup": 150496,
+    "verifier_calls": 150496
+  },
+  {
+    "query": "un",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 3,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "un",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 3,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "un",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 3,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 699785,
+    "status": "guarded"
+  },
+  {
+    "query": "un",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 3,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 699785,
+    "status": "guarded"
+  },
+  {
+    "query": "r ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 8,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "r ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 8,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 1557464,
+    "status": "guarded"
+  },
+  {
+    "query": "r ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 8,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 1557464,
+    "status": "guarded"
+  },
+  {
+    "query": "r ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 8,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qo",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 510105,
+    "status": "guarded"
+  },
+  {
+    "query": "qo",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 510105,
+    "status": "guarded"
+  },
+  {
+    "query": "qo",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qo",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "vl",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 362066,
+    "status": "executed",
+    "latency_ns": 11534999400,
+    "seed_occurrences_expanded": 362066,
+    "candidate_contexts_generated": 3174303,
+    "candidate_contexts_after_dedup": 2871573,
+    "verifier_calls": 2871573
+  },
+  {
+    "query": "vl",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "vl",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "vl",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 362066,
+    "status": "executed",
+    "latency_ns": 12476721700,
+    "seed_occurrences_expanded": 362066,
+    "candidate_contexts_generated": 3174303,
+    "candidate_contexts_after_dedup": 2871573,
+    "verifier_calls": 2871573
+  },
+  {
+    "query": "vq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "vq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "vq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 71361,
+    "status": "executed",
+    "latency_ns": 2280864800,
+    "seed_occurrences_expanded": 71361,
+    "candidate_contexts_generated": 626189,
+    "candidate_contexts_after_dedup": 625371,
+    "verifier_calls": 625371
+  },
+  {
+    "query": "vq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 71361,
+    "status": "executed",
+    "latency_ns": 2293397700,
+    "seed_occurrences_expanded": 71361,
+    "candidate_contexts_generated": 626189,
+    "candidate_contexts_after_dedup": 625371,
+    "verifier_calls": 625371
+  },
+  {
+    "query": "qf",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qf",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 173349,
+    "status": "executed",
+    "latency_ns": 6719174500,
+    "seed_occurrences_expanded": 173349,
+    "candidate_contexts_generated": 1478412,
+    "candidate_contexts_after_dedup": 1437392,
+    "verifier_calls": 1437392
+  },
+  {
+    "query": "qf",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 173349,
+    "status": "executed",
+    "latency_ns": 5536568400,
+    "seed_occurrences_expanded": 173349,
+    "candidate_contexts_generated": 1478412,
+    "candidate_contexts_after_dedup": 1437392,
+    "verifier_calls": 1437392
+  },
+  {
+    "query": "qf",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ef",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 1032941,
+    "status": "guarded"
+  },
+  {
+    "query": "ef",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 1032941,
+    "status": "guarded"
+  },
+  {
+    "query": "ef",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ef",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "eq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 879454,
+    "status": "guarded"
+  },
+  {
+    "query": "eq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "eq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "eq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 879454,
+    "status": "guarded"
+  },
+  {
+    "query": "qz",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qz",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qz",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 19834,
+    "status": "executed",
+    "latency_ns": 566708200,
+    "seed_occurrences_expanded": 19834,
+    "candidate_contexts_generated": 172614,
+    "candidate_contexts_after_dedup": 172147,
+    "verifier_calls": 172147
+  },
+  {
+    "query": "qz",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 19834,
+    "status": "executed",
+    "latency_ns": 605345800,
+    "seed_occurrences_expanded": 19834,
+    "candidate_contexts_generated": 172614,
+    "candidate_contexts_after_dedup": 172147,
+    "verifier_calls": 172147
+  },
+  {
+    "query": "an",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/3.2.txt",
+    "source_sentence_id": 167835,
+    "expected_start": 21,
+    "length": 2,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "an",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/3.2.txt",
+    "source_sentence_id": 167835,
+    "expected_start": 21,
+    "length": 2,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 1000623,
+    "status": "guarded"
+  },
+  {
+    "query": "an",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/3.2.txt",
+    "source_sentence_id": 167835,
+    "expected_start": 21,
+    "length": 2,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 1000623,
+    "status": "guarded"
+  },
+  {
+    "query": "an",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/3.2.txt",
+    "source_sentence_id": 167835,
+    "expected_start": 21,
+    "length": 2,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "e ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 25,
+    "length": 2,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 35946484200
+  },
+  {
+    "query": "th",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 29,
+    "length": 2,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 32631988500
+  },
+  {
+    "query": " t",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 52,
+    "length": 2,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 38797856300
+  },
+  {
+    "query": " th",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 908428,
+    "status": "guarded"
+  },
+  {
+    "query": " th",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 908428,
+    "status": "guarded"
+  },
+  {
+    "query": " th",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": " th",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "the",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 26,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 908428,
+    "status": "guarded"
+  },
+  {
+    "query": "the",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 26,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "the",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 26,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "the",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 26,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 908428,
+    "status": "guarded"
+  },
+  {
+    "query": "he ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 27,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "he ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 27,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "he ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 27,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 1109259,
+    "status": "guarded"
+  },
+  {
+    "query": "he ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 27,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 1109259,
+    "status": "guarded"
+  },
+  {
+    "query": "öwi",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "öwi",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 84161,
+    "status": "executed",
+    "latency_ns": 2788891500,
+    "seed_occurrences_expanded": 84161,
+    "candidate_contexts_generated": 706021,
+    "candidate_contexts_after_dedup": 700649,
+    "verifier_calls": 700649
+  },
+  {
+    "query": "öwi",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 84161,
+    "status": "executed",
+    "latency_ns": 6149255500,
+    "seed_occurrences_expanded": 84161,
+    "candidate_contexts_generated": 706021,
+    "candidate_contexts_after_dedup": 700649,
+    "verifier_calls": 700649
+  },
+  {
+    "query": "öwi",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ê c",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 274032,
+    "status": "executed",
+    "latency_ns": 10335336400,
+    "seed_occurrences_expanded": 274032,
+    "candidate_contexts_generated": 2273613,
+    "candidate_contexts_after_dedup": 2241568,
+    "verifier_calls": 2241568
+  },
+  {
+    "query": "ê c",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 274032,
+    "status": "executed",
+    "latency_ns": 11777084500,
+    "seed_occurrences_expanded": 274032,
+    "candidate_contexts_generated": 2273613,
+    "candidate_contexts_after_dedup": 2241568,
+    "verifier_calls": 2241568
+  },
+  {
+    "query": "ê c",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ê c",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "éje",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 17043,
+    "status": "executed",
+    "latency_ns": 713461500,
+    "seed_occurrences_expanded": 17043,
+    "candidate_contexts_generated": 149740,
+    "candidate_contexts_after_dedup": 149635,
+    "verifier_calls": 149635
+  },
+  {
+    "query": "éje",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "éje",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "éje",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 17043,
+    "status": "executed",
+    "latency_ns": 634746500,
+    "seed_occurrences_expanded": 17043,
+    "candidate_contexts_generated": 149740,
+    "candidate_contexts_after_dedup": 149635,
+    "verifier_calls": 149635
+  },
+  {
+    "query": "unt",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 3,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "unt",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 3,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "unt",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 3,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 699785,
+    "status": "guarded"
+  },
+  {
+    "query": "unt",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 3,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 699785,
+    "status": "guarded"
+  },
+  {
+    "query": "er ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 7,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "er ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 7,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 1313486,
+    "status": "guarded"
+  },
+  {
+    "query": "er ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 7,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 1313486,
+    "status": "guarded"
+  },
+  {
+    "query": "er ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 7,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qol",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 310567,
+    "status": "executed",
+    "latency_ns": 11522432400,
+    "seed_occurrences_expanded": 310567,
+    "candidate_contexts_generated": 2662113,
+    "candidate_contexts_after_dedup": 2440396,
+    "verifier_calls": 2440396
+  },
+  {
+    "query": "qol",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 310567,
+    "status": "executed",
+    "latency_ns": 12419746700,
+    "seed_occurrences_expanded": 310567,
+    "candidate_contexts_generated": 2662113,
+    "candidate_contexts_after_dedup": 2440396,
+    "verifier_calls": 2440396
+  },
+  {
+    "query": "qol",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qol",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "vou",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 267240,
+    "status": "executed",
+    "latency_ns": 11183091800,
+    "seed_occurrences_expanded": 267240,
+    "candidate_contexts_generated": 2288537,
+    "candidate_contexts_after_dedup": 2218163,
+    "verifier_calls": 2218163
+  },
+  {
+    "query": "vou",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "vou",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "vou",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 267240,
+    "status": "executed",
+    "latency_ns": 10180572000,
+    "seed_occurrences_expanded": 267240,
+    "candidate_contexts_generated": 2288537,
+    "candidate_contexts_after_dedup": 2218163,
+    "verifier_calls": 2218163
+  },
+  {
+    "query": "voq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "voq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "voq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 71361,
+    "status": "executed",
+    "latency_ns": 3136014500,
+    "seed_occurrences_expanded": 71361,
+    "candidate_contexts_generated": 614049,
+    "candidate_contexts_after_dedup": 613210,
+    "verifier_calls": 613210
+  },
+  {
+    "query": "voq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 71361,
+    "status": "executed",
+    "latency_ns": 4022428400,
+    "seed_occurrences_expanded": 71361,
+    "candidate_contexts_generated": 614049,
+    "candidate_contexts_after_dedup": 613210,
+    "verifier_calls": 613210
+  },
+  {
+    "query": "qff",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qff",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 173349,
+    "status": "executed",
+    "latency_ns": 6097219600,
+    "seed_occurrences_expanded": 173349,
+    "candidate_contexts_generated": 1460609,
+    "candidate_contexts_after_dedup": 1419897,
+    "verifier_calls": 1419897
+  },
+  {
+    "query": "qff",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 173349,
+    "status": "executed",
+    "latency_ns": 6646651400,
+    "seed_occurrences_expanded": 173349,
+    "candidate_contexts_generated": 1460609,
+    "candidate_contexts_after_dedup": 1419897,
+    "verifier_calls": 1419897
+  },
+  {
+    "query": "qff",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "efo",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 663592,
+    "status": "guarded"
+  },
+  {
+    "query": "efo",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 663592,
+    "status": "guarded"
+  },
+  {
+    "query": "efo",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "efo",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "efq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 173349,
+    "status": "executed",
+    "latency_ns": 7111894900,
+    "seed_occurrences_expanded": 173349,
+    "candidate_contexts_generated": 1455353,
+    "candidate_contexts_after_dedup": 1413847,
+    "verifier_calls": 1413847
+  },
+  {
+    "query": "efq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "efq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "efq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 173349,
+    "status": "executed",
+    "latency_ns": 10196796300,
+    "seed_occurrences_expanded": 173349,
+    "candidate_contexts_generated": 1455353,
+    "candidate_contexts_after_dedup": 1413847,
+    "verifier_calls": 1413847
+  },
+  {
+    "query": "qqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 19862,
+    "status": "executed",
+    "latency_ns": 535880700,
+    "seed_occurrences_expanded": 19862,
+    "candidate_contexts_generated": 171547,
+    "candidate_contexts_after_dedup": 113733,
+    "verifier_calls": 113733
+  },
+  {
+    "query": "qqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 19862,
+    "status": "executed",
+    "latency_ns": 561679400,
+    "seed_occurrences_expanded": 19862,
+    "candidate_contexts_generated": 171547,
+    "candidate_contexts_after_dedup": 113733,
+    "verifier_calls": 113733
+  },
+  {
+    "query": "ast",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/exceptions.txt",
+    "source_sentence_id": 2518,
+    "expected_start": 20,
+    "length": 3,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "ast",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/exceptions.txt",
+    "source_sentence_id": 2518,
+    "expected_start": 20,
+    "length": 3,
+    "runtime": "adaptive",
+    "selected_q": 1,
+    "predicted_expansion": 985927,
+    "status": "guarded"
+  },
+  {
+    "query": "ast",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/exceptions.txt",
+    "source_sentence_id": 2518,
+    "expected_start": 20,
+    "length": 3,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 985927,
+    "status": "guarded"
+  },
+  {
+    "query": "ast",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/exceptions.txt",
+    "source_sentence_id": 2518,
+    "expected_start": 20,
+    "length": 3,
+    "runtime": "q2",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": " th",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 3,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 41084882100
+  },
+  {
+    "query": "the",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 26,
+    "length": 3,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 44464890100
+  },
+  {
+    "query": "he ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 27,
+    "length": 3,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 51192096100
+  },
+  {
+    "query": " the",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 271570,
+    "status": "executed",
+    "latency_ns": 9097352000,
+    "seed_occurrences_expanded": 271570,
+    "candidate_contexts_generated": 2289925,
+    "candidate_contexts_after_dedup": 1611234,
+    "verifier_calls": 1611234
+  },
+  {
+    "query": " the",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 908428,
+    "status": "guarded"
+  },
+  {
+    "query": " the",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 271570,
+    "status": "executed",
+    "latency_ns": 12477480300,
+    "seed_occurrences_expanded": 271570,
+    "candidate_contexts_generated": 2289925,
+    "candidate_contexts_after_dedup": 1611234,
+    "verifier_calls": 1611234
+  },
+  {
+    "query": " the",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "the ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 26,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 908428,
+    "status": "guarded"
+  },
+  {
+    "query": "the ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 26,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 382756,
+    "status": "executed",
+    "latency_ns": 20138993400,
+    "seed_occurrences_expanded": 382756,
+    "candidate_contexts_generated": 3281127,
+    "candidate_contexts_after_dedup": 2639344,
+    "verifier_calls": 2639344
+  },
+  {
+    "query": "the ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 26,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "the ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 26,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 382756,
+    "status": "executed",
+    "latency_ns": 23056089400,
+    "seed_occurrences_expanded": 382756,
+    "candidate_contexts_generated": 3281127,
+    "candidate_contexts_after_dedup": 2639344,
+    "verifier_calls": 2639344
+  },
+  {
+    "query": "tion",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/capsule.txt",
+    "source_sentence_id": 1292,
+    "expected_start": 38,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 179027,
+    "status": "executed",
+    "latency_ns": 8969770300,
+    "seed_occurrences_expanded": 179027,
+    "candidate_contexts_generated": 1524616,
+    "candidate_contexts_after_dedup": 1189750,
+    "verifier_calls": 1189750
+  },
+  {
+    "query": "tion",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/capsule.txt",
+    "source_sentence_id": 1292,
+    "expected_start": 38,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "tion",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/capsule.txt",
+    "source_sentence_id": 1292,
+    "expected_start": 38,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 179027,
+    "status": "executed",
+    "latency_ns": 5916210300,
+    "seed_occurrences_expanded": 179027,
+    "candidate_contexts_generated": 1524616,
+    "candidate_contexts_after_dedup": 1189750,
+    "verifier_calls": 1189750
+  },
+  {
+    "query": "tion",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/capsule.txt",
+    "source_sentence_id": 1292,
+    "expected_start": 38,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 988265,
+    "status": "guarded"
+  },
+  {
+    "query": "öwis",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "öwis",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 59166,
+    "status": "executed",
+    "latency_ns": 4161937300,
+    "seed_occurrences_expanded": 59166,
+    "candidate_contexts_generated": 491312,
+    "candidate_contexts_after_dedup": 490973,
+    "verifier_calls": 490973
+  },
+  {
+    "query": "öwis",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 84161,
+    "status": "executed",
+    "latency_ns": 2831314800,
+    "seed_occurrences_expanded": 84161,
+    "candidate_contexts_generated": 694995,
+    "candidate_contexts_after_dedup": 689671,
+    "verifier_calls": 689671
+  },
+  {
+    "query": "öwis",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 59166,
+    "status": "executed",
+    "latency_ns": 2474799900,
+    "seed_occurrences_expanded": 59166,
+    "candidate_contexts_generated": 491312,
+    "candidate_contexts_after_dedup": 490973,
+    "verifier_calls": 490973
+  },
+  {
+    "query": "ê ca",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 31339,
+    "status": "executed",
+    "latency_ns": 1197923100,
+    "seed_occurrences_expanded": 31339,
+    "candidate_contexts_generated": 262074,
+    "candidate_contexts_after_dedup": 262065,
+    "verifier_calls": 262065
+  },
+  {
+    "query": "ê ca",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 274032,
+    "status": "executed",
+    "latency_ns": 9863248800,
+    "seed_occurrences_expanded": 274032,
+    "candidate_contexts_generated": 2249427,
+    "candidate_contexts_after_dedup": 2217464,
+    "verifier_calls": 2217464
+  },
+  {
+    "query": "ê ca",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 31339,
+    "status": "executed",
+    "latency_ns": 1057350500,
+    "seed_occurrences_expanded": 31339,
+    "candidate_contexts_generated": 262074,
+    "candidate_contexts_after_dedup": 262065,
+    "verifier_calls": 262065
+  },
+  {
+    "query": "ê ca",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "éjeu",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 17043,
+    "status": "executed",
+    "latency_ns": 520378100,
+    "seed_occurrences_expanded": 17043,
+    "candidate_contexts_generated": 147392,
+    "candidate_contexts_after_dedup": 147294,
+    "verifier_calls": 147294
+  },
+  {
+    "query": "éjeu",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 1495,
+    "status": "executed",
+    "latency_ns": 40852900,
+    "seed_occurrences_expanded": 1495,
+    "candidate_contexts_generated": 12823,
+    "candidate_contexts_after_dedup": 12778,
+    "verifier_calls": 12778
+  },
+  {
+    "query": "éjeu",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "éjeu",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 1495,
+    "status": "executed",
+    "latency_ns": 41083500,
+    "seed_occurrences_expanded": 1495,
+    "candidate_contexts_generated": 12823,
+    "candidate_contexts_after_dedup": 12778,
+    "verifier_calls": 12778
+  },
+  {
+    "query": "lunt",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 2,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 75788,
+    "status": "executed",
+    "latency_ns": 3096967500,
+    "seed_occurrences_expanded": 75788,
+    "candidate_contexts_generated": 645905,
+    "candidate_contexts_after_dedup": 645755,
+    "verifier_calls": 645755
+  },
+  {
+    "query": "lunt",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 2,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "lunt",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 2,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 75788,
+    "status": "executed",
+    "latency_ns": 4256069500,
+    "seed_occurrences_expanded": 75788,
+    "candidate_contexts_generated": 645905,
+    "candidate_contexts_after_dedup": 645755,
+    "verifier_calls": 645755
+  },
+  {
+    "query": "lunt",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 2,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 506446,
+    "status": "guarded"
+  },
+  {
+    "query": "eer ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 6,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "eer ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 6,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 82703,
+    "status": "executed",
+    "latency_ns": 2735351500,
+    "seed_occurrences_expanded": 82703,
+    "candidate_contexts_generated": 726759,
+    "candidate_contexts_after_dedup": 725322,
+    "verifier_calls": 725322
+  },
+  {
+    "query": "eer ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 6,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 1313486,
+    "status": "guarded"
+  },
+  {
+    "query": "eer ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 6,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 82703,
+    "status": "executed",
+    "latency_ns": 3060207000,
+    "seed_occurrences_expanded": 82703,
+    "candidate_contexts_generated": 726759,
+    "candidate_contexts_after_dedup": 725322,
+    "verifier_calls": 725322
+  },
+  {
+    "query": "qolu",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 11932,
+    "status": "executed",
+    "latency_ns": 617509300,
+    "seed_occurrences_expanded": 11932,
+    "candidate_contexts_generated": 103558,
+    "candidate_contexts_after_dedup": 103558,
+    "verifier_calls": 103558
+  },
+  {
+    "query": "qolu",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 215741,
+    "status": "executed",
+    "latency_ns": 6461071700,
+    "seed_occurrences_expanded": 215741,
+    "candidate_contexts_generated": 1775598,
+    "candidate_contexts_after_dedup": 1737305,
+    "verifier_calls": 1737305
+  },
+  {
+    "query": "qolu",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 11932,
+    "status": "executed",
+    "latency_ns": 337240200,
+    "seed_occurrences_expanded": 11932,
+    "candidate_contexts_generated": 103558,
+    "candidate_contexts_after_dedup": 103558,
+    "verifier_calls": 103558
+  },
+  {
+    "query": "qolu",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "voln",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 362066,
+    "status": "executed",
+    "latency_ns": 13263193000,
+    "seed_occurrences_expanded": 362066,
+    "candidate_contexts_generated": 3046521,
+    "candidate_contexts_after_dedup": 2708302,
+    "verifier_calls": 2708302
+  },
+  {
+    "query": "voln",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 2258,
+    "status": "executed",
+    "latency_ns": 102530900,
+    "seed_occurrences_expanded": 2258,
+    "candidate_contexts_generated": 19130,
+    "candidate_contexts_after_dedup": 19130,
+    "verifier_calls": 19130
+  },
+  {
+    "query": "voln",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "voln",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 2258,
+    "status": "executed",
+    "latency_ns": 91291100,
+    "seed_occurrences_expanded": 2258,
+    "candidate_contexts_generated": 19130,
+    "candidate_contexts_after_dedup": 19130,
+    "verifier_calls": 19130
+  },
+  {
+    "query": "volq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 1646,
+    "status": "executed",
+    "latency_ns": 55639200,
+    "seed_occurrences_expanded": 1646,
+    "candidate_contexts_generated": 13887,
+    "candidate_contexts_after_dedup": 13887,
+    "verifier_calls": 13887
+  },
+  {
+    "query": "volq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "volq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 1646,
+    "status": "executed",
+    "latency_ns": 48791400,
+    "seed_occurrences_expanded": 1646,
+    "candidate_contexts_generated": 13887,
+    "candidate_contexts_after_dedup": 13887,
+    "verifier_calls": 13887
+  },
+  {
+    "query": "volq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 71361,
+    "status": "executed",
+    "latency_ns": 2623289000,
+    "seed_occurrences_expanded": 71361,
+    "candidate_contexts_generated": 599450,
+    "candidate_contexts_after_dedup": 598495,
+    "verifier_calls": 598495
+  },
+  {
+    "query": "qffo",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qffo",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 31458,
+    "status": "executed",
+    "latency_ns": 1094862900,
+    "seed_occurrences_expanded": 31458,
+    "candidate_contexts_generated": 252580,
+    "candidate_contexts_after_dedup": 252562,
+    "verifier_calls": 252562
+  },
+  {
+    "query": "qffo",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 173349,
+    "status": "executed",
+    "latency_ns": 6649426400,
+    "seed_occurrences_expanded": 173349,
+    "candidate_contexts_generated": 1437927,
+    "candidate_contexts_after_dedup": 1397870,
+    "verifier_calls": 1397870
+  },
+  {
+    "query": "qffo",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 31458,
+    "status": "executed",
+    "latency_ns": 1125763700,
+    "seed_occurrences_expanded": 31458,
+    "candidate_contexts_generated": 252580,
+    "candidate_contexts_after_dedup": 252562,
+    "verifier_calls": 252562
+  },
+  {
+    "query": "effr",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 27080,
+    "status": "executed",
+    "latency_ns": 860586100,
+    "seed_occurrences_expanded": 27080,
+    "candidate_contexts_generated": 228733,
+    "candidate_contexts_after_dedup": 226156,
+    "verifier_calls": 226156
+  },
+  {
+    "query": "effr",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 326836,
+    "status": "executed",
+    "latency_ns": 10310256300,
+    "seed_occurrences_expanded": 326836,
+    "candidate_contexts_generated": 2674095,
+    "candidate_contexts_after_dedup": 1723715,
+    "verifier_calls": 1723715
+  },
+  {
+    "query": "effr",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 27080,
+    "status": "executed",
+    "latency_ns": 1064903000,
+    "seed_occurrences_expanded": 27080,
+    "candidate_contexts_generated": 228733,
+    "candidate_contexts_after_dedup": 226156,
+    "verifier_calls": 226156
+  },
+  {
+    "query": "effr",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "effq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 173349,
+    "status": "executed",
+    "latency_ns": 11926932900,
+    "seed_occurrences_expanded": 173349,
+    "candidate_contexts_generated": 1430506,
+    "candidate_contexts_after_dedup": 1388818,
+    "verifier_calls": 1388818
+  },
+  {
+    "query": "effq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 18009,
+    "status": "executed",
+    "latency_ns": 1317665400,
+    "seed_occurrences_expanded": 18009,
+    "candidate_contexts_generated": 158698,
+    "candidate_contexts_after_dedup": 158688,
+    "verifier_calls": 158688
+  },
+  {
+    "query": "effq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "effq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 18009,
+    "status": "executed",
+    "latency_ns": 1677522000,
+    "seed_occurrences_expanded": 18009,
+    "candidate_contexts_generated": 158698,
+    "candidate_contexts_after_dedup": 158688,
+    "verifier_calls": 158688
+  },
+  {
+    "query": "qqqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 12,
+    "status": "executed",
+    "latency_ns": 559200,
+    "seed_occurrences_expanded": 12,
+    "candidate_contexts_generated": 108,
+    "candidate_contexts_after_dedup": 90,
+    "verifier_calls": 90
+  },
+  {
+    "query": "qqqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qqqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 12,
+    "status": "executed",
+    "latency_ns": 7714700,
+    "seed_occurrences_expanded": 12,
+    "candidate_contexts_generated": 108,
+    "candidate_contexts_after_dedup": 90,
+    "verifier_calls": 90
+  },
+  {
+    "query": "qqqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 19862,
+    "status": "executed",
+    "latency_ns": 827884800,
+    "seed_occurrences_expanded": 19862,
+    "candidate_contexts_generated": 169720,
+    "candidate_contexts_after_dedup": 112410,
+    "verifier_calls": 112410
+  },
+  {
+    "query": "then",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/multiprocessing.txt",
+    "source_sentence_id": 87902,
+    "expected_start": 32,
+    "length": 4,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "then",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/multiprocessing.txt",
+    "source_sentence_id": 87902,
+    "expected_start": 32,
+    "length": 4,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 231611,
+    "status": "executed",
+    "latency_ns": 10426851300,
+    "seed_occurrences_expanded": 231611,
+    "candidate_contexts_generated": 1932794,
+    "candidate_contexts_after_dedup": 1914748,
+    "verifier_calls": 1914748
+  },
+  {
+    "query": "then",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/multiprocessing.txt",
+    "source_sentence_id": 87902,
+    "expected_start": 32,
+    "length": 4,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 733711,
+    "status": "guarded"
+  },
+  {
+    "query": "then",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/multiprocessing.txt",
+    "source_sentence_id": 87902,
+    "expected_start": 32,
+    "length": 4,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 231611,
+    "status": "executed",
+    "latency_ns": 10764187100,
+    "seed_occurrences_expanded": 231611,
+    "candidate_contexts_generated": 1932794,
+    "candidate_contexts_after_dedup": 1914748,
+    "verifier_calls": 1914748
+  },
+  {
+    "query": " the",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 4,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 62494297900
+  },
+  {
+    "query": "the ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 26,
+    "length": 4,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 58367750100
+  },
+  {
+    "query": "tion",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/capsule.txt",
+    "source_sentence_id": 1292,
+    "expected_start": 38,
+    "length": 4,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 52109805600
+  },
+  {
+    "query": " the ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 271570,
+    "status": "executed",
+    "latency_ns": 13135015000,
+    "seed_occurrences_expanded": 271570,
+    "candidate_contexts_generated": 2222467,
+    "candidate_contexts_after_dedup": 1567938,
+    "verifier_calls": 1567938
+  },
+  {
+    "query": " the ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 908428,
+    "status": "guarded"
+  },
+  {
+    "query": " the ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 271570,
+    "status": "executed",
+    "latency_ns": 10953449400,
+    "seed_occurrences_expanded": 271570,
+    "candidate_contexts_generated": 2222467,
+    "candidate_contexts_after_dedup": 1567938,
+    "verifier_calls": 1567938
+  },
+  {
+    "query": " the ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "tion ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/capsule.txt",
+    "source_sentence_id": 1292,
+    "expected_start": 38,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 988265,
+    "status": "guarded"
+  },
+  {
+    "query": "tion ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/capsule.txt",
+    "source_sentence_id": 1292,
+    "expected_start": 38,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 158622,
+    "status": "executed",
+    "latency_ns": 10567481100,
+    "seed_occurrences_expanded": 158622,
+    "candidate_contexts_generated": 1352069,
+    "candidate_contexts_after_dedup": 1108433,
+    "verifier_calls": 1108433
+  },
+  {
+    "query": "tion ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/capsule.txt",
+    "source_sentence_id": 1292,
+    "expected_start": 38,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "tion ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/capsule.txt",
+    "source_sentence_id": 1292,
+    "expected_start": 38,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 158622,
+    "status": "executed",
+    "latency_ns": 8065239900,
+    "seed_occurrences_expanded": 158622,
+    "candidate_contexts_generated": 1352069,
+    "candidate_contexts_after_dedup": 1108433,
+    "verifier_calls": 1108433
+  },
+  {
+    "query": " and ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/arg.txt",
+    "source_sentence_id": 602,
+    "expected_start": 30,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 169525,
+    "status": "executed",
+    "latency_ns": 10941275600,
+    "seed_occurrences_expanded": 169525,
+    "candidate_contexts_generated": 1450394,
+    "candidate_contexts_after_dedup": 1250473,
+    "verifier_calls": 1250473
+  },
+  {
+    "query": " and ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/arg.txt",
+    "source_sentence_id": 602,
+    "expected_start": 30,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": " and ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/arg.txt",
+    "source_sentence_id": 602,
+    "expected_start": 30,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 169525,
+    "status": "executed",
+    "latency_ns": 7441082600,
+    "seed_occurrences_expanded": 169525,
+    "candidate_contexts_generated": 1450394,
+    "candidate_contexts_after_dedup": 1250473,
+    "verifier_calls": 1250473
+  },
+  {
+    "query": " and ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/arg.txt",
+    "source_sentence_id": 602,
+    "expected_start": 30,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 750860,
+    "status": "guarded"
+  },
+  {
+    "query": "öwis ",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "öwis ",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 59166,
+    "status": "executed",
+    "latency_ns": 5035531600,
+    "seed_occurrences_expanded": 59166,
+    "candidate_contexts_generated": 478131,
+    "candidate_contexts_after_dedup": 477843,
+    "verifier_calls": 477843
+  },
+  {
+    "query": "öwis ",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 84161,
+    "status": "executed",
+    "latency_ns": 3361319900,
+    "seed_occurrences_expanded": 84161,
+    "candidate_contexts_generated": 680471,
+    "candidate_contexts_after_dedup": 675222,
+    "verifier_calls": 675222
+  },
+  {
+    "query": "öwis ",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 59166,
+    "status": "executed",
+    "latency_ns": 2093096300,
+    "seed_occurrences_expanded": 59166,
+    "candidate_contexts_generated": 478131,
+    "candidate_contexts_after_dedup": 477843,
+    "verifier_calls": 477843
+  },
+  {
+    "query": "ê can",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 31339,
+    "status": "executed",
+    "latency_ns": 1507868400,
+    "seed_occurrences_expanded": 31339,
+    "candidate_contexts_generated": 260110,
+    "candidate_contexts_after_dedup": 260101,
+    "verifier_calls": 260101
+  },
+  {
+    "query": "ê can",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 274032,
+    "status": "executed",
+    "latency_ns": 13549777000,
+    "seed_occurrences_expanded": 274032,
+    "candidate_contexts_generated": 2210850,
+    "candidate_contexts_after_dedup": 2179017,
+    "verifier_calls": 2179017
+  },
+  {
+    "query": "ê can",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 31339,
+    "status": "executed",
+    "latency_ns": 1668002400,
+    "seed_occurrences_expanded": 31339,
+    "candidate_contexts_generated": 260110,
+    "candidate_contexts_after_dedup": 260101,
+    "verifier_calls": 260101
+  },
+  {
+    "query": "ê can",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "éjeun",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 17043,
+    "status": "executed",
+    "latency_ns": 733821800,
+    "seed_occurrences_expanded": 17043,
+    "candidate_contexts_generated": 142236,
+    "candidate_contexts_after_dedup": 142146,
+    "verifier_calls": 142146
+  },
+  {
+    "query": "éjeun",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 1495,
+    "status": "executed",
+    "latency_ns": 89452600,
+    "seed_occurrences_expanded": 1495,
+    "candidate_contexts_generated": 12489,
+    "candidate_contexts_after_dedup": 12444,
+    "verifier_calls": 12444
+  },
+  {
+    "query": "éjeun",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "éjeun",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 1495,
+    "status": "executed",
+    "latency_ns": 66339200,
+    "seed_occurrences_expanded": 1495,
+    "candidate_contexts_generated": 12489,
+    "candidate_contexts_after_dedup": 12444,
+    "verifier_calls": 12444
+  },
+  {
+    "query": "lunte",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 2,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 75788,
+    "status": "executed",
+    "latency_ns": 4516366200,
+    "seed_occurrences_expanded": 75788,
+    "candidate_contexts_generated": 627061,
+    "candidate_contexts_after_dedup": 626911,
+    "verifier_calls": 626911
+  },
+  {
+    "query": "lunte",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 2,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "lunte",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 2,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 75788,
+    "status": "executed",
+    "latency_ns": 7822973900,
+    "seed_occurrences_expanded": 75788,
+    "candidate_contexts_generated": 627061,
+    "candidate_contexts_after_dedup": 626911,
+    "verifier_calls": 626911
+  },
+  {
+    "query": "lunte",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 2,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 506446,
+    "status": "guarded"
+  },
+  {
+    "query": "teer ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 5,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "teer ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 5,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 82703,
+    "status": "executed",
+    "latency_ns": 5500765500,
+    "seed_occurrences_expanded": 82703,
+    "candidate_contexts_generated": 714966,
+    "candidate_contexts_after_dedup": 713532,
+    "verifier_calls": 713532
+  },
+  {
+    "query": "teer ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 5,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 1112655,
+    "status": "guarded"
+  },
+  {
+    "query": "teer ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 5,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 82703,
+    "status": "executed",
+    "latency_ns": 5508185400,
+    "seed_occurrences_expanded": 82703,
+    "candidate_contexts_generated": 714966,
+    "candidate_contexts_after_dedup": 713532,
+    "verifier_calls": 713532
+  },
+  {
+    "query": "qolun",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 11932,
+    "status": "executed",
+    "latency_ns": 935751300,
+    "seed_occurrences_expanded": 11932,
+    "candidate_contexts_generated": 100939,
+    "candidate_contexts_after_dedup": 100939,
+    "verifier_calls": 100939
+  },
+  {
+    "query": "qolun",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 215741,
+    "status": "executed",
+    "latency_ns": 11003585100,
+    "seed_occurrences_expanded": 215741,
+    "candidate_contexts_generated": 1756226,
+    "candidate_contexts_after_dedup": 1718375,
+    "verifier_calls": 1718375
+  },
+  {
+    "query": "qolun",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 11932,
+    "status": "executed",
+    "latency_ns": 486954400,
+    "seed_occurrences_expanded": 11932,
+    "candidate_contexts_generated": 100939,
+    "candidate_contexts_after_dedup": 100939,
+    "verifier_calls": 100939
+  },
+  {
+    "query": "qolun",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "volut",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 267240,
+    "status": "executed",
+    "latency_ns": 18306668700,
+    "seed_occurrences_expanded": 267240,
+    "candidate_contexts_generated": 2181563,
+    "candidate_contexts_after_dedup": 2084145,
+    "verifier_calls": 2084145
+  },
+  {
+    "query": "volut",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 13555,
+    "status": "executed",
+    "latency_ns": 879750800,
+    "seed_occurrences_expanded": 13555,
+    "candidate_contexts_generated": 114178,
+    "candidate_contexts_after_dedup": 113767,
+    "verifier_calls": 113767
+  },
+  {
+    "query": "volut",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "volut",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 13555,
+    "status": "executed",
+    "latency_ns": 783667500,
+    "seed_occurrences_expanded": 13555,
+    "candidate_contexts_generated": 114178,
+    "candidate_contexts_after_dedup": 113767,
+    "verifier_calls": 113767
+  },
+  {
+    "query": "voluq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 1634,
+    "status": "executed",
+    "latency_ns": 109154500,
+    "seed_occurrences_expanded": 1634,
+    "candidate_contexts_generated": 13328,
+    "candidate_contexts_after_dedup": 13328,
+    "verifier_calls": 13328
+  },
+  {
+    "query": "voluq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "voluq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 1634,
+    "status": "executed",
+    "latency_ns": 149126100,
+    "seed_occurrences_expanded": 1634,
+    "candidate_contexts_generated": 13328,
+    "candidate_contexts_after_dedup": 13328,
+    "verifier_calls": 13328
+  },
+  {
+    "query": "voluq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 71361,
+    "status": "executed",
+    "latency_ns": 5119685700,
+    "seed_occurrences_expanded": 71361,
+    "candidate_contexts_generated": 584048,
+    "candidate_contexts_after_dedup": 582954,
+    "verifier_calls": 582954
+  },
+  {
+    "query": "qffor",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qffor",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 31458,
+    "status": "executed",
+    "latency_ns": 2550211100,
+    "seed_occurrences_expanded": 31458,
+    "candidate_contexts_generated": 248116,
+    "candidate_contexts_after_dedup": 248098,
+    "verifier_calls": 248098
+  },
+  {
+    "query": "qffor",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 173349,
+    "status": "executed",
+    "latency_ns": 12391730900,
+    "seed_occurrences_expanded": 173349,
+    "candidate_contexts_generated": 1406684,
+    "candidate_contexts_after_dedup": 1367733,
+    "verifier_calls": 1367733
+  },
+  {
+    "query": "qffor",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 31458,
+    "status": "executed",
+    "latency_ns": 1642734800,
+    "seed_occurrences_expanded": 31458,
+    "candidate_contexts_generated": 248116,
+    "candidate_contexts_after_dedup": 248098,
+    "verifier_calls": 248098
+  },
+  {
+    "query": "effot",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 25738,
+    "status": "executed",
+    "latency_ns": 1407830300,
+    "seed_occurrences_expanded": 25738,
+    "candidate_contexts_generated": 200749,
+    "candidate_contexts_after_dedup": 199156,
+    "verifier_calls": 199156
+  },
+  {
+    "query": "effot",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 326836,
+    "status": "executed",
+    "latency_ns": 13499563800,
+    "seed_occurrences_expanded": 326836,
+    "candidate_contexts_generated": 2623527,
+    "candidate_contexts_after_dedup": 1690829,
+    "verifier_calls": 1690829
+  },
+  {
+    "query": "effot",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 25738,
+    "status": "executed",
+    "latency_ns": 1092743000,
+    "seed_occurrences_expanded": 25738,
+    "candidate_contexts_generated": 200749,
+    "candidate_contexts_after_dedup": 199156,
+    "verifier_calls": 199156
+  },
+  {
+    "query": "effot",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "effoq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 173349,
+    "status": "executed",
+    "latency_ns": 11100865500,
+    "seed_occurrences_expanded": 173349,
+    "candidate_contexts_generated": 1398511,
+    "candidate_contexts_after_dedup": 1357399,
+    "verifier_calls": 1357399
+  },
+  {
+    "query": "effoq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 6069,
+    "status": "executed",
+    "latency_ns": 476690800,
+    "seed_occurrences_expanded": 6069,
+    "candidate_contexts_generated": 51831,
+    "candidate_contexts_after_dedup": 50471,
+    "verifier_calls": 50471
+  },
+  {
+    "query": "effoq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "effoq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 10,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 6069,
+    "status": "executed",
+    "latency_ns": 452194800,
+    "seed_occurrences_expanded": 6069,
+    "candidate_contexts_generated": 51831,
+    "candidate_contexts_after_dedup": 50471,
+    "verifier_calls": 50471
+  },
+  {
+    "query": "qqqqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 12,
+    "status": "executed",
+    "latency_ns": 1042100,
+    "seed_occurrences_expanded": 12,
+    "candidate_contexts_generated": 108,
+    "candidate_contexts_after_dedup": 90,
+    "verifier_calls": 90
+  },
+  {
+    "query": "qqqqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "qqqqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 12,
+    "status": "executed",
+    "latency_ns": 482400,
+    "seed_occurrences_expanded": 12,
+    "candidate_contexts_generated": 108,
+    "candidate_contexts_after_dedup": 90,
+    "verifier_calls": 90
+  },
+  {
+    "query": "qqqqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 19862,
+    "status": "executed",
+    "latency_ns": 1198768100,
+    "seed_occurrences_expanded": 19862,
+    "candidate_contexts_generated": 166586,
+    "candidate_contexts_after_dedup": 110190,
+    "verifier_calls": 110190
+  },
+  {
+    "query": "xiste",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/_thread.txt",
+    "source_sentence_id": 140922,
+    "expected_start": 24,
+    "length": 5,
+    "runtime": "q3",
+    "selected_q": null,
+    "predicted_expansion": null,
+    "status": "naive_fallback"
+  },
+  {
+    "query": "xiste",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/_thread.txt",
+    "source_sentence_id": 140922,
+    "expected_start": 24,
+    "length": 5,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 66941,
+    "status": "executed",
+    "latency_ns": 9114038800,
+    "seed_occurrences_expanded": 66941,
+    "candidate_contexts_generated": 543829,
+    "candidate_contexts_after_dedup": 533954,
+    "verifier_calls": 533954
+  },
+  {
+    "query": "xiste",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/_thread.txt",
+    "source_sentence_id": 140922,
+    "expected_start": 24,
+    "length": 5,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 520612,
+    "status": "guarded"
+  },
+  {
+    "query": "xiste",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/_thread.txt",
+    "source_sentence_id": 140922,
+    "expected_start": 24,
+    "length": 5,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 66941,
+    "status": "executed",
+    "latency_ns": 3180113600,
+    "seed_occurrences_expanded": 66941,
+    "candidate_contexts_generated": 543829,
+    "candidate_contexts_after_dedup": 533954,
+    "verifier_calls": 533954
+  },
+  {
+    "query": " the ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/bugs.txt",
+    "source_sentence_id": 52,
+    "expected_start": 25,
+    "length": 5,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 65355828200
+  },
+  {
+    "query": "tion ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/capsule.txt",
+    "source_sentence_id": 1292,
+    "expected_start": 38,
+    "length": 5,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 42236444800
+  },
+  {
+    "query": " and ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/arg.txt",
+    "source_sentence_id": 602,
+    "expected_start": 30,
+    "length": 5,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 40473574600
+  },
+  {
+    "query": "object",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/allocation.txt",
+    "source_sentence_id": 150,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 2,
+    "predicted_expansion": 28805,
+    "status": "executed",
+    "latency_ns": 746475500,
+    "seed_occurrences_expanded": 28805,
+    "candidate_contexts_generated": 238156,
+    "candidate_contexts_after_dedup": 134453,
+    "verifier_calls": 134453
+  },
+  {
+    "query": "object",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/allocation.txt",
+    "source_sentence_id": 150,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 142784,
+    "status": "executed",
+    "latency_ns": 4597351300,
+    "seed_occurrences_expanded": 142784,
+    "candidate_contexts_generated": 1098246,
+    "candidate_contexts_after_dedup": 983646,
+    "verifier_calls": 983646
+  },
+  {
+    "query": "object",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/allocation.txt",
+    "source_sentence_id": 150,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 28805,
+    "status": "executed",
+    "latency_ns": 760793800,
+    "seed_occurrences_expanded": 28805,
+    "candidate_contexts_generated": 238156,
+    "candidate_contexts_after_dedup": 134453,
+    "verifier_calls": 134453
+  },
+  {
+    "query": "object",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/allocation.txt",
+    "source_sentence_id": 150,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 36213,
+    "status": "executed",
+    "latency_ns": 1175905000,
+    "seed_occurrences_expanded": 36213,
+    "candidate_contexts_generated": 303884,
+    "candidate_contexts_after_dedup": 200223,
+    "verifier_calls": 200223
+  },
+  {
+    "query": "return",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/bytes.txt",
+    "source_sentence_id": 1105,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 649773,
+    "status": "guarded"
+  },
+  {
+    "query": "return",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/bytes.txt",
+    "source_sentence_id": 1105,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 33761,
+    "status": "executed",
+    "latency_ns": 905847300,
+    "seed_occurrences_expanded": 33761,
+    "candidate_contexts_generated": 262306,
+    "candidate_contexts_after_dedup": 187081,
+    "verifier_calls": 187081
+  },
+  {
+    "query": "return",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/bytes.txt",
+    "source_sentence_id": 1105,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 21858,
+    "status": "executed",
+    "latency_ns": 515233900,
+    "seed_occurrences_expanded": 21858,
+    "candidate_contexts_generated": 168325,
+    "candidate_contexts_after_dedup": 94559,
+    "verifier_calls": 94559
+  },
+  {
+    "query": "return",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/bytes.txt",
+    "source_sentence_id": 1105,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 21858,
+    "status": "executed",
+    "latency_ns": 518297900,
+    "seed_occurrences_expanded": 21858,
+    "candidate_contexts_generated": 168325,
+    "candidate_contexts_after_dedup": 94559,
+    "verifier_calls": 94559
+  },
+  {
+    "query": "bject ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/bytes.txt",
+    "source_sentence_id": 1105,
+    "expected_start": 20,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 58109,
+    "status": "executed",
+    "latency_ns": 1555508500,
+    "seed_occurrences_expanded": 58109,
+    "candidate_contexts_generated": 478215,
+    "candidate_contexts_after_dedup": 377531,
+    "verifier_calls": 377531
+  },
+  {
+    "query": "bject ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/bytes.txt",
+    "source_sentence_id": 1105,
+    "expected_start": 20,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 22650,
+    "status": "executed",
+    "latency_ns": 626283200,
+    "seed_occurrences_expanded": 22650,
+    "candidate_contexts_generated": 191333,
+    "candidate_contexts_after_dedup": 131527,
+    "verifier_calls": 131527
+  },
+  {
+    "query": "bject ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/bytes.txt",
+    "source_sentence_id": 1105,
+    "expected_start": 20,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 22650,
+    "status": "executed",
+    "latency_ns": 627277800,
+    "seed_occurrences_expanded": 22650,
+    "candidate_contexts_generated": 191333,
+    "candidate_contexts_after_dedup": 131527,
+    "verifier_calls": 131527
+  },
+  {
+    "query": "bject ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/bytes.txt",
+    "source_sentence_id": 1105,
+    "expected_start": 20,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 142784,
+    "status": "executed",
+    "latency_ns": 5936461200,
+    "seed_occurrences_expanded": 142784,
+    "candidate_contexts_generated": 1104313,
+    "candidate_contexts_after_dedup": 993843,
+    "verifier_calls": 993843
+  },
+  {
+    "query": "öwis t",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 22948,
+    "status": "executed",
+    "latency_ns": 727182900,
+    "seed_occurrences_expanded": 22948,
+    "candidate_contexts_generated": 203032,
+    "candidate_contexts_after_dedup": 203005,
+    "verifier_calls": 203005
+  },
+  {
+    "query": "öwis t",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 22948,
+    "status": "executed",
+    "latency_ns": 681563400,
+    "seed_occurrences_expanded": 22948,
+    "candidate_contexts_generated": 203032,
+    "candidate_contexts_after_dedup": 203005,
+    "verifier_calls": 203005
+  },
+  {
+    "query": "öwis t",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 84161,
+    "status": "executed",
+    "latency_ns": 2364227300,
+    "seed_occurrences_expanded": 84161,
+    "candidate_contexts_generated": 662969,
+    "candidate_contexts_after_dedup": 657799,
+    "verifier_calls": 657799
+  },
+  {
+    "query": "öwis t",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/2.5.txt",
+    "source_sentence_id": 161001,
+    "expected_start": 27,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 59166,
+    "status": "executed",
+    "latency_ns": 1692238300,
+    "seed_occurrences_expanded": 59166,
+    "candidate_contexts_generated": 465755,
+    "candidate_contexts_after_dedup": 465502,
+    "verifier_calls": 465502
+  },
+  {
+    "query": "ê can ",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 16242,
+    "status": "executed",
+    "latency_ns": 467950300,
+    "seed_occurrences_expanded": 16242,
+    "candidate_contexts_generated": 135270,
+    "candidate_contexts_after_dedup": 135261,
+    "verifier_calls": 135261
+  },
+  {
+    "query": "ê can ",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 274032,
+    "status": "executed",
+    "latency_ns": 8132716700,
+    "seed_occurrences_expanded": 274032,
+    "candidate_contexts_generated": 2163278,
+    "candidate_contexts_after_dedup": 2131912,
+    "verifier_calls": 2131912
+  },
+  {
+    "query": "ê can ",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 31339,
+    "status": "executed",
+    "latency_ns": 1060956600,
+    "seed_occurrences_expanded": 31339,
+    "candidate_contexts_generated": 255914,
+    "candidate_contexts_after_dedup": 255905,
+    "verifier_calls": 255905
+  },
+  {
+    "query": "ê can ",
+    "tags": [
+      "cross_word",
+      "exact",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/howto/unicode.txt",
+    "source_sentence_id": 35933,
+    "expected_start": 33,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 16242,
+    "status": "executed",
+    "latency_ns": 575884500,
+    "seed_occurrences_expanded": 16242,
+    "candidate_contexts_generated": 135270,
+    "candidate_contexts_after_dedup": 135261,
+    "verifier_calls": 135261
+  },
+  {
+    "query": "éjeune",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 17043,
+    "status": "executed",
+    "latency_ns": 510163900,
+    "seed_occurrences_expanded": 17043,
+    "candidate_contexts_generated": 134194,
+    "candidate_contexts_after_dedup": 134114,
+    "verifier_calls": 134114
+  },
+  {
+    "query": "éjeune",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 1495,
+    "status": "executed",
+    "latency_ns": 44164000,
+    "seed_occurrences_expanded": 1495,
+    "candidate_contexts_generated": 11915,
+    "candidate_contexts_after_dedup": 11875,
+    "verifier_calls": 11875
+  },
+  {
+    "query": "éjeune",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 184,
+    "status": "executed",
+    "latency_ns": 4659200,
+    "seed_occurrences_expanded": 184,
+    "candidate_contexts_generated": 1373,
+    "candidate_contexts_after_dedup": 1333,
+    "verifier_calls": 1333
+  },
+  {
+    "query": "éjeune",
+    "tags": [
+      "exact",
+      "inside_word",
+      "rare_seed"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/library/email.examples.txt",
+    "source_sentence_id": 63549,
+    "expected_start": 40,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 184,
+    "status": "executed",
+    "latency_ns": 3582800,
+    "seed_occurrences_expanded": 184,
+    "candidate_contexts_generated": 1373,
+    "candidate_contexts_after_dedup": 1333,
+    "verifier_calls": 1333
+  },
+  {
+    "query": "olunte",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 1,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 37702,
+    "status": "executed",
+    "latency_ns": 1257680400,
+    "seed_occurrences_expanded": 37702,
+    "candidate_contexts_generated": 299208,
+    "candidate_contexts_after_dedup": 298956,
+    "verifier_calls": 298956
+  },
+  {
+    "query": "olunte",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 1,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 13617,
+    "status": "executed",
+    "latency_ns": 1825553100,
+    "seed_occurrences_expanded": 13617,
+    "candidate_contexts_generated": 110824,
+    "candidate_contexts_after_dedup": 110743,
+    "verifier_calls": 110743
+  },
+  {
+    "query": "olunte",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 1,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 13617,
+    "status": "executed",
+    "latency_ns": 418105400,
+    "seed_occurrences_expanded": 13617,
+    "candidate_contexts_generated": 110824,
+    "candidate_contexts_after_dedup": 110743,
+    "verifier_calls": 110743
+  },
+  {
+    "query": "olunte",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 1,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 506446,
+    "status": "guarded"
+  },
+  {
+    "query": "nteer ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 4,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 42476,
+    "status": "executed",
+    "latency_ns": 1375318000,
+    "seed_occurrences_expanded": 42476,
+    "candidate_contexts_generated": 372556,
+    "candidate_contexts_after_dedup": 362408,
+    "verifier_calls": 362408
+  },
+  {
+    "query": "nteer ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 4,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 42476,
+    "status": "executed",
+    "latency_ns": 1298472600,
+    "seed_occurrences_expanded": 42476,
+    "candidate_contexts_generated": 372556,
+    "candidate_contexts_after_dedup": 362408,
+    "verifier_calls": 362408
+  },
+  {
+    "query": "nteer ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 4,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 937938,
+    "status": "guarded"
+  },
+  {
+    "query": "nteer ",
+    "tags": [
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 4,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 77032,
+    "status": "executed",
+    "latency_ns": 2421889300,
+    "seed_occurrences_expanded": 77032,
+    "candidate_contexts_generated": 610744,
+    "candidate_contexts_after_dedup": 606806,
+    "verifier_calls": 606806
+  },
+  {
+    "query": "qolunt",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 2532,
+    "status": "executed",
+    "latency_ns": 75838200,
+    "seed_occurrences_expanded": 2532,
+    "candidate_contexts_generated": 20257,
+    "candidate_contexts_after_dedup": 20257,
+    "verifier_calls": 20257
+  },
+  {
+    "query": "qolunt",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 215741,
+    "status": "executed",
+    "latency_ns": 6591429700,
+    "seed_occurrences_expanded": 215741,
+    "candidate_contexts_generated": 1720381,
+    "candidate_contexts_after_dedup": 1683587,
+    "verifier_calls": 1683587
+  },
+  {
+    "query": "qolunt",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 11932,
+    "status": "executed",
+    "latency_ns": 313795200,
+    "seed_occurrences_expanded": 11932,
+    "candidate_contexts_generated": 96561,
+    "candidate_contexts_after_dedup": 96561,
+    "verifier_calls": 96561
+  },
+  {
+    "query": "qolunt",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 2532,
+    "status": "executed",
+    "latency_ns": 88841500,
+    "seed_occurrences_expanded": 2532,
+    "candidate_contexts_generated": 20257,
+    "candidate_contexts_after_dedup": 20257,
+    "verifier_calls": 20257
+  },
+  {
+    "query": "volune",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 267240,
+    "status": "executed",
+    "latency_ns": 8734069000,
+    "seed_occurrences_expanded": 267240,
+    "candidate_contexts_generated": 2135184,
+    "candidate_contexts_after_dedup": 2042002,
+    "verifier_calls": 2042002
+  },
+  {
+    "query": "volune",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 13555,
+    "status": "executed",
+    "latency_ns": 390123300,
+    "seed_occurrences_expanded": 13555,
+    "candidate_contexts_generated": 109389,
+    "candidate_contexts_after_dedup": 108984,
+    "verifier_calls": 108984
+  },
+  {
+    "query": "volune",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 358,
+    "status": "executed",
+    "latency_ns": 10817900,
+    "seed_occurrences_expanded": 358,
+    "candidate_contexts_generated": 2892,
+    "candidate_contexts_after_dedup": 2892,
+    "verifier_calls": 2892
+  },
+  {
+    "query": "volune",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 358,
+    "status": "executed",
+    "latency_ns": 12882900,
+    "seed_occurrences_expanded": 358,
+    "candidate_contexts_generated": 2892,
+    "candidate_contexts_after_dedup": 2892,
+    "verifier_calls": 2892
+  },
+  {
+    "query": "volunq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 1745,
+    "status": "executed",
+    "latency_ns": 51900200,
+    "seed_occurrences_expanded": 1745,
+    "candidate_contexts_generated": 13669,
+    "candidate_contexts_after_dedup": 13669,
+    "verifier_calls": 13669
+  },
+  {
+    "query": "volunq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 214,
+    "status": "executed",
+    "latency_ns": 5948000,
+    "seed_occurrences_expanded": 214,
+    "candidate_contexts_generated": 1817,
+    "candidate_contexts_after_dedup": 1817,
+    "verifier_calls": 1817
+  },
+  {
+    "query": "volunq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 214,
+    "status": "executed",
+    "latency_ns": 7406700,
+    "seed_occurrences_expanded": 214,
+    "candidate_contexts_generated": 1817,
+    "candidate_contexts_after_dedup": 1817,
+    "verifier_calls": 1817
+  },
+  {
+    "query": "volunq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 71361,
+    "status": "executed",
+    "latency_ns": 5275805800,
+    "seed_occurrences_expanded": 71361,
+    "candidate_contexts_generated": 569134,
+    "candidate_contexts_after_dedup": 567831,
+    "verifier_calls": 567831
+  },
+  {
+    "query": "qontri",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 56,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 13546,
+    "status": "executed",
+    "latency_ns": 594956500,
+    "seed_occurrences_expanded": 13546,
+    "candidate_contexts_generated": 109596,
+    "candidate_contexts_after_dedup": 109596,
+    "verifier_calls": 109596
+  },
+  {
+    "query": "qontri",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 56,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 13546,
+    "status": "executed",
+    "latency_ns": 390578400,
+    "seed_occurrences_expanded": 13546,
+    "candidate_contexts_generated": 109596,
+    "candidate_contexts_after_dedup": 109596,
+    "verifier_calls": 109596
+  },
+  {
+    "query": "qontri",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 56,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 453894,
+    "status": "executed",
+    "latency_ns": 14200498900,
+    "seed_occurrences_expanded": 453894,
+    "candidate_contexts_generated": 3552312,
+    "candidate_contexts_after_dedup": 3426147,
+    "verifier_calls": 3426147
+  },
+  {
+    "query": "qontri",
+    "tags": [
+      "inside_word",
+      "replacement"
+    ],
+    "mutation": "replacement",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 56,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 32436,
+    "status": "executed",
+    "latency_ns": 995351600,
+    "seed_occurrences_expanded": 32436,
+    "candidate_contexts_generated": 255044,
+    "candidate_contexts_after_dedup": 255035,
+    "verifier_calls": 255035
+  },
+  {
+    "query": "contrb",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 56,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 19450,
+    "status": "executed",
+    "latency_ns": 593077300,
+    "seed_occurrences_expanded": 19450,
+    "candidate_contexts_generated": 162560,
+    "candidate_contexts_after_dedup": 162560,
+    "verifier_calls": 162560
+  },
+  {
+    "query": "contrb",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 56,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 399888,
+    "status": "executed",
+    "latency_ns": 15236923900,
+    "seed_occurrences_expanded": 399888,
+    "candidate_contexts_generated": 3113903,
+    "candidate_contexts_after_dedup": 2971328,
+    "verifier_calls": 2971328
+  },
+  {
+    "query": "contrb",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 56,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 53725,
+    "status": "executed",
+    "latency_ns": 1564835300,
+    "seed_occurrences_expanded": 53725,
+    "candidate_contexts_generated": 439797,
+    "candidate_contexts_after_dedup": 439549,
+    "verifier_calls": 439549
+  },
+  {
+    "query": "contrb",
+    "tags": [
+      "insertion",
+      "inside_word"
+    ],
+    "mutation": "missing_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 56,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 19450,
+    "status": "executed",
+    "latency_ns": 617317500,
+    "seed_occurrences_expanded": 19450,
+    "candidate_contexts_generated": 162560,
+    "candidate_contexts_after_dedup": 162560,
+    "verifier_calls": 162560
+  },
+  {
+    "query": "contrq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 56,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 283960,
+    "status": "executed",
+    "latency_ns": 9654397100,
+    "seed_occurrences_expanded": 283960,
+    "candidate_contexts_generated": 2247412,
+    "candidate_contexts_after_dedup": 2210000,
+    "verifier_calls": 2210000
+  },
+  {
+    "query": "contrq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 56,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 52312,
+    "status": "executed",
+    "latency_ns": 1636268400,
+    "seed_occurrences_expanded": 52312,
+    "candidate_contexts_generated": 428626,
+    "candidate_contexts_after_dedup": 428578,
+    "verifier_calls": 428578
+  },
+  {
+    "query": "contrq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 56,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 19432,
+    "status": "executed",
+    "latency_ns": 1804810200,
+    "seed_occurrences_expanded": 19432,
+    "candidate_contexts_generated": 162444,
+    "candidate_contexts_after_dedup": 162444,
+    "verifier_calls": 162444
+  },
+  {
+    "query": "contrq",
+    "tags": [
+      "deletion",
+      "inside_word"
+    ],
+    "mutation": "extra_character",
+    "source_file": "Archive2/python-3.8.4-docs-text/about.txt",
+    "source_sentence_id": 5,
+    "expected_start": 56,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 19432,
+    "status": "executed",
+    "latency_ns": 565875400,
+    "seed_occurrences_expanded": 19432,
+    "candidate_contexts_generated": 162444,
+    "candidate_contexts_after_dedup": 162444,
+    "verifier_calls": 162444
+  },
+  {
+    "query": "qqqqqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 12,
+    "status": "executed",
+    "latency_ns": 411800,
+    "seed_occurrences_expanded": 12,
+    "candidate_contexts_generated": 107,
+    "candidate_contexts_after_dedup": 89,
+    "verifier_calls": 89
+  },
+  {
+    "query": "qqqqqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 0,
+    "status": "executed",
+    "latency_ns": 12100,
+    "seed_occurrences_expanded": 0,
+    "candidate_contexts_generated": 0,
+    "candidate_contexts_after_dedup": 0,
+    "verifier_calls": 0
+  },
+  {
+    "query": "qqqqqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 0,
+    "status": "executed",
+    "latency_ns": 34400,
+    "seed_occurrences_expanded": 0,
+    "candidate_contexts_generated": 0,
+    "candidate_contexts_after_dedup": 0,
+    "verifier_calls": 0
+  },
+  {
+    "query": "qqqqqq",
+    "tags": [
+      "no_match"
+    ],
+    "mutation": "near_miss",
+    "source_file": null,
+    "source_sentence_id": null,
+    "expected_start": null,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 19862,
+    "status": "executed",
+    "latency_ns": 502178400,
+    "seed_occurrences_expanded": 19862,
+    "candidate_contexts_generated": 161720,
+    "candidate_contexts_after_dedup": 107050,
+    "verifier_calls": 107050
+  },
+  {
+    "query": "ckagin",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/3.4.txt",
+    "source_sentence_id": 170082,
+    "expected_start": 53,
+    "length": 6,
+    "runtime": "q3",
+    "selected_q": 3,
+    "predicted_expansion": 4819,
+    "status": "executed",
+    "latency_ns": 137730600,
+    "seed_occurrences_expanded": 4819,
+    "candidate_contexts_generated": 39493,
+    "candidate_contexts_after_dedup": 38888,
+    "verifier_calls": 38888
+  },
+  {
+    "query": "ckagin",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/3.4.txt",
+    "source_sentence_id": 170082,
+    "expected_start": 53,
+    "length": 6,
+    "runtime": "adaptive",
+    "selected_q": 3,
+    "predicted_expansion": 4819,
+    "status": "executed",
+    "latency_ns": 137515500,
+    "seed_occurrences_expanded": 4819,
+    "candidate_contexts_generated": 39493,
+    "candidate_contexts_after_dedup": 38888,
+    "verifier_calls": 38888
+  },
+  {
+    "query": "ckagin",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/3.4.txt",
+    "source_sentence_id": 170082,
+    "expected_start": 53,
+    "length": 6,
+    "runtime": "q1",
+    "selected_q": 1,
+    "predicted_expansion": 162055,
+    "status": "executed",
+    "latency_ns": 5261538600,
+    "seed_occurrences_expanded": 162055,
+    "candidate_contexts_generated": 1272588,
+    "candidate_contexts_after_dedup": 1227143,
+    "verifier_calls": 1227143
+  },
+  {
+    "query": "ckagin",
+    "tags": [
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/whatsnew/3.4.txt",
+    "source_sentence_id": 170082,
+    "expected_start": 53,
+    "length": 6,
+    "runtime": "q2",
+    "selected_q": 2,
+    "predicted_expansion": 9737,
+    "status": "executed",
+    "latency_ns": 320774300,
+    "seed_occurrences_expanded": 9737,
+    "candidate_contexts_generated": 77788,
+    "candidate_contexts_after_dedup": 77183,
+    "verifier_calls": 77183
+  },
+  {
+    "query": "object",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/allocation.txt",
+    "source_sentence_id": 150,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 47457715500
+  },
+  {
+    "query": "return",
+    "tags": [
+      "common_seed",
+      "exact",
+      "inside_word"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/bytes.txt",
+    "source_sentence_id": 1105,
+    "expected_start": 0,
+    "length": 6,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 46895123400
+  },
+  {
+    "query": "bject ",
+    "tags": [
+      "common_seed",
+      "cross_word",
+      "exact"
+    ],
+    "mutation": "exact",
+    "source_file": "Archive2/python-3.8.4-docs-text/c-api/bytes.txt",
+    "source_sentence_id": 1105,
+    "expected_start": 20,
+    "length": 6,
+    "runtime": "naive",
+    "status": "executed",
+    "latency_ns": 44074133500
+  }
+]

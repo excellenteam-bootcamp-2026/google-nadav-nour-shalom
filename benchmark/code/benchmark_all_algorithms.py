@@ -59,7 +59,7 @@ from src.structures.bi_anchor_search_structure import BiAnchorSearchStructure
 from src.structures.qgram_search_structure import QGramSearchStructure
 
 
-DEFAULT_SOURCE = "data/Archive3.zip"
+DEFAULT_SOURCE = "data/Archive2.zip"
 REQUIRED_ALGORITHM_IDS = (
     "naive",
     "qgram_verifier",
@@ -1041,6 +1041,7 @@ def analyze_dataset(
             "full_corpus": config.full_corpus,
             "tie_tolerance_fraction": TIE_TOLERANCE,
         },
+        "query_workload": query_workload_metadata(config, queries),
         "source": {"path": str(config.source), "full_corpus": config.full_corpus},
         "environment": environment or {},
         "corpus": corpus or {},
@@ -1116,6 +1117,7 @@ def _best_for_group(group: dict[str, object]) -> str:
 def render_report(summary: dict[str, object]) -> str:
     mode = summary["benchmark_mode"]
     configuration = summary["configuration"]
+    query_workload = summary["query_workload"]
     algorithms = summary["algorithms"]
     correctness = summary["correctness"]
     builds = summary["build"]
@@ -1314,6 +1316,10 @@ def render_report(summary: dict[str, object]) -> str:
         f"Timing repetitions: {configuration['timing_repetitions']}  ",
         f"Build repetitions: {configuration['build_repetitions']}  ",
         f"Expected timed search executions: {summary['execution_counts']['expected_timed_searches']}",
+        f"Query source: **{query_workload['source']}**  ",
+        f"Query file: `{query_workload['file']}`  ",
+        f"Query count: {query_workload['query_count']}  ",
+        f"Query file SHA-256: `{query_workload['sha256']}`",
         "",
         "# Environment", "", "```json\n" + json.dumps(summary["environment"], indent=2) + "\n```",
         "", "# Corpus Summary", "", "```json\n" + json.dumps(summary["corpus"], indent=2) + "\n```",
@@ -1361,7 +1367,10 @@ def write_run_artifacts(
     _write_json(output / "environment.json", environment)
     _write_json(output / "corpus_summary.json", corpus)
     _write_json(output / "queries.json", {
-        "seed": config.seed,
+        "seed": summary["query_workload"]["seed"],
+        "query_source": summary["query_workload"]["source"],
+        "query_file": summary["query_workload"]["file"],
+        "query_file_sha256": summary["query_workload"]["sha256"],
         "query_count": len(queries),
         "queries": [asdict(query) for query in queries],
     })
@@ -1462,6 +1471,35 @@ def prepare_queries(
     )
 
 
+def query_workload_metadata(
+    config: BenchmarkConfig,
+    queries: tuple[object, ...],
+) -> dict[str, object]:
+    """Describe the exact ordered workload used by one benchmark run."""
+    if config.query_file is None:
+        return {
+            "source": "GENERATED",
+            "file": None,
+            "query_count": len(queries),
+            "sha256": None,
+            "seed": config.seed,
+        }
+
+    payload = json.loads(config.query_file.read_text(encoding="utf-8"))
+    seed = (
+        payload["random_seed_used_to_create_it"]
+        if "random_seed_used_to_create_it" in payload
+        else payload.get("seed")
+    )
+    return {
+        "source": "SAVED",
+        "file": str(config.query_file.resolve()),
+        "query_count": len(queries),
+        "sha256": _sha256(config.query_file),
+        "seed": seed,
+    }
+
+
 def validity_reasons(
     config: BenchmarkConfig,
     queries: tuple[object, ...],
@@ -1501,6 +1539,15 @@ def validity_reasons(
         reasons.append("one or more per-query timing repetitions are incomplete")
     if dataset.get("errors"):
         reasons.append("one or more mandatory algorithm/query executions failed")
+    incorrect_algorithms = sorted({
+        row["algorithm_id"]
+        for row in dataset.get("correctness_rows", [])
+        if row["algorithm_id"] != "naive" and not row.get("correct", False)
+    })
+    for algorithm_id in incorrect_algorithms:
+        reasons.append(
+            f"{algorithm_id} has one or more raw-result correctness mismatches"
+        )
     if not builds or any(
         not result.get("build_time_ns", {}).get("samples")
         for result in builds.values()

@@ -39,7 +39,10 @@ from src.structures.bi_anchor_search_structure import (  # noqa: E402
     BiAnchorSearchStructure,
 )
 from src.builders.bi_anchor_structure_builder import BiAnchorStructureBuilder  # noqa: E402
-from src.structures.hash_seed_lookup import HashSeedIndexStats  # noqa: E402
+from src.structures.hash_seed_lookup import (  # noqa: E402
+    HashSeedIndexStats,
+    SeedIndexStats,
+)
 
 CACHE_FILE = PROJECT_ROOT / "data" / "bi_anchor.cache"
 FINGERPRINT_FILE = PROJECT_ROOT / "data" / "bi_anchor.fingerprint"
@@ -90,21 +93,43 @@ def main() -> None:
     print("Assembling search engine...")
     sentences_tuple = tuple(sentences)
     sentences_by_id = {s.sentence_id: s for s in sentences_tuple}
+    active_q = seed_lookup.q
+    intra_word_seed_references = sum(
+        len(references) // 2
+        for references in seed_lookup._intra_word_seeds.values()
+    )
+    boundary_occurrences = sum(
+        len(occurrences) // 2
+        for occurrences in seed_lookup._boundary_seeds.values()
+    )
+    word_occurrences = sum(
+        len(occurrences) // 2
+        for occurrences in seed_lookup._word_occurrences.values()
+    )
+    per_q_stats = SeedIndexStats(
+        q=active_q,
+        intra_word_seed_keys=len(seed_lookup._intra_word_seeds),
+        intra_word_seed_references=intra_word_seed_references,
+        boundary_seed_keys=len(seed_lookup._boundary_seeds),
+        boundary_occurrences=boundary_occurrences,
+    )
 
     structure = BiAnchorSearchStructure(
         sentences=sentences_tuple,
         sentences_by_id=MappingProxyType(sentences_by_id),
         seed_lookup=seed_lookup,
-        q=Q,
+        q=active_q,
+        q_values=(active_q,),
         build_stats=BiAnchorBuildStats(
             index_build_ns=0,
             index=HashSeedIndexStats(
-                unique_words=0,
-                word_occurrences=0,
+                unique_words=len(seed_lookup._word_occurrences),
+                word_occurrences=word_occurrences,
                 intra_word_seed_keys=len(seed_lookup._intra_word_seeds),
-                intra_word_seed_references=0,
+                intra_word_seed_references=intra_word_seed_references,
                 boundary_seed_keys=len(seed_lookup._boundary_seeds),
-                boundary_occurrences=0,
+                boundary_occurrences=boundary_occurrences,
+                per_q=MappingProxyType({active_q: per_q_stats}),
             ),
         ),
     )

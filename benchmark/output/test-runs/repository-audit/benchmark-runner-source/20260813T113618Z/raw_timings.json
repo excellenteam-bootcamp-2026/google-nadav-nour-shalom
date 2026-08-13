@@ -1,0 +1,5503 @@
+{
+  "clock": "time.perf_counter_ns",
+  "expected_timed_searches": 148,
+  "actual_timed_searches": 148,
+  "rows": [
+    {
+      "query_id": "empty",
+      "query_text": "",
+      "normalized_query": "",
+      "query_length": 0,
+      "length_bucket": "0",
+      "category": "empty",
+      "categories": [
+        "empty",
+        "no_match"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        2000
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          2000
+        ],
+        "min_ns": 2000,
+        "median_ns": 2000.0,
+        "mean_ns": 2000.0,
+        "p75_ns": 2000,
+        "p90_ns": 2000,
+        "p95_ns": null,
+        "p99_ns": 2000,
+        "max_ns": 2000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "empty",
+      "query_text": "",
+      "normalized_query": "",
+      "query_length": 0,
+      "length_bucket": "0",
+      "category": "empty",
+      "categories": [
+        "empty",
+        "no_match"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        2300
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          2300
+        ],
+        "min_ns": 2300,
+        "median_ns": 2300.0,
+        "mean_ns": 2300.0,
+        "p75_ns": 2300,
+        "p90_ns": 2300,
+        "p95_ns": null,
+        "p99_ns": 2300,
+        "max_ns": 2300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "empty",
+      "query_text": "",
+      "normalized_query": "",
+      "query_length": 0,
+      "length_bucket": "0",
+      "category": "empty",
+      "categories": [
+        "empty",
+        "no_match"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1300
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1300
+        ],
+        "min_ns": 1300,
+        "median_ns": 1300.0,
+        "mean_ns": 1300.0,
+        "p75_ns": 1300,
+        "p90_ns": 1300,
+        "p95_ns": null,
+        "p99_ns": 1300,
+        "max_ns": 1300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "empty",
+      "query_text": "",
+      "normalized_query": "",
+      "query_length": 0,
+      "length_bucket": "0",
+      "category": "empty",
+      "categories": [
+        "empty",
+        "no_match"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        2700
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          2700
+        ],
+        "min_ns": 2700,
+        "median_ns": 2700.0,
+        "mean_ns": 2700.0,
+        "p75_ns": 2700,
+        "p90_ns": 2700,
+        "p95_ns": null,
+        "p99_ns": 2700,
+        "max_ns": 2700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-1-many",
+      "query_text": "a",
+      "normalized_query": "a",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "many_match",
+        "repeated_characters"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        787400
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          787400
+        ],
+        "min_ns": 787400,
+        "median_ns": 787400.0,
+        "mean_ns": 787400.0,
+        "p75_ns": 787400,
+        "p90_ns": 787400,
+        "p95_ns": null,
+        "p99_ns": 787400,
+        "max_ns": 787400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 239
+    },
+    {
+      "query_id": "length-1-many",
+      "query_text": "a",
+      "normalized_query": "a",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "many_match",
+        "repeated_characters"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1115800
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1115800
+        ],
+        "min_ns": 1115800,
+        "median_ns": 1115800.0,
+        "mean_ns": 1115800.0,
+        "p75_ns": 1115800,
+        "p90_ns": 1115800,
+        "p95_ns": null,
+        "p99_ns": 1115800,
+        "max_ns": 1115800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 239
+    },
+    {
+      "query_id": "length-1-many",
+      "query_text": "a",
+      "normalized_query": "a",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "many_match",
+        "repeated_characters"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        24600
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          24600
+        ],
+        "min_ns": 24600,
+        "median_ns": 24600.0,
+        "mean_ns": 24600.0,
+        "p75_ns": 24600,
+        "p90_ns": 24600,
+        "p95_ns": null,
+        "p99_ns": 24600,
+        "max_ns": 24600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-1-many",
+      "query_text": "a",
+      "normalized_query": "a",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "many_match",
+        "repeated_characters"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        770200
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          770200
+        ],
+        "min_ns": 770200,
+        "median_ns": 770200.0,
+        "mean_ns": 770200.0,
+        "p75_ns": 770200,
+        "p90_ns": 770200,
+        "p95_ns": null,
+        "p99_ns": 770200,
+        "max_ns": 770200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 239
+    },
+    {
+      "query_id": "length-2",
+      "query_text": "al",
+      "normalized_query": "al",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "query_beginning"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        823000
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          823000
+        ],
+        "min_ns": 823000,
+        "median_ns": 823000.0,
+        "mean_ns": 823000.0,
+        "p75_ns": 823000,
+        "p90_ns": 823000,
+        "p95_ns": null,
+        "p99_ns": 823000,
+        "max_ns": 823000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 39
+    },
+    {
+      "query_id": "length-2",
+      "query_text": "al",
+      "normalized_query": "al",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "query_beginning"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        324500
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          324500
+        ],
+        "min_ns": 324500,
+        "median_ns": 324500.0,
+        "mean_ns": 324500.0,
+        "p75_ns": 324500,
+        "p90_ns": 324500,
+        "p95_ns": null,
+        "p99_ns": 324500,
+        "max_ns": 324500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 39
+    },
+    {
+      "query_id": "length-2",
+      "query_text": "al",
+      "normalized_query": "al",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "query_beginning"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        31000
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          31000
+        ],
+        "min_ns": 31000,
+        "median_ns": 31000.0,
+        "mean_ns": 31000.0,
+        "p75_ns": 31000,
+        "p90_ns": 31000,
+        "p95_ns": null,
+        "p99_ns": 31000,
+        "max_ns": 31000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-2",
+      "query_text": "al",
+      "normalized_query": "al",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "query_beginning"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        811100
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          811100
+        ],
+        "min_ns": 811100,
+        "median_ns": 811100.0,
+        "mean_ns": 811100.0,
+        "p75_ns": 811100,
+        "p90_ns": 811100,
+        "p95_ns": null,
+        "p99_ns": 811100,
+        "max_ns": 811100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 39
+    },
+    {
+      "query_id": "length-3",
+      "query_text": "alp",
+      "normalized_query": "alp",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "query_beginning"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        899200
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          899200
+        ],
+        "min_ns": 899200,
+        "median_ns": 899200.0,
+        "mean_ns": 899200.0,
+        "p75_ns": 899200,
+        "p90_ns": 899200,
+        "p95_ns": null,
+        "p99_ns": 899200,
+        "max_ns": 899200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-3",
+      "query_text": "alp",
+      "normalized_query": "alp",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "query_beginning"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        341400
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          341400
+        ],
+        "min_ns": 341400,
+        "median_ns": 341400.0,
+        "mean_ns": 341400.0,
+        "p75_ns": 341400,
+        "p90_ns": 341400,
+        "p95_ns": null,
+        "p99_ns": 341400,
+        "max_ns": 341400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-3",
+      "query_text": "alp",
+      "normalized_query": "alp",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "query_beginning"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        24100
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          24100
+        ],
+        "min_ns": 24100,
+        "median_ns": 24100.0,
+        "mean_ns": 24100.0,
+        "p75_ns": 24100,
+        "p90_ns": 24100,
+        "p95_ns": null,
+        "p99_ns": 24100,
+        "max_ns": 24100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-3",
+      "query_text": "alp",
+      "normalized_query": "alp",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "query_beginning"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        879500
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          879500
+        ],
+        "min_ns": 879500,
+        "median_ns": 879500.0,
+        "mean_ns": 879500.0,
+        "p75_ns": 879500,
+        "p90_ns": 879500,
+        "p95_ns": null,
+        "p99_ns": 879500,
+        "max_ns": 879500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-4",
+      "query_text": "alph",
+      "normalized_query": "alph",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "query_beginning"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1456000
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1456000
+        ],
+        "min_ns": 1456000,
+        "median_ns": 1456000.0,
+        "mean_ns": 1456000.0,
+        "p75_ns": 1456000,
+        "p90_ns": 1456000,
+        "p95_ns": null,
+        "p99_ns": 1456000,
+        "max_ns": 1456000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-4",
+      "query_text": "alph",
+      "normalized_query": "alph",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "query_beginning"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        11500
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          11500
+        ],
+        "min_ns": 11500,
+        "median_ns": 11500.0,
+        "mean_ns": 11500.0,
+        "p75_ns": 11500,
+        "p90_ns": 11500,
+        "p95_ns": null,
+        "p99_ns": 11500,
+        "max_ns": 11500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-4",
+      "query_text": "alph",
+      "normalized_query": "alph",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "query_beginning"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        31500
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          31500
+        ],
+        "min_ns": 31500,
+        "median_ns": 31500.0,
+        "mean_ns": 31500.0,
+        "p75_ns": 31500,
+        "p90_ns": 31500,
+        "p95_ns": null,
+        "p99_ns": 31500,
+        "max_ns": 31500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-4",
+      "query_text": "alph",
+      "normalized_query": "alph",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "query_beginning"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1561300
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1561300
+        ],
+        "min_ns": 1561300,
+        "median_ns": 1561300.0,
+        "mean_ns": 1561300.0,
+        "p75_ns": 1561300,
+        "p90_ns": 1561300,
+        "p95_ns": null,
+        "p99_ns": 1561300,
+        "max_ns": 1561300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-5-whole",
+      "query_text": "alpha",
+      "normalized_query": "alpha",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1807000
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1807000
+        ],
+        "min_ns": 1807000,
+        "median_ns": 1807000.0,
+        "mean_ns": 1807000.0,
+        "p75_ns": 1807000,
+        "p90_ns": 1807000,
+        "p95_ns": null,
+        "p99_ns": 1807000,
+        "max_ns": 1807000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-5-whole",
+      "query_text": "alpha",
+      "normalized_query": "alpha",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        12700
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          12700
+        ],
+        "min_ns": 12700,
+        "median_ns": 12700.0,
+        "mean_ns": 12700.0,
+        "p75_ns": 12700,
+        "p90_ns": 12700,
+        "p95_ns": null,
+        "p99_ns": 12700,
+        "max_ns": 12700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-5-whole",
+      "query_text": "alpha",
+      "normalized_query": "alpha",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        56000
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          56000
+        ],
+        "min_ns": 56000,
+        "median_ns": 56000.0,
+        "mean_ns": 56000.0,
+        "p75_ns": 56000,
+        "p90_ns": 56000,
+        "p95_ns": null,
+        "p99_ns": 56000,
+        "max_ns": 56000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-5-whole",
+      "query_text": "alpha",
+      "normalized_query": "alpha",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        2263300
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          2263300
+        ],
+        "min_ns": 2263300,
+        "median_ns": 2263300.0,
+        "mean_ns": 2263300.0,
+        "p75_ns": 2263300,
+        "p90_ns": 2263300,
+        "p95_ns": null,
+        "p99_ns": 2263300,
+        "max_ns": 2263300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-6-cross",
+      "query_text": "alpha ",
+      "normalized_query": "alpha ",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "query_beginning",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1979500
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1979500
+        ],
+        "min_ns": 1979500,
+        "median_ns": 1979500.0,
+        "mean_ns": 1979500.0,
+        "p75_ns": 1979500,
+        "p90_ns": 1979500,
+        "p95_ns": null,
+        "p99_ns": 1979500,
+        "max_ns": 1979500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-6-cross",
+      "query_text": "alpha ",
+      "normalized_query": "alpha ",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "query_beginning",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        13500
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          13500
+        ],
+        "min_ns": 13500,
+        "median_ns": 13500.0,
+        "mean_ns": 13500.0,
+        "p75_ns": 13500,
+        "p90_ns": 13500,
+        "p95_ns": null,
+        "p99_ns": 13500,
+        "max_ns": 13500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-6-cross",
+      "query_text": "alpha ",
+      "normalized_query": "alpha ",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "query_beginning",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        17400
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          17400
+        ],
+        "min_ns": 17400,
+        "median_ns": 17400.0,
+        "mean_ns": 17400.0,
+        "p75_ns": 17400,
+        "p90_ns": 17400,
+        "p95_ns": null,
+        "p99_ns": 17400,
+        "max_ns": 17400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "length-6-cross",
+      "query_text": "alpha ",
+      "normalized_query": "alpha ",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "query_beginning",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        42600
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          42600
+        ],
+        "min_ns": 42600,
+        "median_ns": 42600.0,
+        "mean_ns": 42600.0,
+        "p75_ns": 42600,
+        "p90_ns": 42600,
+        "p95_ns": null,
+        "p99_ns": 42600,
+        "max_ns": 42600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "long-exact",
+      "query_text": "programming",
+      "normalized_query": "programming",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        2780500
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          2780500
+        ],
+        "min_ns": 2780500,
+        "median_ns": 2780500.0,
+        "mean_ns": 2780500.0,
+        "p75_ns": 2780500,
+        "p90_ns": 2780500,
+        "p95_ns": null,
+        "p99_ns": 2780500,
+        "max_ns": 2780500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "long-exact",
+      "query_text": "programming",
+      "normalized_query": "programming",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        124700
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          124700
+        ],
+        "min_ns": 124700,
+        "median_ns": 124700.0,
+        "mean_ns": 124700.0,
+        "p75_ns": 124700,
+        "p90_ns": 124700,
+        "p95_ns": null,
+        "p99_ns": 124700,
+        "max_ns": 124700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "long-exact",
+      "query_text": "programming",
+      "normalized_query": "programming",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        36300
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          36300
+        ],
+        "min_ns": 36300,
+        "median_ns": 36300.0,
+        "mean_ns": 36300.0,
+        "p75_ns": 36300,
+        "p90_ns": 36300,
+        "p95_ns": null,
+        "p99_ns": 36300,
+        "max_ns": 36300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "long-exact",
+      "query_text": "programming",
+      "normalized_query": "programming",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        43100
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          43100
+        ],
+        "min_ns": 43100,
+        "median_ns": 43100.0,
+        "mean_ns": 43100.0,
+        "p75_ns": 43100,
+        "p90_ns": 43100,
+        "p95_ns": null,
+        "p99_ns": 43100,
+        "max_ns": 43100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "replacement",
+      "query_text": "prograxming",
+      "normalized_query": "prograxming",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "replacement",
+      "categories": [
+        "replacement",
+        "whole_word"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        2770800
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          2770800
+        ],
+        "min_ns": 2770800,
+        "median_ns": 2770800.0,
+        "mean_ns": 2770800.0,
+        "p75_ns": 2770800,
+        "p90_ns": 2770800,
+        "p95_ns": null,
+        "p99_ns": 2770800,
+        "max_ns": 2770800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "replacement",
+      "query_text": "prograxming",
+      "normalized_query": "prograxming",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "replacement",
+      "categories": [
+        "replacement",
+        "whole_word"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        111200
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          111200
+        ],
+        "min_ns": 111200,
+        "median_ns": 111200.0,
+        "mean_ns": 111200.0,
+        "p75_ns": 111200,
+        "p90_ns": 111200,
+        "p95_ns": null,
+        "p99_ns": 111200,
+        "max_ns": 111200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "replacement",
+      "query_text": "prograxming",
+      "normalized_query": "prograxming",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "replacement",
+      "categories": [
+        "replacement",
+        "whole_word"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        29500
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          29500
+        ],
+        "min_ns": 29500,
+        "median_ns": 29500.0,
+        "mean_ns": 29500.0,
+        "p75_ns": 29500,
+        "p90_ns": 29500,
+        "p95_ns": null,
+        "p99_ns": 29500,
+        "max_ns": 29500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "replacement",
+      "query_text": "prograxming",
+      "normalized_query": "prograxming",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "replacement",
+      "categories": [
+        "replacement",
+        "whole_word"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        42700
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          42700
+        ],
+        "min_ns": 42700,
+        "median_ns": 42700.0,
+        "mean_ns": 42700.0,
+        "p75_ns": 42700,
+        "p90_ns": 42700,
+        "p95_ns": null,
+        "p99_ns": 42700,
+        "max_ns": 42700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "insertion",
+      "query_text": "programing",
+      "normalized_query": "programing",
+      "query_length": 10,
+      "length_bucket": "9-12",
+      "category": "insertion",
+      "categories": [
+        "insertion",
+        "whole_word"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        2763200
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          2763200
+        ],
+        "min_ns": 2763200,
+        "median_ns": 2763200.0,
+        "mean_ns": 2763200.0,
+        "p75_ns": 2763200,
+        "p90_ns": 2763200,
+        "p95_ns": null,
+        "p99_ns": 2763200,
+        "max_ns": 2763200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "insertion",
+      "query_text": "programing",
+      "normalized_query": "programing",
+      "query_length": 10,
+      "length_bucket": "9-12",
+      "category": "insertion",
+      "categories": [
+        "insertion",
+        "whole_word"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        111500
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          111500
+        ],
+        "min_ns": 111500,
+        "median_ns": 111500.0,
+        "mean_ns": 111500.0,
+        "p75_ns": 111500,
+        "p90_ns": 111500,
+        "p95_ns": null,
+        "p99_ns": 111500,
+        "max_ns": 111500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "insertion",
+      "query_text": "programing",
+      "normalized_query": "programing",
+      "query_length": 10,
+      "length_bucket": "9-12",
+      "category": "insertion",
+      "categories": [
+        "insertion",
+        "whole_word"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        28100
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          28100
+        ],
+        "min_ns": 28100,
+        "median_ns": 28100.0,
+        "mean_ns": 28100.0,
+        "p75_ns": 28100,
+        "p90_ns": 28100,
+        "p95_ns": null,
+        "p99_ns": 28100,
+        "max_ns": 28100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "insertion",
+      "query_text": "programing",
+      "normalized_query": "programing",
+      "query_length": 10,
+      "length_bucket": "9-12",
+      "category": "insertion",
+      "categories": [
+        "insertion",
+        "whole_word"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        36600
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          36600
+        ],
+        "min_ns": 36600,
+        "median_ns": 36600.0,
+        "mean_ns": 36600.0,
+        "p75_ns": 36600,
+        "p90_ns": 36600,
+        "p95_ns": null,
+        "p99_ns": 36600,
+        "max_ns": 36600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "deletion",
+      "query_text": "programmking",
+      "normalized_query": "programmking",
+      "query_length": 12,
+      "length_bucket": "9-12",
+      "category": "deletion",
+      "categories": [
+        "deletion",
+        "whole_word"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        2885300
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          2885300
+        ],
+        "min_ns": 2885300,
+        "median_ns": 2885300.0,
+        "mean_ns": 2885300.0,
+        "p75_ns": 2885300,
+        "p90_ns": 2885300,
+        "p95_ns": null,
+        "p99_ns": 2885300,
+        "max_ns": 2885300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "deletion",
+      "query_text": "programmking",
+      "normalized_query": "programmking",
+      "query_length": 12,
+      "length_bucket": "9-12",
+      "category": "deletion",
+      "categories": [
+        "deletion",
+        "whole_word"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        62700
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          62700
+        ],
+        "min_ns": 62700,
+        "median_ns": 62700.0,
+        "mean_ns": 62700.0,
+        "p75_ns": 62700,
+        "p90_ns": 62700,
+        "p95_ns": null,
+        "p99_ns": 62700,
+        "max_ns": 62700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "deletion",
+      "query_text": "programmking",
+      "normalized_query": "programmking",
+      "query_length": 12,
+      "length_bucket": "9-12",
+      "category": "deletion",
+      "categories": [
+        "deletion",
+        "whole_word"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        16600
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          16600
+        ],
+        "min_ns": 16600,
+        "median_ns": 16600.0,
+        "mean_ns": 16600.0,
+        "p75_ns": 16600,
+        "p90_ns": 16600,
+        "p95_ns": null,
+        "p99_ns": 16600,
+        "max_ns": 16600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "deletion",
+      "query_text": "programmking",
+      "normalized_query": "programmking",
+      "query_length": 12,
+      "length_bucket": "9-12",
+      "category": "deletion",
+      "categories": [
+        "deletion",
+        "whole_word"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        48700
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          48700
+        ],
+        "min_ns": 48700,
+        "median_ns": 48700.0,
+        "mean_ns": 48700.0,
+        "p75_ns": 48700,
+        "p90_ns": 48700,
+        "p95_ns": null,
+        "p99_ns": 48700,
+        "max_ns": 48700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "inside-word",
+      "query_text": "gramm",
+      "normalized_query": "gramm",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "inside_word",
+      "categories": [
+        "exact",
+        "inside_word"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1874800
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1874800
+        ],
+        "min_ns": 1874800,
+        "median_ns": 1874800.0,
+        "mean_ns": 1874800.0,
+        "p75_ns": 1874800,
+        "p90_ns": 1874800,
+        "p95_ns": null,
+        "p99_ns": 1874800,
+        "max_ns": 1874800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "inside-word",
+      "query_text": "gramm",
+      "normalized_query": "gramm",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "inside_word",
+      "categories": [
+        "exact",
+        "inside_word"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        127600
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          127600
+        ],
+        "min_ns": 127600,
+        "median_ns": 127600.0,
+        "mean_ns": 127600.0,
+        "p75_ns": 127600,
+        "p90_ns": 127600,
+        "p95_ns": null,
+        "p99_ns": 127600,
+        "max_ns": 127600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "inside-word",
+      "query_text": "gramm",
+      "normalized_query": "gramm",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "inside_word",
+      "categories": [
+        "exact",
+        "inside_word"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        10400
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          10400
+        ],
+        "min_ns": 10400,
+        "median_ns": 10400.0,
+        "mean_ns": 10400.0,
+        "p75_ns": 10400,
+        "p90_ns": 10400,
+        "p95_ns": null,
+        "p99_ns": 10400,
+        "max_ns": 10400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "inside-word",
+      "query_text": "gramm",
+      "normalized_query": "gramm",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "inside_word",
+      "categories": [
+        "exact",
+        "inside_word"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1898100
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1898100
+        ],
+        "min_ns": 1898100,
+        "median_ns": 1898100.0,
+        "mean_ns": 1898100.0,
+        "p75_ns": 1898100,
+        "p90_ns": 1898100,
+        "p95_ns": null,
+        "p99_ns": 1898100,
+        "max_ns": 1898100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "cross-word",
+      "query_text": "ming in",
+      "normalized_query": "ming in",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        2208900
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          2208900
+        ],
+        "min_ns": 2208900,
+        "median_ns": 2208900.0,
+        "mean_ns": 2208900.0,
+        "p75_ns": 2208900,
+        "p90_ns": 2208900,
+        "p95_ns": null,
+        "p99_ns": 2208900,
+        "max_ns": 2208900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "cross-word",
+      "query_text": "ming in",
+      "normalized_query": "ming in",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        152600
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          152600
+        ],
+        "min_ns": 152600,
+        "median_ns": 152600.0,
+        "mean_ns": 152600.0,
+        "p75_ns": 152600,
+        "p90_ns": 152600,
+        "p95_ns": null,
+        "p99_ns": 152600,
+        "max_ns": 152600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "cross-word",
+      "query_text": "ming in",
+      "normalized_query": "ming in",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        30300
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          30300
+        ],
+        "min_ns": 30300,
+        "median_ns": 30300.0,
+        "mean_ns": 30300.0,
+        "p75_ns": 30300,
+        "p90_ns": 30300,
+        "p95_ns": null,
+        "p99_ns": 30300,
+        "max_ns": 30300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "cross-word",
+      "query_text": "ming in",
+      "normalized_query": "ming in",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        131400
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          131400
+        ],
+        "min_ns": 131400,
+        "median_ns": 131400.0,
+        "mean_ns": 131400.0,
+        "p75_ns": 131400,
+        "p90_ns": 131400,
+        "p95_ns": null,
+        "p99_ns": 131400,
+        "max_ns": 131400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "leading-space-cross",
+      "query_text": " beta",
+      "normalized_query": " beta",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1910000
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1910000
+        ],
+        "min_ns": 1910000,
+        "median_ns": 1910000.0,
+        "mean_ns": 1910000.0,
+        "p75_ns": 1910000,
+        "p90_ns": 1910000,
+        "p95_ns": null,
+        "p99_ns": 1910000,
+        "max_ns": 1910000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "leading-space-cross",
+      "query_text": " beta",
+      "normalized_query": " beta",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        170600
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          170600
+        ],
+        "min_ns": 170600,
+        "median_ns": 170600.0,
+        "mean_ns": 170600.0,
+        "p75_ns": 170600,
+        "p90_ns": 170600,
+        "p95_ns": null,
+        "p99_ns": 170600,
+        "max_ns": 170600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "leading-space-cross",
+      "query_text": " beta",
+      "normalized_query": " beta",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        9000
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          9000
+        ],
+        "min_ns": 9000,
+        "median_ns": 9000.0,
+        "mean_ns": 9000.0,
+        "p75_ns": 9000,
+        "p90_ns": 9000,
+        "p95_ns": null,
+        "p99_ns": 9000,
+        "max_ns": 9000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "leading-space-cross",
+      "query_text": " beta",
+      "normalized_query": " beta",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1861300
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1861300
+        ],
+        "min_ns": 1861300,
+        "median_ns": 1861300.0,
+        "mean_ns": 1861300.0,
+        "p75_ns": 1861300,
+        "p90_ns": 1861300,
+        "p95_ns": null,
+        "p99_ns": 1861300,
+        "max_ns": 1861300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "query-end",
+      "query_text": "gamma",
+      "normalized_query": "gamma",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1847900
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1847900
+        ],
+        "min_ns": 1847900,
+        "median_ns": 1847900.0,
+        "mean_ns": 1847900.0,
+        "p75_ns": 1847900,
+        "p90_ns": 1847900,
+        "p95_ns": null,
+        "p99_ns": 1847900,
+        "max_ns": 1847900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "query-end",
+      "query_text": "gamma",
+      "normalized_query": "gamma",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        131700
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          131700
+        ],
+        "min_ns": 131700,
+        "median_ns": 131700.0,
+        "mean_ns": 131700.0,
+        "p75_ns": 131700,
+        "p90_ns": 131700,
+        "p95_ns": null,
+        "p99_ns": 131700,
+        "max_ns": 131700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "query-end",
+      "query_text": "gamma",
+      "normalized_query": "gamma",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        10700
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          10700
+        ],
+        "min_ns": 10700,
+        "median_ns": 10700.0,
+        "mean_ns": 10700.0,
+        "p75_ns": 10700,
+        "p90_ns": 10700,
+        "p95_ns": null,
+        "p99_ns": 10700,
+        "max_ns": 10700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "query-end",
+      "query_text": "gamma",
+      "normalized_query": "gamma",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1848100
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1848100
+        ],
+        "min_ns": 1848100,
+        "median_ns": 1848100.0,
+        "mean_ns": 1848100.0,
+        "p75_ns": 1848100,
+        "p90_ns": 1848100,
+        "p95_ns": null,
+        "p99_ns": 1848100,
+        "max_ns": 1848100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "query-end-replacement",
+      "query_text": "gammx",
+      "normalized_query": "gammx",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "replacement",
+      "categories": [
+        "replacement",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1868700
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1868700
+        ],
+        "min_ns": 1868700,
+        "median_ns": 1868700.0,
+        "mean_ns": 1868700.0,
+        "p75_ns": 1868700,
+        "p90_ns": 1868700,
+        "p95_ns": null,
+        "p99_ns": 1868700,
+        "max_ns": 1868700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "query-end-replacement",
+      "query_text": "gammx",
+      "normalized_query": "gammx",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "replacement",
+      "categories": [
+        "replacement",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        91100
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          91100
+        ],
+        "min_ns": 91100,
+        "median_ns": 91100.0,
+        "mean_ns": 91100.0,
+        "p75_ns": 91100,
+        "p90_ns": 91100,
+        "p95_ns": null,
+        "p99_ns": 91100,
+        "max_ns": 91100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "query-end-replacement",
+      "query_text": "gammx",
+      "normalized_query": "gammx",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "replacement",
+      "categories": [
+        "replacement",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        12500
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          12500
+        ],
+        "min_ns": 12500,
+        "median_ns": 12500.0,
+        "mean_ns": 12500.0,
+        "p75_ns": 12500,
+        "p90_ns": 12500,
+        "p95_ns": null,
+        "p99_ns": 12500,
+        "max_ns": 12500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "query-end-replacement",
+      "query_text": "gammx",
+      "normalized_query": "gammx",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "replacement",
+      "categories": [
+        "replacement",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1855600
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1855600
+        ],
+        "min_ns": 1855600,
+        "median_ns": 1855600.0,
+        "mean_ns": 1855600.0,
+        "p75_ns": 1855600,
+        "p90_ns": 1855600,
+        "p95_ns": null,
+        "p99_ns": 1855600,
+        "max_ns": 1855600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-characters",
+      "query_text": "aaaa",
+      "normalized_query": "aaaa",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "repeated_characters",
+      "categories": [
+        "exact",
+        "repeated_characters",
+        "many_match"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1747100
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1747100
+        ],
+        "min_ns": 1747100,
+        "median_ns": 1747100.0,
+        "mean_ns": 1747100.0,
+        "p75_ns": 1747100,
+        "p90_ns": 1747100,
+        "p95_ns": null,
+        "p99_ns": 1747100,
+        "max_ns": 1747100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 21
+    },
+    {
+      "query_id": "repeated-characters",
+      "query_text": "aaaa",
+      "normalized_query": "aaaa",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "repeated_characters",
+      "categories": [
+        "exact",
+        "repeated_characters",
+        "many_match"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        149100
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          149100
+        ],
+        "min_ns": 149100,
+        "median_ns": 149100.0,
+        "mean_ns": 149100.0,
+        "p75_ns": 149100,
+        "p90_ns": 149100,
+        "p95_ns": null,
+        "p99_ns": 149100,
+        "max_ns": 149100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 21
+    },
+    {
+      "query_id": "repeated-characters",
+      "query_text": "aaaa",
+      "normalized_query": "aaaa",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "repeated_characters",
+      "categories": [
+        "exact",
+        "repeated_characters",
+        "many_match"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        32900
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          32900
+        ],
+        "min_ns": 32900,
+        "median_ns": 32900.0,
+        "mean_ns": 32900.0,
+        "p75_ns": 32900,
+        "p90_ns": 32900,
+        "p95_ns": null,
+        "p99_ns": 32900,
+        "max_ns": 32900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-characters",
+      "query_text": "aaaa",
+      "normalized_query": "aaaa",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "repeated_characters",
+      "categories": [
+        "exact",
+        "repeated_characters",
+        "many_match"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1756400
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1756400
+        ],
+        "min_ns": 1756400,
+        "median_ns": 1756400.0,
+        "mean_ns": 1756400.0,
+        "p75_ns": 1756400,
+        "p90_ns": 1756400,
+        "p95_ns": null,
+        "p99_ns": 1756400,
+        "max_ns": 1756400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 21
+    },
+    {
+      "query_id": "ambiguous-insertion",
+      "query_text": "aa",
+      "normalized_query": "aa",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "insertion",
+      "categories": [
+        "insertion",
+        "repeated_characters",
+        "ambiguous_edit",
+        "many_match"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1032500
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1032500
+        ],
+        "min_ns": 1032500,
+        "median_ns": 1032500.0,
+        "mean_ns": 1032500.0,
+        "p75_ns": 1032500,
+        "p90_ns": 1032500,
+        "p95_ns": null,
+        "p99_ns": 1032500,
+        "max_ns": 1032500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 55
+    },
+    {
+      "query_id": "ambiguous-insertion",
+      "query_text": "aa",
+      "normalized_query": "aa",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "insertion",
+      "categories": [
+        "insertion",
+        "repeated_characters",
+        "ambiguous_edit",
+        "many_match"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        363700
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          363700
+        ],
+        "min_ns": 363700,
+        "median_ns": 363700.0,
+        "mean_ns": 363700.0,
+        "p75_ns": 363700,
+        "p90_ns": 363700,
+        "p95_ns": null,
+        "p99_ns": 363700,
+        "max_ns": 363700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 55
+    },
+    {
+      "query_id": "ambiguous-insertion",
+      "query_text": "aa",
+      "normalized_query": "aa",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "insertion",
+      "categories": [
+        "insertion",
+        "repeated_characters",
+        "ambiguous_edit",
+        "many_match"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        19900
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          19900
+        ],
+        "min_ns": 19900,
+        "median_ns": 19900.0,
+        "mean_ns": 19900.0,
+        "p75_ns": 19900,
+        "p90_ns": 19900,
+        "p95_ns": null,
+        "p99_ns": 19900,
+        "max_ns": 19900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "ambiguous-insertion",
+      "query_text": "aa",
+      "normalized_query": "aa",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "insertion",
+      "categories": [
+        "insertion",
+        "repeated_characters",
+        "ambiguous_edit",
+        "many_match"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1061100
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1061100
+        ],
+        "min_ns": 1061100,
+        "median_ns": 1061100.0,
+        "mean_ns": 1061100.0,
+        "p75_ns": 1061100,
+        "p90_ns": 1061100,
+        "p95_ns": null,
+        "p99_ns": 1061100,
+        "max_ns": 1061100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 55
+    },
+    {
+      "query_id": "ambiguous-deletion",
+      "query_text": "aaaaaaa",
+      "normalized_query": "aaaaaaa",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "category": "deletion",
+      "categories": [
+        "deletion",
+        "repeated_characters",
+        "ambiguous_edit"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1379100
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1379100
+        ],
+        "min_ns": 1379100,
+        "median_ns": 1379100.0,
+        "mean_ns": 1379100.0,
+        "p75_ns": 1379100,
+        "p90_ns": 1379100,
+        "p95_ns": null,
+        "p99_ns": 1379100,
+        "max_ns": 1379100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "ambiguous-deletion",
+      "query_text": "aaaaaaa",
+      "normalized_query": "aaaaaaa",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "category": "deletion",
+      "categories": [
+        "deletion",
+        "repeated_characters",
+        "ambiguous_edit"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        108900
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          108900
+        ],
+        "min_ns": 108900,
+        "median_ns": 108900.0,
+        "mean_ns": 108900.0,
+        "p75_ns": 108900,
+        "p90_ns": 108900,
+        "p95_ns": null,
+        "p99_ns": 108900,
+        "max_ns": 108900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "ambiguous-deletion",
+      "query_text": "aaaaaaa",
+      "normalized_query": "aaaaaaa",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "category": "deletion",
+      "categories": [
+        "deletion",
+        "repeated_characters",
+        "ambiguous_edit"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        18400
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          18400
+        ],
+        "min_ns": 18400,
+        "median_ns": 18400.0,
+        "mean_ns": 18400.0,
+        "p75_ns": 18400,
+        "p90_ns": 18400,
+        "p95_ns": null,
+        "p99_ns": 18400,
+        "max_ns": 18400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "ambiguous-deletion",
+      "query_text": "aaaaaaa",
+      "normalized_query": "aaaaaaa",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "category": "deletion",
+      "categories": [
+        "deletion",
+        "repeated_characters",
+        "ambiguous_edit"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        98800
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          98800
+        ],
+        "min_ns": 98800,
+        "median_ns": 98800.0,
+        "mean_ns": 98800.0,
+        "p75_ns": 98800,
+        "p90_ns": 98800,
+        "p95_ns": null,
+        "p99_ns": 98800,
+        "max_ns": 98800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-qgrams",
+      "query_text": "ababab",
+      "normalized_query": "ababab",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "repeated_qgrams",
+      "categories": [
+        "exact",
+        "repeated_qgrams",
+        "inside_word"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1253500
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1253500
+        ],
+        "min_ns": 1253500,
+        "median_ns": 1253500.0,
+        "mean_ns": 1253500.0,
+        "p75_ns": 1253500,
+        "p90_ns": 1253500,
+        "p95_ns": null,
+        "p99_ns": 1253500,
+        "max_ns": 1253500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-qgrams",
+      "query_text": "ababab",
+      "normalized_query": "ababab",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "repeated_qgrams",
+      "categories": [
+        "exact",
+        "repeated_qgrams",
+        "inside_word"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        6100
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          6100
+        ],
+        "min_ns": 6100,
+        "median_ns": 6100.0,
+        "mean_ns": 6100.0,
+        "p75_ns": 6100,
+        "p90_ns": 6100,
+        "p95_ns": null,
+        "p99_ns": 6100,
+        "max_ns": 6100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-qgrams",
+      "query_text": "ababab",
+      "normalized_query": "ababab",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "repeated_qgrams",
+      "categories": [
+        "exact",
+        "repeated_qgrams",
+        "inside_word"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        7700
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          7700
+        ],
+        "min_ns": 7700,
+        "median_ns": 7700.0,
+        "mean_ns": 7700.0,
+        "p75_ns": 7700,
+        "p90_ns": 7700,
+        "p95_ns": null,
+        "p99_ns": 7700,
+        "max_ns": 7700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-qgrams",
+      "query_text": "ababab",
+      "normalized_query": "ababab",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "repeated_qgrams",
+      "categories": [
+        "exact",
+        "repeated_qgrams",
+        "inside_word"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        26400
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          26400
+        ],
+        "min_ns": 26400,
+        "median_ns": 26400.0,
+        "mean_ns": 26400.0,
+        "p75_ns": 26400,
+        "p90_ns": 26400,
+        "p95_ns": null,
+        "p99_ns": 26400,
+        "max_ns": 26400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-qgrams-short",
+      "query_text": "ababa",
+      "normalized_query": "ababa",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "repeated_qgrams",
+      "categories": [
+        "exact",
+        "repeated_qgrams",
+        "many_match"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        771000
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          771000
+        ],
+        "min_ns": 771000,
+        "median_ns": 771000.0,
+        "mean_ns": 771000.0,
+        "p75_ns": 771000,
+        "p90_ns": 771000,
+        "p95_ns": null,
+        "p99_ns": 771000,
+        "max_ns": 771000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-qgrams-short",
+      "query_text": "ababa",
+      "normalized_query": "ababa",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "repeated_qgrams",
+      "categories": [
+        "exact",
+        "repeated_qgrams",
+        "many_match"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        24100
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          24100
+        ],
+        "min_ns": 24100,
+        "median_ns": 24100.0,
+        "mean_ns": 24100.0,
+        "p75_ns": 24100,
+        "p90_ns": 24100,
+        "p95_ns": null,
+        "p99_ns": 24100,
+        "max_ns": 24100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-qgrams-short",
+      "query_text": "ababa",
+      "normalized_query": "ababa",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "repeated_qgrams",
+      "categories": [
+        "exact",
+        "repeated_qgrams",
+        "many_match"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        5300
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          5300
+        ],
+        "min_ns": 5300,
+        "median_ns": 5300.0,
+        "mean_ns": 5300.0,
+        "p75_ns": 5300,
+        "p90_ns": 5300,
+        "p95_ns": null,
+        "p99_ns": 5300,
+        "max_ns": 5300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-qgrams-short",
+      "query_text": "ababa",
+      "normalized_query": "ababa",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "repeated_qgrams",
+      "categories": [
+        "exact",
+        "repeated_qgrams",
+        "many_match"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1287500
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1287500
+        ],
+        "min_ns": 1287500,
+        "median_ns": 1287500.0,
+        "mean_ns": 1287500.0,
+        "p75_ns": 1287500,
+        "p90_ns": 1287500,
+        "p95_ns": null,
+        "p99_ns": 1287500,
+        "max_ns": 1287500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "hello-cross",
+      "query_text": "hello world",
+      "normalized_query": "hello world",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "many_match"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        2645500
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          2645500
+        ],
+        "min_ns": 2645500,
+        "median_ns": 2645500.0,
+        "mean_ns": 2645500.0,
+        "p75_ns": 2645500,
+        "p90_ns": 2645500,
+        "p95_ns": null,
+        "p99_ns": 2645500,
+        "max_ns": 2645500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "hello-cross",
+      "query_text": "hello world",
+      "normalized_query": "hello world",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "many_match"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        137300
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          137300
+        ],
+        "min_ns": 137300,
+        "median_ns": 137300.0,
+        "mean_ns": 137300.0,
+        "p75_ns": 137300,
+        "p90_ns": 137300,
+        "p95_ns": null,
+        "p99_ns": 137300,
+        "max_ns": 137300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "hello-cross",
+      "query_text": "hello world",
+      "normalized_query": "hello world",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "many_match"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        17200
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          17200
+        ],
+        "min_ns": 17200,
+        "median_ns": 17200.0,
+        "mean_ns": 17200.0,
+        "p75_ns": 17200,
+        "p90_ns": 17200,
+        "p95_ns": null,
+        "p99_ns": 17200,
+        "max_ns": 17200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "hello-cross",
+      "query_text": "hello world",
+      "normalized_query": "hello world",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "many_match"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        49000
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          49000
+        ],
+        "min_ns": 49000,
+        "median_ns": 49000.0,
+        "mean_ns": 49000.0,
+        "p75_ns": 49000,
+        "p90_ns": 49000,
+        "p95_ns": null,
+        "p99_ns": 49000,
+        "max_ns": 49000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "world-hello",
+      "query_text": "world hello",
+      "normalized_query": "world hello",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "inside_word"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        2188900
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          2188900
+        ],
+        "min_ns": 2188900,
+        "median_ns": 2188900.0,
+        "mean_ns": 2188900.0,
+        "p75_ns": 2188900,
+        "p90_ns": 2188900,
+        "p95_ns": null,
+        "p99_ns": 2188900,
+        "max_ns": 2188900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "world-hello",
+      "query_text": "world hello",
+      "normalized_query": "world hello",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "inside_word"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        99200
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          99200
+        ],
+        "min_ns": 99200,
+        "median_ns": 99200.0,
+        "mean_ns": 99200.0,
+        "p75_ns": 99200,
+        "p90_ns": 99200,
+        "p95_ns": null,
+        "p99_ns": 99200,
+        "max_ns": 99200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "world-hello",
+      "query_text": "world hello",
+      "normalized_query": "world hello",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "inside_word"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        14600
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          14600
+        ],
+        "min_ns": 14600,
+        "median_ns": 14600.0,
+        "mean_ns": 14600.0,
+        "p75_ns": 14600,
+        "p90_ns": 14600,
+        "p95_ns": null,
+        "p99_ns": 14600,
+        "max_ns": 14600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "world-hello",
+      "query_text": "world hello",
+      "normalized_query": "world hello",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "inside_word"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        41500
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          41500
+        ],
+        "min_ns": 41500,
+        "median_ns": 41500.0,
+        "mean_ns": 41500.0,
+        "p75_ns": 41500,
+        "p90_ns": 41500,
+        "p95_ns": null,
+        "p99_ns": 41500,
+        "max_ns": 41500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "hello-many",
+      "query_text": "hello",
+      "normalized_query": "hello",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "many_match",
+      "categories": [
+        "exact",
+        "whole_word",
+        "many_match"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1628800
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1628800
+        ],
+        "min_ns": 1628800,
+        "median_ns": 1628800.0,
+        "mean_ns": 1628800.0,
+        "p75_ns": 1628800,
+        "p90_ns": 1628800,
+        "p95_ns": null,
+        "p99_ns": 1628800,
+        "max_ns": 1628800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "hello-many",
+      "query_text": "hello",
+      "normalized_query": "hello",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "many_match",
+      "categories": [
+        "exact",
+        "whole_word",
+        "many_match"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        87100
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          87100
+        ],
+        "min_ns": 87100,
+        "median_ns": 87100.0,
+        "mean_ns": 87100.0,
+        "p75_ns": 87100,
+        "p90_ns": 87100,
+        "p95_ns": null,
+        "p99_ns": 87100,
+        "max_ns": 87100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "hello-many",
+      "query_text": "hello",
+      "normalized_query": "hello",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "many_match",
+      "categories": [
+        "exact",
+        "whole_word",
+        "many_match"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        8400
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          8400
+        ],
+        "min_ns": 8400,
+        "median_ns": 8400.0,
+        "mean_ns": 8400.0,
+        "p75_ns": 8400,
+        "p90_ns": 8400,
+        "p95_ns": null,
+        "p99_ns": 8400,
+        "max_ns": 8400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "hello-many",
+      "query_text": "hello",
+      "normalized_query": "hello",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "many_match",
+      "categories": [
+        "exact",
+        "whole_word",
+        "many_match"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1477900
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1477900
+        ],
+        "min_ns": 1477900,
+        "median_ns": 1477900.0,
+        "mean_ns": 1477900.0,
+        "p75_ns": 1477900,
+        "p90_ns": 1477900,
+        "p95_ns": null,
+        "p99_ns": 1477900,
+        "max_ns": 1477900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "inside-cross",
+      "query_text": "ello wor",
+      "normalized_query": "ello wor",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "category": "inside_word",
+      "categories": [
+        "exact",
+        "inside_word",
+        "cross_word"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1551000
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1551000
+        ],
+        "min_ns": 1551000,
+        "median_ns": 1551000.0,
+        "mean_ns": 1551000.0,
+        "p75_ns": 1551000,
+        "p90_ns": 1551000,
+        "p95_ns": null,
+        "p99_ns": 1551000,
+        "max_ns": 1551000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "inside-cross",
+      "query_text": "ello wor",
+      "normalized_query": "ello wor",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "category": "inside_word",
+      "categories": [
+        "exact",
+        "inside_word",
+        "cross_word"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        82600
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          82600
+        ],
+        "min_ns": 82600,
+        "median_ns": 82600.0,
+        "mean_ns": 82600.0,
+        "p75_ns": 82600,
+        "p90_ns": 82600,
+        "p95_ns": null,
+        "p99_ns": 82600,
+        "max_ns": 82600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "inside-cross",
+      "query_text": "ello wor",
+      "normalized_query": "ello wor",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "category": "inside_word",
+      "categories": [
+        "exact",
+        "inside_word",
+        "cross_word"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        9900
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          9900
+        ],
+        "min_ns": 9900,
+        "median_ns": 9900.0,
+        "mean_ns": 9900.0,
+        "p75_ns": 9900,
+        "p90_ns": 9900,
+        "p95_ns": null,
+        "p99_ns": 9900,
+        "max_ns": 9900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "inside-cross",
+      "query_text": "ello wor",
+      "normalized_query": "ello wor",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "category": "inside_word",
+      "categories": [
+        "exact",
+        "inside_word",
+        "cross_word"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        27000
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          27000
+        ],
+        "min_ns": 27000,
+        "median_ns": 27000.0,
+        "mean_ns": 27000.0,
+        "p75_ns": 27000,
+        "p90_ns": 27000,
+        "p95_ns": null,
+        "p99_ns": 27000,
+        "max_ns": 27000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "replacement-no-shared-qgram",
+      "query_text": "cat",
+      "normalized_query": "cat",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "replacement",
+      "categories": [
+        "replacement",
+        "whole_word"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        888100
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          888100
+        ],
+        "min_ns": 888100,
+        "median_ns": 888100.0,
+        "mean_ns": 888100.0,
+        "p75_ns": 888100,
+        "p90_ns": 888100,
+        "p95_ns": null,
+        "p99_ns": 888100,
+        "max_ns": 888100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 4
+    },
+    {
+      "query_id": "replacement-no-shared-qgram",
+      "query_text": "cat",
+      "normalized_query": "cat",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "replacement",
+      "categories": [
+        "replacement",
+        "whole_word"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        575200
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          575200
+        ],
+        "min_ns": 575200,
+        "median_ns": 575200.0,
+        "mean_ns": 575200.0,
+        "p75_ns": 575200,
+        "p90_ns": 575200,
+        "p95_ns": null,
+        "p99_ns": 575200,
+        "max_ns": 575200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 4
+    },
+    {
+      "query_id": "replacement-no-shared-qgram",
+      "query_text": "cat",
+      "normalized_query": "cat",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "replacement",
+      "categories": [
+        "replacement",
+        "whole_word"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        25800
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          25800
+        ],
+        "min_ns": 25800,
+        "median_ns": 25800.0,
+        "mean_ns": 25800.0,
+        "p75_ns": 25800,
+        "p90_ns": 25800,
+        "p95_ns": null,
+        "p99_ns": 25800,
+        "max_ns": 25800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "replacement-no-shared-qgram",
+      "query_text": "cat",
+      "normalized_query": "cat",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "replacement",
+      "categories": [
+        "replacement",
+        "whole_word"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        929600
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          929600
+        ],
+        "min_ns": 929600,
+        "median_ns": 929600.0,
+        "mean_ns": 929600.0,
+        "p75_ns": 929600,
+        "p90_ns": 929600,
+        "p95_ns": null,
+        "p99_ns": 929600,
+        "max_ns": 929600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 4
+    },
+    {
+      "query_id": "no-match",
+      "query_text": "qqqqqqqq",
+      "normalized_query": "qqqqqqqq",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "category": "no_match",
+      "categories": [
+        "no_match",
+        "repeated_characters",
+        "repeated_qgrams"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1319100
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1319100
+        ],
+        "min_ns": 1319100,
+        "median_ns": 1319100.0,
+        "mean_ns": 1319100.0,
+        "p75_ns": 1319100,
+        "p90_ns": 1319100,
+        "p95_ns": null,
+        "p99_ns": 1319100,
+        "max_ns": 1319100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "no-match",
+      "query_text": "qqqqqqqq",
+      "normalized_query": "qqqqqqqq",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "category": "no_match",
+      "categories": [
+        "no_match",
+        "repeated_characters",
+        "repeated_qgrams"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        7700
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          7700
+        ],
+        "min_ns": 7700,
+        "median_ns": 7700.0,
+        "mean_ns": 7700.0,
+        "p75_ns": 7700,
+        "p90_ns": 7700,
+        "p95_ns": null,
+        "p99_ns": 7700,
+        "max_ns": 7700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "no-match",
+      "query_text": "qqqqqqqq",
+      "normalized_query": "qqqqqqqq",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "category": "no_match",
+      "categories": [
+        "no_match",
+        "repeated_characters",
+        "repeated_qgrams"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        10600
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          10600
+        ],
+        "min_ns": 10600,
+        "median_ns": 10600.0,
+        "mean_ns": 10600.0,
+        "p75_ns": 10600,
+        "p90_ns": 10600,
+        "p95_ns": null,
+        "p99_ns": 10600,
+        "max_ns": 10600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "no-match",
+      "query_text": "qqqqqqqq",
+      "normalized_query": "qqqqqqqq",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "category": "no_match",
+      "categories": [
+        "no_match",
+        "repeated_characters",
+        "repeated_qgrams"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        20800
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          20800
+        ],
+        "min_ns": 20800,
+        "median_ns": 20800.0,
+        "mean_ns": 20800.0,
+        "p75_ns": 20800,
+        "p90_ns": 20800,
+        "p95_ns": null,
+        "p99_ns": 20800,
+        "max_ns": 20800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "prefix",
+      "query_text": "prefix",
+      "normalized_query": "prefix",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1204100
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1204100
+        ],
+        "min_ns": 1204100,
+        "median_ns": 1204100.0,
+        "mean_ns": 1204100.0,
+        "p75_ns": 1204100,
+        "p90_ns": 1204100,
+        "p95_ns": null,
+        "p99_ns": 1204100,
+        "max_ns": 1204100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "prefix",
+      "query_text": "prefix",
+      "normalized_query": "prefix",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        6800
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          6800
+        ],
+        "min_ns": 6800,
+        "median_ns": 6800.0,
+        "mean_ns": 6800.0,
+        "p75_ns": 6800,
+        "p90_ns": 6800,
+        "p95_ns": null,
+        "p99_ns": 6800,
+        "max_ns": 6800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "prefix",
+      "query_text": "prefix",
+      "normalized_query": "prefix",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        7200
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          7200
+        ],
+        "min_ns": 7200,
+        "median_ns": 7200.0,
+        "mean_ns": 7200.0,
+        "p75_ns": 7200,
+        "p90_ns": 7200,
+        "p95_ns": null,
+        "p99_ns": 7200,
+        "max_ns": 7200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "prefix",
+      "query_text": "prefix",
+      "normalized_query": "prefix",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        15500
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          15500
+        ],
+        "min_ns": 15500,
+        "median_ns": 15500.0,
+        "mean_ns": 15500.0,
+        "p75_ns": 15500,
+        "p90_ns": 15500,
+        "p95_ns": null,
+        "p99_ns": 15500,
+        "max_ns": 15500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "suffix",
+      "query_text": "suffix",
+      "normalized_query": "suffix",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1178600
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1178600
+        ],
+        "min_ns": 1178600,
+        "median_ns": 1178600.0,
+        "mean_ns": 1178600.0,
+        "p75_ns": 1178600,
+        "p90_ns": 1178600,
+        "p95_ns": null,
+        "p99_ns": 1178600,
+        "max_ns": 1178600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 2
+    },
+    {
+      "query_id": "suffix",
+      "query_text": "suffix",
+      "normalized_query": "suffix",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        42600
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          42600
+        ],
+        "min_ns": 42600,
+        "median_ns": 42600.0,
+        "mean_ns": 42600.0,
+        "p75_ns": 42600,
+        "p90_ns": 42600,
+        "p95_ns": null,
+        "p99_ns": 42600,
+        "max_ns": 42600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 2
+    },
+    {
+      "query_id": "suffix",
+      "query_text": "suffix",
+      "normalized_query": "suffix",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        27700
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          27700
+        ],
+        "min_ns": 27700,
+        "median_ns": 27700.0,
+        "mean_ns": 27700.0,
+        "p75_ns": 27700,
+        "p90_ns": 27700,
+        "p95_ns": null,
+        "p99_ns": 27700,
+        "max_ns": 27700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 2
+    },
+    {
+      "query_id": "suffix",
+      "query_text": "suffix",
+      "normalized_query": "suffix",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        69500
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          69500
+        ],
+        "min_ns": 69500,
+        "median_ns": 69500.0,
+        "mean_ns": 69500.0,
+        "p75_ns": 69500,
+        "p90_ns": 69500,
+        "p95_ns": null,
+        "p99_ns": 69500,
+        "max_ns": 69500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 2
+    },
+    {
+      "query_id": "prefix-inside-cross",
+      "query_text": "refix s",
+      "normalized_query": "refix s",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "category": "inside_word",
+      "categories": [
+        "exact",
+        "inside_word",
+        "cross_word"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1257100
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1257100
+        ],
+        "min_ns": 1257100,
+        "median_ns": 1257100.0,
+        "mean_ns": 1257100.0,
+        "p75_ns": 1257100,
+        "p90_ns": 1257100,
+        "p95_ns": null,
+        "p99_ns": 1257100,
+        "max_ns": 1257100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "prefix-inside-cross",
+      "query_text": "refix s",
+      "normalized_query": "refix s",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "category": "inside_word",
+      "categories": [
+        "exact",
+        "inside_word",
+        "cross_word"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        8200
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          8200
+        ],
+        "min_ns": 8200,
+        "median_ns": 8200.0,
+        "mean_ns": 8200.0,
+        "p75_ns": 8200,
+        "p90_ns": 8200,
+        "p95_ns": null,
+        "p99_ns": 8200,
+        "max_ns": 8200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "prefix-inside-cross",
+      "query_text": "refix s",
+      "normalized_query": "refix s",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "category": "inside_word",
+      "categories": [
+        "exact",
+        "inside_word",
+        "cross_word"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        6600
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          6600
+        ],
+        "min_ns": 6600,
+        "median_ns": 6600.0,
+        "mean_ns": 6600.0,
+        "p75_ns": 6600,
+        "p90_ns": 6600,
+        "p95_ns": null,
+        "p99_ns": 6600,
+        "max_ns": 6600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "prefix-inside-cross",
+      "query_text": "refix s",
+      "normalized_query": "refix s",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "category": "inside_word",
+      "categories": [
+        "exact",
+        "inside_word",
+        "cross_word"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        21600
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          21600
+        ],
+        "min_ns": 21600,
+        "median_ns": 21600.0,
+        "mean_ns": 21600.0,
+        "p75_ns": 21600,
+        "p90_ns": 21600,
+        "p95_ns": null,
+        "p99_ns": 21600,
+        "max_ns": 21600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "ends-insertion",
+      "query_text": "ends her",
+      "normalized_query": "ends her",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "category": "insertion",
+      "categories": [
+        "insertion",
+        "cross_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1359500
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1359500
+        ],
+        "min_ns": 1359500,
+        "median_ns": 1359500.0,
+        "mean_ns": 1359500.0,
+        "p75_ns": 1359500,
+        "p90_ns": 1359500,
+        "p95_ns": null,
+        "p99_ns": 1359500,
+        "max_ns": 1359500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "ends-insertion",
+      "query_text": "ends her",
+      "normalized_query": "ends her",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "category": "insertion",
+      "categories": [
+        "insertion",
+        "cross_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        54900
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          54900
+        ],
+        "min_ns": 54900,
+        "median_ns": 54900.0,
+        "mean_ns": 54900.0,
+        "p75_ns": 54900,
+        "p90_ns": 54900,
+        "p95_ns": null,
+        "p99_ns": 54900,
+        "max_ns": 54900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "ends-insertion",
+      "query_text": "ends her",
+      "normalized_query": "ends her",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "category": "insertion",
+      "categories": [
+        "insertion",
+        "cross_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        15800
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          15800
+        ],
+        "min_ns": 15800,
+        "median_ns": 15800.0,
+        "mean_ns": 15800.0,
+        "p75_ns": 15800,
+        "p90_ns": 15800,
+        "p95_ns": null,
+        "p99_ns": 15800,
+        "max_ns": 15800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "ends-insertion",
+      "query_text": "ends her",
+      "normalized_query": "ends her",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "category": "insertion",
+      "categories": [
+        "insertion",
+        "cross_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        19800
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          19800
+        ],
+        "min_ns": 19800,
+        "median_ns": 19800.0,
+        "mean_ns": 19800.0,
+        "p75_ns": 19800,
+        "p90_ns": 19800,
+        "p95_ns": null,
+        "p99_ns": 19800,
+        "max_ns": 19800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "ends-deletion",
+      "query_text": "ends herre",
+      "normalized_query": "ends herre",
+      "query_length": 10,
+      "length_bucket": "9-12",
+      "category": "deletion",
+      "categories": [
+        "deletion",
+        "cross_word",
+        "query_end",
+        "sentence_boundary",
+        "ambiguous_edit"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1522400
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1522400
+        ],
+        "min_ns": 1522400,
+        "median_ns": 1522400.0,
+        "mean_ns": 1522400.0,
+        "p75_ns": 1522400,
+        "p90_ns": 1522400,
+        "p95_ns": null,
+        "p99_ns": 1522400,
+        "max_ns": 1522400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "ends-deletion",
+      "query_text": "ends herre",
+      "normalized_query": "ends herre",
+      "query_length": 10,
+      "length_bucket": "9-12",
+      "category": "deletion",
+      "categories": [
+        "deletion",
+        "cross_word",
+        "query_end",
+        "sentence_boundary",
+        "ambiguous_edit"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        57000
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          57000
+        ],
+        "min_ns": 57000,
+        "median_ns": 57000.0,
+        "mean_ns": 57000.0,
+        "p75_ns": 57000,
+        "p90_ns": 57000,
+        "p95_ns": null,
+        "p99_ns": 57000,
+        "max_ns": 57000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "ends-deletion",
+      "query_text": "ends herre",
+      "normalized_query": "ends herre",
+      "query_length": 10,
+      "length_bucket": "9-12",
+      "category": "deletion",
+      "categories": [
+        "deletion",
+        "cross_word",
+        "query_end",
+        "sentence_boundary",
+        "ambiguous_edit"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        10200
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          10200
+        ],
+        "min_ns": 10200,
+        "median_ns": 10200.0,
+        "mean_ns": 10200.0,
+        "p75_ns": 10200,
+        "p90_ns": 10200,
+        "p95_ns": null,
+        "p99_ns": 10200,
+        "max_ns": 10200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "ends-deletion",
+      "query_text": "ends herre",
+      "normalized_query": "ends herre",
+      "query_length": 10,
+      "length_bucket": "9-12",
+      "category": "deletion",
+      "categories": [
+        "deletion",
+        "cross_word",
+        "query_end",
+        "sentence_boundary",
+        "ambiguous_edit"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        25800
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          25800
+        ],
+        "min_ns": 25800,
+        "median_ns": 25800.0,
+        "mean_ns": 25800.0,
+        "p75_ns": 25800,
+        "p90_ns": 25800,
+        "p95_ns": null,
+        "p99_ns": 25800,
+        "max_ns": 25800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "between-sentences",
+      "query_text": "gamma programming",
+      "normalized_query": "gamma programming",
+      "query_length": 17,
+      "length_bucket": "13-20",
+      "category": "no_match",
+      "categories": [
+        "no_match",
+        "sentence_boundary",
+        "cross_word"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        2388600
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          2388600
+        ],
+        "min_ns": 2388600,
+        "median_ns": 2388600.0,
+        "mean_ns": 2388600.0,
+        "p75_ns": 2388600,
+        "p90_ns": 2388600,
+        "p95_ns": null,
+        "p99_ns": 2388600,
+        "max_ns": 2388600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "between-sentences",
+      "query_text": "gamma programming",
+      "normalized_query": "gamma programming",
+      "query_length": 17,
+      "length_bucket": "13-20",
+      "category": "no_match",
+      "categories": [
+        "no_match",
+        "sentence_boundary",
+        "cross_word"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        147400
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          147400
+        ],
+        "min_ns": 147400,
+        "median_ns": 147400.0,
+        "mean_ns": 147400.0,
+        "p75_ns": 147400,
+        "p90_ns": 147400,
+        "p95_ns": null,
+        "p99_ns": 147400,
+        "max_ns": 147400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "between-sentences",
+      "query_text": "gamma programming",
+      "normalized_query": "gamma programming",
+      "query_length": 17,
+      "length_bucket": "13-20",
+      "category": "no_match",
+      "categories": [
+        "no_match",
+        "sentence_boundary",
+        "cross_word"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        18000
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          18000
+        ],
+        "min_ns": 18000,
+        "median_ns": 18000.0,
+        "mean_ns": 18000.0,
+        "p75_ns": 18000,
+        "p90_ns": 18000,
+        "p95_ns": null,
+        "p99_ns": 18000,
+        "max_ns": 18000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "between-sentences",
+      "query_text": "gamma programming",
+      "normalized_query": "gamma programming",
+      "query_length": 17,
+      "length_bucket": "13-20",
+      "category": "no_match",
+      "categories": [
+        "no_match",
+        "sentence_boundary",
+        "cross_word"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        75600
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          75600
+        ],
+        "min_ns": 75600,
+        "median_ns": 75600.0,
+        "mean_ns": 75600.0,
+        "p75_ns": 75600,
+        "p90_ns": 75600,
+        "p95_ns": null,
+        "p99_ns": 75600,
+        "max_ns": 75600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "single-word-x",
+      "query_text": "x",
+      "normalized_query": "x",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1131300
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1131300
+        ],
+        "min_ns": 1131300,
+        "median_ns": 1131300.0,
+        "mean_ns": 1131300.0,
+        "p75_ns": 1131300,
+        "p90_ns": 1131300,
+        "p95_ns": null,
+        "p99_ns": 1131300,
+        "max_ns": 1131300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 218
+    },
+    {
+      "query_id": "single-word-x",
+      "query_text": "x",
+      "normalized_query": "x",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1215600
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1215600
+        ],
+        "min_ns": 1215600,
+        "median_ns": 1215600.0,
+        "mean_ns": 1215600.0,
+        "p75_ns": 1215600,
+        "p90_ns": 1215600,
+        "p95_ns": null,
+        "p99_ns": 1215600,
+        "max_ns": 1215600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 218
+    },
+    {
+      "query_id": "single-word-x",
+      "query_text": "x",
+      "normalized_query": "x",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        19900
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          19900
+        ],
+        "min_ns": 19900,
+        "median_ns": 19900.0,
+        "mean_ns": 19900.0,
+        "p75_ns": 19900,
+        "p90_ns": 19900,
+        "p95_ns": null,
+        "p99_ns": 19900,
+        "max_ns": 19900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "single-word-x",
+      "query_text": "x",
+      "normalized_query": "x",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1197800
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1197800
+        ],
+        "min_ns": 1197800,
+        "median_ns": 1197800.0,
+        "mean_ns": 1197800.0,
+        "p75_ns": 1197800,
+        "p90_ns": 1197800,
+        "p95_ns": null,
+        "p99_ns": 1197800,
+        "max_ns": 1197800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 218
+    },
+    {
+      "query_id": "single-word-zz",
+      "query_text": "zz",
+      "normalized_query": "zz",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning",
+        "query_end",
+        "sentence_boundary",
+        "repeated_characters"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        754100
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          754100
+        ],
+        "min_ns": 754100,
+        "median_ns": 754100.0,
+        "mean_ns": 754100.0,
+        "p75_ns": 754100,
+        "p90_ns": 754100,
+        "p95_ns": null,
+        "p99_ns": 754100,
+        "max_ns": 754100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 4
+    },
+    {
+      "query_id": "single-word-zz",
+      "query_text": "zz",
+      "normalized_query": "zz",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning",
+        "query_end",
+        "sentence_boundary",
+        "repeated_characters"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        38600
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          38600
+        ],
+        "min_ns": 38600,
+        "median_ns": 38600.0,
+        "mean_ns": 38600.0,
+        "p75_ns": 38600,
+        "p90_ns": 38600,
+        "p95_ns": null,
+        "p99_ns": 38600,
+        "max_ns": 38600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 4
+    },
+    {
+      "query_id": "single-word-zz",
+      "query_text": "zz",
+      "normalized_query": "zz",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning",
+        "query_end",
+        "sentence_boundary",
+        "repeated_characters"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        22700
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          22700
+        ],
+        "min_ns": 22700,
+        "median_ns": 22700.0,
+        "mean_ns": 22700.0,
+        "p75_ns": 22700,
+        "p90_ns": 22700,
+        "p95_ns": null,
+        "p99_ns": 22700,
+        "max_ns": 22700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "single-word-zz",
+      "query_text": "zz",
+      "normalized_query": "zz",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "query_beginning",
+        "query_end",
+        "sentence_boundary",
+        "repeated_characters"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        758200
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          758200
+        ],
+        "min_ns": 758200,
+        "median_ns": 758200.0,
+        "mean_ns": 758200.0,
+        "p75_ns": 758200,
+        "p90_ns": 758200,
+        "p95_ns": null,
+        "p99_ns": 758200,
+        "max_ns": 758200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 4
+    },
+    {
+      "query_id": "beta-gamma",
+      "query_text": "beta gamma",
+      "normalized_query": "beta gamma",
+      "query_length": 10,
+      "length_bucket": "9-12",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1574200
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1574200
+        ],
+        "min_ns": 1574200,
+        "median_ns": 1574200.0,
+        "mean_ns": 1574200.0,
+        "p75_ns": 1574200,
+        "p90_ns": 1574200,
+        "p95_ns": null,
+        "p99_ns": 1574200,
+        "max_ns": 1574200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "beta-gamma",
+      "query_text": "beta gamma",
+      "normalized_query": "beta gamma",
+      "query_length": 10,
+      "length_bucket": "9-12",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        9500
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          9500
+        ],
+        "min_ns": 9500,
+        "median_ns": 9500.0,
+        "mean_ns": 9500.0,
+        "p75_ns": 9500,
+        "p90_ns": 9500,
+        "p95_ns": null,
+        "p99_ns": 9500,
+        "max_ns": 9500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "beta-gamma",
+      "query_text": "beta gamma",
+      "normalized_query": "beta gamma",
+      "query_length": 10,
+      "length_bucket": "9-12",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        8400
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          8400
+        ],
+        "min_ns": 8400,
+        "median_ns": 8400.0,
+        "mean_ns": 8400.0,
+        "p75_ns": 8400,
+        "p90_ns": 8400,
+        "p95_ns": null,
+        "p99_ns": 8400,
+        "max_ns": 8400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "beta-gamma",
+      "query_text": "beta gamma",
+      "normalized_query": "beta gamma",
+      "query_length": 10,
+      "length_bucket": "9-12",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        26900
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          26900
+        ],
+        "min_ns": 26900,
+        "median_ns": 26900.0,
+        "mean_ns": 26900.0,
+        "p75_ns": 26900,
+        "p90_ns": 26900,
+        "p95_ns": null,
+        "p99_ns": 26900,
+        "max_ns": 26900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-words",
+      "query_text": "repeated repeated",
+      "normalized_query": "repeated repeated",
+      "query_length": 17,
+      "length_bucket": "13-20",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "repeated_qgrams",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        2010100
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          2010100
+        ],
+        "min_ns": 2010100,
+        "median_ns": 2010100.0,
+        "mean_ns": 2010100.0,
+        "p75_ns": 2010100,
+        "p90_ns": 2010100,
+        "p95_ns": null,
+        "p99_ns": 2010100,
+        "max_ns": 2010100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-words",
+      "query_text": "repeated repeated",
+      "normalized_query": "repeated repeated",
+      "query_length": 17,
+      "length_bucket": "13-20",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "repeated_qgrams",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        124600
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          124600
+        ],
+        "min_ns": 124600,
+        "median_ns": 124600.0,
+        "mean_ns": 124600.0,
+        "p75_ns": 124600,
+        "p90_ns": 124600,
+        "p95_ns": null,
+        "p99_ns": 124600,
+        "max_ns": 124600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-words",
+      "query_text": "repeated repeated",
+      "normalized_query": "repeated repeated",
+      "query_length": 17,
+      "length_bucket": "13-20",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "repeated_qgrams",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        14500
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          14500
+        ],
+        "min_ns": 14500,
+        "median_ns": 14500.0,
+        "mean_ns": 14500.0,
+        "p75_ns": 14500,
+        "p90_ns": 14500,
+        "p95_ns": null,
+        "p99_ns": 14500,
+        "max_ns": 14500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "repeated-words",
+      "query_text": "repeated repeated",
+      "normalized_query": "repeated repeated",
+      "query_length": 17,
+      "length_bucket": "13-20",
+      "category": "cross_word",
+      "categories": [
+        "exact",
+        "cross_word",
+        "repeated_qgrams",
+        "query_end",
+        "sentence_boundary"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        54900
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          54900
+        ],
+        "min_ns": 54900,
+        "median_ns": 54900.0,
+        "mean_ns": 54900.0,
+        "p75_ns": 54900,
+        "p90_ns": 54900,
+        "p95_ns": null,
+        "p99_ns": 54900,
+        "max_ns": 54900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    }
+  ]
+}
