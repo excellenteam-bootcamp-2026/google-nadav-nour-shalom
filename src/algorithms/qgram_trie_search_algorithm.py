@@ -34,12 +34,16 @@ class QGramTrieSearchAlgorithm(SearchAlgorithm):
     making it suitable for large corpora where the naive approach is too slow.
     """
 
-    Q: int = 3  # Q-gram (trigram) length
+    Q: int = 3                   # Q-gram (trigram) length
+    SHORT_WORD_THRESHOLD: int = 4  # words this length or shorter go into the short-word index
 
     def __init__(self) -> None:
         self._root: TrieNode = TrieNode()
         # trigram string → list of Trie leaf nodes whose word contains that trigram
         self._qgrams: dict[str, list[TrieNode]] = {}
+        # Dedicated index for short words (length <= SHORT_WORD_THRESHOLD).
+        # Key: the exact word string. Value: its Trie leaf node.
+        self._short_word_index: dict[str, TrieNode] = {}
 
     # ------------------------------------------------------------------
     # Build phase (offline, called once at startup)
@@ -73,10 +77,14 @@ class QGramTrieSearchAlgorithm(SearchAlgorithm):
 
         if node.word is None:
             node.word = word
-            # Register every trigram of this word → this leaf node.
-            for i in range(len(word) - self.Q + 1):
-                qgram = word[i : i + self.Q]
-                self._qgrams.setdefault(qgram, []).append(node)
+            if len(word) <= self.SHORT_WORD_THRESHOLD:
+                # Short word: store directly by key for O(1) lookup later.
+                self._short_word_index[word] = node
+            else:
+                # Normal word: register every Q-gram -> this leaf node.
+                for i in range(len(word) - self.Q + 1):
+                    qgram = word[i : i + self.Q]
+                    self._qgrams.setdefault(qgram, []).append(node)
 
         return node
 
@@ -134,42 +142,40 @@ class QGramTrieSearchAlgorithm(SearchAlgorithm):
         return results
 
     def _get_candidates(self, query: str) -> list[TrieNode]:
-        """Return Trie leaf nodes that share at least one Q-gram with *query*.
+        """Return Trie leaf nodes that are candidates to match *query*.
 
-        Falls back to all leaf nodes in the Trie when the query is shorter
-        than Q (e.g., a 1- or 2-character query cannot produce any trigrams).
+        Short queries (length <= SHORT_WORD_THRESHOLD) are routed to the
+        dedicated short-word index, avoiding a full Trie traversal.
+        Longer queries use the standard Q-gram filtering path.
         """
+        if len(query) <= self.SHORT_WORD_THRESHOLD:
+            return self._get_short_candidates(query)
+
         seen_ids: set[int] = set()
         candidates: list[TrieNode] = []
-
-        if len(query) >= self.Q:
-            for i in range(len(query) - self.Q + 1):
-                qgram = query[i : i + self.Q]
-                for node in self._qgrams.get(qgram, []):
-                    node_id = id(node)
-                    if node_id not in seen_ids:
-                        seen_ids.add(node_id)
-                        candidates.append(node)
-        else:
-            # Short query: collect every word in the Trie as a candidate.
-            self._collect_all_word_nodes(self._root, seen_ids, candidates)
-
+        for i in range(len(query) - self.Q + 1):
+            qgram = query[i : i + self.Q]
+            for node in self._qgrams.get(qgram, []):
+                node_id = id(node)
+                if node_id not in seen_ids:
+                    seen_ids.add(node_id)
+                    candidates.append(node)
         return candidates
 
-    def _collect_all_word_nodes(
-        self,
-        node: TrieNode,
-        seen_ids: set[int],
-        result: list[TrieNode],
-    ) -> None:
-        """Recursively collect every word-end leaf in the subtrie at *node*."""
-        if node.word is not None:
-            node_id = id(node)
-            if node_id not in seen_ids:
-                seen_ids.add(node_id)
-                result.append(node)
-        for child in node.children.values():
-            self._collect_all_word_nodes(child, seen_ids, result)
+    def _get_short_candidates(self, query: str) -> list[TrieNode]:
+        """Return candidates from the short-word index only.
+
+        Restricts the candidate set to words whose length is within 1 of
+        the query length, since we allow at most 1 edit per search.
+        For example, query "pi" (length 2) will only consider words of
+        length 1, 2, or 3 — never long words like "programming".
+        """
+        target_lengths = {len(query) - 1, len(query), len(query) + 1}
+        return [
+            node
+            for word, node in self._short_word_index.items()
+            if len(word) in target_lengths
+        ]
 
     # ------------------------------------------------------------------
     # Fuzzy comparison helpers
