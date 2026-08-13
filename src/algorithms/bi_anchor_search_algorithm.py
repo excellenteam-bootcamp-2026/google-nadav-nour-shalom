@@ -1,3 +1,5 @@
+from dataclasses import dataclass
+
 from src.contracts.search_algorithm import SearchAlgorithm
 from src.contracts.search_structure import SearchStructure
 from src.models.candidate_context import CandidateContext
@@ -12,11 +14,44 @@ from .naive_search_stats import NaiveSearchStats
 from .one_edit_verifier import OneEditVerifier
 
 
-class BiAnchorSearchAlgorithm(SearchAlgorithm):
-    """Generate selective target contexts, then use shared verification."""
+@dataclass(frozen=True, slots=True)
+class AnchorPlan:
+    """The anchor configuration chosen for one query, before expansion."""
 
-    def __init__(self, stats: BiAnchorSearchStats | None = None) -> None:
+    q: int
+    seeds: tuple[SeedCandidate, SeedCandidate]
+    expansion_cost: int
+
+
+class BiAnchorSearchAlgorithm(SearchAlgorithm):
+    """Generate selective target contexts, then use shared verification.
+
+    Anchor length is adaptive. Every q indexed by the structure with
+    ``2 * q <= len(query)`` admits two non-overlapping query seed ranges, so
+    every such q carries the same one-edit proof: a single edit can damage at
+    most one of two disjoint ranges, leaving the other exact. Which q is used
+    is therefore a pure performance choice, decided per query by the corpus
+    expansion cost of the cheapest non-overlapping pair that q can offer.
+    """
+
+    def __init__(
+        self,
+        stats: BiAnchorSearchStats | None = None,
+        minimum_anchor_length: int = 2,
+    ) -> None:
+        """``minimum_anchor_length`` is the measured routing floor.
+
+        Queries shorter than it take the Naive path even when a valid q
+        exists. It exists because a valid q can still be slower than Naive,
+        never because a valid q would be wrong.
+        """
+        if minimum_anchor_length < 2:
+            raise ValueError(
+                "minimum_anchor_length must be at least 2; a single character "
+                "cannot hold two non-overlapping anchors."
+            )
         self._stats = stats
+        self._minimum_anchor_length = minimum_anchor_length
 
     def search(
         self,
@@ -29,22 +64,25 @@ class BiAnchorSearchAlgorithm(SearchAlgorithm):
             )
 
         self._increment("query_count")
+        if self._stats is not None:
+            self._stats.last_selected_q = None
+            self._stats.last_pair_cost_by_q = {}
         if not normalized_query:
             return []
 
-        query_length = len(normalized_query)
-        if query_length < 2 * structure.q:
+        chosen = self.plan(normalized_query, structure)
+        if chosen is None:
             return self._fallback(normalized_query, structure)
 
-        seeds = self._query_seeds(normalized_query, structure)
-        selected = self._select_seed_pair(seeds)
-        if selected is None:
-            return self._fallback(normalized_query, structure)
-
+        selected_q, selected = chosen.q, chosen.seeds
         first_seed, second_seed = selected
         if self._stats is not None:
             self._stats.anchored_query_count += 1
             self._stats.last_selected_seeds = selected
+            self._stats.last_selected_q = selected_q
+            self._stats.selected_q_counts[selected_q] = (
+                self._stats.selected_q_counts.get(selected_q, 0) + 1
+            )
             self._stats.selected_seed_frequency_sum += (
                 first_seed.frequency + second_seed.frequency
             )
@@ -97,12 +135,56 @@ class BiAnchorSearchAlgorithm(SearchAlgorithm):
             )
         return matches
 
+    def plan(
+        self,
+        normalized_query: str,
+        structure: BiAnchorSearchStructure,
+    ) -> AnchorPlan | None:
+        """Pick the q whose cheapest non-overlapping pair expands least.
+
+        Every candidate q is equally correct. Shorter seeds widen the choice
+        of disjoint ranges but have larger posting lists, so neither direction
+        wins in general and the corpus decides per query. Ties keep the larger
+        q, which is the configured default. ``None`` means no indexed q fits
+        and the caller must take the Naive path.
+
+        Exposed so instrumentation can read the decision and its predicted
+        cost without paying for the expansion it predicts.
+        """
+        if (
+            not normalized_query
+            or len(normalized_query) < self._minimum_anchor_length
+        ):
+            return None
+
+        best: AnchorPlan | None = None
+        best_key: tuple[int, int] | None = None
+
+        for q in structure.q_values:
+            if 2 * q > len(normalized_query):
+                continue
+            self._increment("q_candidates_evaluated")
+            pair = self._select_seed_pair(
+                self._query_seeds(normalized_query, structure, q)
+            )
+            if pair is None:
+                continue
+            cost = pair[0].frequency + pair[1].frequency
+            if self._stats is not None:
+                self._stats.last_pair_cost_by_q[q] = cost
+            key = (cost, -q)
+            if best_key is None or key < best_key:
+                best = AnchorPlan(q=q, seeds=pair, expansion_cost=cost)
+                best_key = key
+
+        return best
+
     @staticmethod
     def _query_seeds(
         query: str,
         structure: BiAnchorSearchStructure,
+        q: int,
     ) -> tuple[SeedCandidate, ...]:
-        q = structure.q
         return tuple(
             SeedCandidate(
                 text=query[start : start + q],

@@ -2,7 +2,7 @@ import json
 
 from src.algorithms.naive_search_algorithm import NaiveSearchAlgorithm
 from src.algorithms.naive_search_stats import NaiveSearchStats
-from src.autocomplete.benchmark import (
+from benchmark.code.legacy_benchmark import (
     BenchmarkQuery,
     canonicalize_matches,
     evaluate_search_algorithms,

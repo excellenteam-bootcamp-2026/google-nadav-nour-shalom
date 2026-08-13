@@ -1,0 +1,984 @@
+{
+  "seed": 20260812,
+  "query_count": 55,
+  "queries": [
+    {
+      "query_id": "q000001",
+      "query_text": "i",
+      "normalized_query": "i",
+      "query_length": 1,
+      "length_bucket": "1",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 171988,
+      "source_path": "Archive2/python-3.8.4-docs-text/whatsnew/3.5.txt",
+      "source_start": 41,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000002",
+      "query_text": "e",
+      "normalized_query": "e",
+      "query_length": 1,
+      "length_bucket": "1",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 171988,
+      "source_path": "Archive2/python-3.8.4-docs-text/whatsnew/3.5.txt",
+      "source_start": 21,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000003",
+      "query_text": "n",
+      "normalized_query": "n",
+      "query_length": 1,
+      "length_bucket": "1",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 171988,
+      "source_path": "Archive2/python-3.8.4-docs-text/whatsnew/3.5.txt",
+      "source_start": 60,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000004",
+      "query_text": "h",
+      "normalized_query": "h",
+      "query_length": 1,
+      "length_bucket": "1",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 171988,
+      "source_path": "Archive2/python-3.8.4-docs-text/whatsnew/3.5.txt",
+      "source_start": 1,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000005",
+      "query_text": "w",
+      "normalized_query": "w",
+      "query_length": 1,
+      "length_bucket": "1",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 55097,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/curses.txt",
+      "source_start": 23,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000006",
+      "query_text": "co",
+      "normalized_query": "co",
+      "query_length": 2,
+      "length_bucket": "2",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 37287,
+      "source_path": "Archive2/python-3.8.4-docs-text/install/index.txt",
+      "source_start": 7,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000007",
+      "query_text": "th",
+      "normalized_query": "th",
+      "query_length": 2,
+      "length_bucket": "2",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 37287,
+      "source_path": "Archive2/python-3.8.4-docs-text/install/index.txt",
+      "source_start": 3,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000008",
+      "query_text": "pe",
+      "normalized_query": "pe",
+      "query_length": 2,
+      "length_bucket": "2",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 37287,
+      "source_path": "Archive2/python-3.8.4-docs-text/install/index.txt",
+      "source_start": 23,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000009",
+      "query_text": "re",
+      "normalized_query": "re",
+      "query_length": 2,
+      "length_bucket": "2",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 24125,
+      "source_path": "Archive2/python-3.8.4-docs-text/faq/library.txt",
+      "source_start": 1,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000010",
+      "query_text": "ea",
+      "normalized_query": "ea",
+      "query_length": 2,
+      "length_bucket": "2",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 24125,
+      "source_path": "Archive2/python-3.8.4-docs-text/faq/library.txt",
+      "source_start": 2,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000011",
+      "query_text": "g e",
+      "normalized_query": "g e",
+      "query_length": 3,
+      "length_bucket": "3",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 51018,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/constants.txt",
+      "source_start": 9,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000012",
+      "query_text": "t a",
+      "normalized_query": "t a",
+      "query_length": 3,
+      "length_bucket": "3",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 51018,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/constants.txt",
+      "source_start": 15,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000013",
+      "query_text": "met",
+      "normalized_query": "met",
+      "query_length": 3,
+      "length_bucket": "3",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 51018,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/constants.txt",
+      "source_start": 0,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000014",
+      "query_text": "rat",
+      "normalized_query": "rat",
+      "query_length": 3,
+      "length_bucket": "3",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 57326,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/datetime.txt",
+      "source_start": 0,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000015",
+      "query_text": "rim",
+      "normalized_query": "rim",
+      "query_length": 3,
+      "length_bucket": "3",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 57326,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/datetime.txt",
+      "source_start": 28,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000016",
+      "query_text": "esst",
+      "normalized_query": "esst",
+      "query_length": 4,
+      "length_bucket": "4",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 88772,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/multiprocessing.txt",
+      "source_start": 6,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000017",
+      "query_text": "gsqu",
+      "normalized_query": "gsqu",
+      "query_length": 4,
+      "length_bucket": "4",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 88772,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/multiprocessing.txt",
+      "source_start": 19,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000018",
+      "query_text": "proc",
+      "normalized_query": "proc",
+      "query_length": 4,
+      "length_bucket": "4",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 88772,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/multiprocessing.txt",
+      "source_start": 2,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000019",
+      "query_text": "queu",
+      "normalized_query": "queu",
+      "query_length": 4,
+      "length_bucket": "4",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 88772,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/multiprocessing.txt",
+      "source_start": 21,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000020",
+      "query_text": "oops",
+      "normalized_query": "oops",
+      "query_length": 4,
+      "length_bucket": "4",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 40819,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/asyncio-eventloop.txt",
+      "source_start": 1,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000021",
+      "query_text": "print",
+      "normalized_query": "print",
+      "query_length": 5,
+      "length_bucket": "5",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 98131,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/pprint.txt",
+      "source_start": 19,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000022",
+      "query_text": "nt da",
+      "normalized_query": "nt da",
+      "query_length": 5,
+      "length_bucket": "5",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 98131,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/pprint.txt",
+      "source_start": 4,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000023",
+      "query_text": "mutab",
+      "normalized_query": "mutab",
+      "query_length": 5,
+      "length_bucket": "5",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 26092,
+      "source_path": "Archive2/python-3.8.4-docs-text/glossary.txt",
+      "source_start": 51,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000024",
+      "query_text": "narie",
+      "normalized_query": "narie",
+      "query_length": 5,
+      "length_bucket": "5",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 26092,
+      "source_path": "Archive2/python-3.8.4-docs-text/glossary.txt",
+      "source_start": 34,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000025",
+      "query_text": "t imm",
+      "normalized_query": "t imm",
+      "query_length": 5,
+      "length_bucket": "5",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 26092,
+      "source_path": "Archive2/python-3.8.4-docs-text/glossary.txt",
+      "source_start": 47,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000026",
+      "query_text": "tingpo",
+      "normalized_query": "tingpo",
+      "query_length": 6,
+      "length_bucket": "6",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 151535,
+      "source_path": "Archive2/python-3.8.4-docs-text/tutorial/modules.txt",
+      "source_start": 38,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000027",
+      "query_text": "xistse",
+      "normalized_query": "xistse",
+      "query_length": 6,
+      "length_bucket": "6",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 151535,
+      "source_path": "Archive2/python-3.8.4-docs-text/tutorial/modules.txt",
+      "source_start": 5,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000028",
+      "query_text": "ilenot",
+      "normalized_query": "ilenot",
+      "query_length": 6,
+      "length_bucket": "6",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 151535,
+      "source_path": "Archive2/python-3.8.4-docs-text/tutorial/modules.txt",
+      "source_start": 17,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000029",
+      "query_text": "ngpoin",
+      "normalized_query": "ngpoin",
+      "query_length": 6,
+      "length_bucket": "6",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 151535,
+      "source_path": "Archive2/python-3.8.4-docs-text/tutorial/modules.txt",
+      "source_start": 40,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000030",
+      "query_text": "ble an",
+      "normalized_query": "ble an",
+      "query_length": 6,
+      "length_bucket": "6",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 22373,
+      "source_path": "Archive2/python-3.8.4-docs-text/extending/windows.txt",
+      "source_start": 14,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000031",
+      "query_text": "class",
+      "normalized_query": "class",
+      "query_length": 5,
+      "length_bucket": "5",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "whole_word",
+        "common",
+        "high_result_count",
+        "repeated"
+      ],
+      "source_sentence_id": 18374,
+      "source_path": "Archive2/python-3.8.4-docs-text/distutils/index.txt",
+      "source_start": 37,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000032",
+      "query_text": "ecifie",
+      "normalized_query": "ecifie",
+      "query_length": 6,
+      "length_bucket": "6",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "inside_word"
+      ],
+      "source_sentence_id": 119730,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/threading.txt",
+      "source_start": 24,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000033",
+      "query_text": "stalling collect",
+      "normalized_query": "stalling collect",
+      "query_length": 16,
+      "length_bucket": "13-20",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "inside_word"
+      ],
+      "source_sentence_id": 152318,
+      "source_path": "Archive2/python-3.8.4-docs-text/tutorial/venv.txt",
+      "source_start": 2,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000034",
+      "query_text": "talling collected packag",
+      "normalized_query": "talling collected packag",
+      "query_length": 24,
+      "length_bucket": "21+",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "inside_word"
+      ],
+      "source_sentence_id": 152318,
+      "source_path": "Archive2/python-3.8.4-docs-text/tutorial/venv.txt",
+      "source_start": 3,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000035",
+      "query_text": "cted pack",
+      "normalized_query": "cted pack",
+      "query_length": 9,
+      "length_bucket": "9-12",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "cross_word",
+        "multi_word"
+      ],
+      "source_sentence_id": 152318,
+      "source_path": "Archive2/python-3.8.4-docs-text/tutorial/venv.txt",
+      "source_start": 16,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000036",
+      "query_text": "installing c",
+      "normalized_query": "installing c",
+      "query_length": 12,
+      "length_bucket": "9-12",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "near_boundary"
+      ],
+      "source_sentence_id": 152318,
+      "source_path": "Archive2/python-3.8.4-docs-text/tutorial/venv.txt",
+      "source_start": 0,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000037",
+      "query_text": "ges requests",
+      "normalized_query": "ges requests",
+      "query_length": 12,
+      "length_bucket": "9-12",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "near_boundary"
+      ],
+      "source_sentence_id": 152318,
+      "source_path": "Archive2/python-3.8.4-docs-text/tutorial/venv.txt",
+      "source_start": 26,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000038",
+      "query_text": "ould be a",
+      "normalized_query": "ould be a",
+      "query_length": 9,
+      "length_bucket": "9-12",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "cross_word",
+        "multi_word"
+      ],
+      "source_sentence_id": 80734,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/json.txt",
+      "source_start": 26,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000039",
+      "query_text": "if specified",
+      "normalized_query": "if specified",
+      "query_length": 12,
+      "length_bucket": "9-12",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "near_boundary"
+      ],
+      "source_sentence_id": 80734,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/json.txt",
+      "source_start": 0,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000040",
+      "query_text": "temseparator",
+      "normalized_query": "temseparator",
+      "query_length": 12,
+      "length_bucket": "9-12",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "near_boundary"
+      ],
+      "source_sentence_id": 80734,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/json.txt",
+      "source_start": 38,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000041",
+      "query_text": "the step",
+      "normalized_query": "the step",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "cross_word",
+        "multi_word"
+      ],
+      "source_sentence_id": 45395,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/bdb.txt",
+      "source_start": 6,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000042",
+      "query_text": "affect the s",
+      "normalized_query": "affect the s",
+      "query_length": 12,
+      "length_bucket": "9-12",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "near_boundary"
+      ],
+      "source_sentence_id": 45395,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/bdb.txt",
+      "source_start": 0,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000043",
+      "query_text": "epping state",
+      "normalized_query": "epping state",
+      "query_length": 12,
+      "length_bucket": "9-12",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "near_boundary"
+      ],
+      "source_sentence_id": 45395,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/bdb.txt",
+      "source_start": 13,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000044",
+      "query_text": "sxecified",
+      "normalized_query": "sxecified",
+      "query_length": 9,
+      "length_bucket": "9-12",
+      "primary_category": "replacement",
+      "categories": [
+        "replacement",
+        "near_miss",
+        "whole_word"
+      ],
+      "source_sentence_id": 119730,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/threading.txt",
+      "source_start": 22,
+      "mutation_type": "replacement",
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000045",
+      "query_text": "secified",
+      "normalized_query": "secified",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "primary_category": "insertion",
+      "categories": [
+        "insertion",
+        "near_miss",
+        "whole_word"
+      ],
+      "source_sentence_id": 119730,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/threading.txt",
+      "source_start": 22,
+      "mutation_type": "missing_character",
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000046",
+      "query_text": "sxpecified",
+      "normalized_query": "sxpecified",
+      "query_length": 10,
+      "length_bucket": "9-12",
+      "primary_category": "deletion",
+      "categories": [
+        "deletion",
+        "near_miss",
+        "whole_word"
+      ],
+      "source_sentence_id": 119730,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/threading.txt",
+      "source_start": 22,
+      "mutation_type": "extra_character",
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000047",
+      "query_text": "specified",
+      "normalized_query": "specified",
+      "query_length": 9,
+      "length_bucket": "9-12",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "repeated",
+        "whole_word"
+      ],
+      "source_sentence_id": 119730,
+      "source_path": "Archive2/python-3.8.4-docs-text/library/threading.txt",
+      "source_start": 22,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000048",
+      "query_text": "401a2 t",
+      "normalized_query": "401a2 t",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "common",
+        "frequency_probe"
+      ],
+      "source_sentence_id": 170,
+      "source_path": "Archive2/python-3.8.4-docs-text/c-api/apiabiversion.txt",
+      "source_start": 47,
+      "mutation_type": null,
+      "frequency_band": "p50",
+      "qgram_frequency": 9
+    },
+    {
+      "query_id": "q000049",
+      "query_text": "0546807 fun",
+      "normalized_query": "0546807 fun",
+      "query_length": 11,
+      "length_bucket": "9-12",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "common",
+        "frequency_probe"
+      ],
+      "source_sentence_id": 30238,
+      "source_path": "Archive2/python-3.8.4-docs-text/howto/instrumentation.txt",
+      "source_start": 8,
+      "mutation_type": null,
+      "frequency_band": "p75",
+      "qgram_frequency": 58
+    },
+    {
+      "query_id": "q000050",
+      "query_text": "too small to",
+      "normalized_query": "too small to",
+      "query_length": 12,
+      "length_bucket": "9-12",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "common",
+        "frequency_probe"
+      ],
+      "source_sentence_id": 479,
+      "source_path": "Archive2/python-3.8.4-docs-text/c-api/arg.txt",
+      "source_start": 19,
+      "mutation_type": null,
+      "frequency_band": "p90",
+      "qgram_frequency": 472
+    },
+    {
+      "query_id": "q000051",
+      "query_text": "volved in",
+      "normalized_query": "volved in",
+      "query_length": 9,
+      "length_bucket": "9-12",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "common",
+        "frequency_probe"
+      ],
+      "source_sentence_id": 41,
+      "source_path": "Archive2/python-3.8.4-docs-text/bugs.txt",
+      "source_start": 26,
+      "mutation_type": null,
+      "frequency_band": "p95",
+      "qgram_frequency": 1745
+    },
+    {
+      "query_id": "q000052",
+      "query_text": "mine wh",
+      "normalized_query": "mine wh",
+      "query_length": 7,
+      "length_bucket": "7-8",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "common",
+        "frequency_probe"
+      ],
+      "source_sentence_id": 51,
+      "source_path": "Archive2/python-3.8.4-docs-text/bugs.txt",
+      "source_start": 45,
+      "mutation_type": null,
+      "frequency_band": "p99",
+      "qgram_frequency": 8770
+    },
+    {
+      "query_id": "q000053",
+      "query_text": "e10 0e0 3141",
+      "normalized_query": "e10 0e0 3141",
+      "query_length": 12,
+      "length_bucket": "9-12",
+      "primary_category": "exact",
+      "categories": [
+        "exact",
+        "rare",
+        "frequency_probe"
+      ],
+      "source_sentence_id": 146974,
+      "source_path": "Archive2/python-3.8.4-docs-text/reference/lexical_analysis.txt",
+      "source_start": 20,
+      "mutation_type": null,
+      "frequency_band": "rare",
+      "qgram_frequency": 1
+    },
+    {
+      "query_id": "q000054",
+      "query_text": "classzz1",
+      "normalized_query": "classzz1",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "primary_category": "no_match",
+      "categories": [
+        "no_match",
+        "near_miss",
+        "low_result_count"
+      ],
+      "source_sentence_id": 18374,
+      "source_path": "Archive2/python-3.8.4-docs-text/distutils/index.txt",
+      "source_start": 37,
+      "mutation_type": "real_derived_no_match",
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000055",
+      "query_text": "whichzz2",
+      "normalized_query": "whichzz2",
+      "query_length": 8,
+      "length_bucket": "7-8",
+      "primary_category": "no_match",
+      "categories": [
+        "no_match",
+        "near_miss",
+        "low_result_count"
+      ],
+      "source_sentence_id": 153770,
+      "source_path": "Archive2/python-3.8.4-docs-text/using/windows.txt",
+      "source_start": 45,
+      "mutation_type": "real_derived_no_match",
+      "frequency_band": null,
+      "qgram_frequency": null
+    }
+  ]
+}

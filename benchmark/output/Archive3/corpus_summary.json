@@ -1,0 +1,20 @@
+{
+  "source_files": 480,
+  "prepared_sentences": 194392,
+  "total_original_characters": 9715672,
+  "total_normalized_characters": 8158666,
+  "word_occurrences": 1307893,
+  "unique_normalized_words": 63457,
+  "preparation_time_ns": 11627756200,
+  "preparation_peak_memory_bytes": 225596591,
+  "sentence_length": {
+    "min": 1,
+    "mean": 41.97017366969834,
+    "median": 50.0,
+    "p75": 61,
+    "p90": 65,
+    "p95": 66,
+    "p99": 69,
+    "max": 337
+  }
+}

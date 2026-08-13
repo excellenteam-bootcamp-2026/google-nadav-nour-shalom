@@ -116,7 +116,7 @@
 ### Task 7: Extend Benchmark and Evaluate
 
 **Files:**
-- Modify: `src/autocomplete/benchmark.py`
+- Modify: `benchmark/code/legacy_benchmark.py`
 - Create: `tests/test_benchmark.py`
 - Create at runtime: `benchmark-results.json`
 - Modify: `README.md`

@@ -510,7 +510,7 @@ def main() -> None:
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path("benchmark-results.json"),
+        default=Path("benchmark/output/legacy/benchmark-results.json"),
     )
     arguments = parser.parse_args()
 
@@ -536,6 +536,7 @@ def main() -> None:
         print_report(report)
         reports.append(report.to_dict())
 
+    arguments.output.parent.mkdir(parents=True, exist_ok=True)
     arguments.output.write_text(
         json.dumps(reports, indent=2),
         encoding="utf-8",

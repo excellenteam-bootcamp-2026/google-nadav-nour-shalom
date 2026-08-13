@@ -1,0 +1,414 @@
+{
+  "seed": 42,
+  "query_count": 24,
+  "queries": [
+    {
+      "query_id": "q000001",
+      "query_text": "u",
+      "normalized_query": "u",
+      "query_length": 1,
+      "length_bucket": "1",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 47,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000002",
+      "query_text": "n",
+      "normalized_query": "n",
+      "query_length": 1,
+      "length_bucket": "1",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 48,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000003",
+      "query_text": "y",
+      "normalized_query": "y",
+      "query_length": 1,
+      "length_bucket": "1",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 52,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000004",
+      "query_text": "i",
+      "normalized_query": "i",
+      "query_length": 1,
+      "length_bucket": "1",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 8,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000005",
+      "query_text": "gh",
+      "normalized_query": "gh",
+      "query_length": 2,
+      "length_bucket": "2",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 6,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000006",
+      "query_text": "te",
+      "normalized_query": "te",
+      "query_length": 2,
+      "length_bucket": "2",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 57,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000007",
+      "query_text": "cr",
+      "normalized_query": "cr",
+      "query_length": 2,
+      "length_bucket": "2",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 39,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000008",
+      "query_text": "lt",
+      "normalized_query": "lt",
+      "query_length": 2,
+      "length_bucket": "2",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 2,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 54,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000009",
+      "query_text": "xyz",
+      "normalized_query": "xyz",
+      "query_length": 3,
+      "length_bucket": "3",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 23,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000010",
+      "query_text": "aaa",
+      "normalized_query": "aaa",
+      "query_length": 3,
+      "length_bucket": "3",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 74,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000011",
+      "query_text": "dar",
+      "normalized_query": "dar",
+      "query_length": 3,
+      "length_bucket": "3",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 49,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000012",
+      "query_text": "for",
+      "normalized_query": "for",
+      "query_length": 3,
+      "length_bucket": "3",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 1,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 35,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000013",
+      "query_text": "c be",
+      "normalized_query": "c be",
+      "query_length": 4,
+      "length_bucket": "4",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 1,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 51,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000014",
+      "query_text": "hmar",
+      "normalized_query": "hmar",
+      "query_length": 4,
+      "length_bucket": "4",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 1,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 57,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000015",
+      "query_text": "icie",
+      "normalized_query": "icie",
+      "query_length": 4,
+      "length_bucket": "4",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 1,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 12,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000016",
+      "query_text": "mark",
+      "normalized_query": "mark",
+      "query_length": 4,
+      "length_bucket": "4",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 1,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 58,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000017",
+      "query_text": "pqrst",
+      "normalized_query": "pqrst",
+      "query_length": 5,
+      "length_bucket": "5",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 15,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000018",
+      "query_text": "s cro",
+      "normalized_query": "s cro",
+      "query_length": 5,
+      "length_bucket": "5",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 37,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000019",
+      "query_text": "jklmn",
+      "normalized_query": "jklmn",
+      "query_length": 5,
+      "length_bucket": "5",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 9,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000020",
+      "query_text": "undar",
+      "normalized_query": "undar",
+      "query_length": 5,
+      "length_bucket": "5",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 47,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000021",
+      "query_text": "eplace",
+      "normalized_query": "eplace",
+      "query_length": 6,
+      "length_bucket": "6",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 2,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 1,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000022",
+      "query_text": "ulti w",
+      "normalized_query": "ulti w",
+      "query_length": 6,
+      "length_bucket": "6",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 2,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 53,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000023",
+      "query_text": "are mu",
+      "normalized_query": "are mu",
+      "query_length": 6,
+      "length_bucket": "6",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 2,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 48,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    },
+    {
+      "query_id": "q000024",
+      "query_text": "bounda",
+      "normalized_query": "bounda",
+      "query_length": 6,
+      "length_bucket": "6",
+      "primary_category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "source_sentence_id": 0,
+      "source_path": "benchmark-runner-source.txt",
+      "source_start": 45,
+      "mutation_type": null,
+      "frequency_band": null,
+      "qgram_frequency": null
+    }
+  ]
+}

@@ -81,6 +81,7 @@ def _canonical(matches: list[MatchCandidate]) -> Counter:
 def _engines(
     sentence_texts: tuple[str, ...],
     q: int,
+    q_values: tuple[int, ...] | None = None,
 ) -> tuple[SearchEngine, SearchEngine]:
     sentences = tuple(
         _sentence(sentence_id, text)
@@ -88,7 +89,7 @@ def _engines(
     )
     naive = SearchEngine(NaiveStructureBuilder(), NaiveSearchAlgorithm())
     bi_anchor = SearchEngine(
-        BiAnchorStructureBuilder(q=q),
+        BiAnchorStructureBuilder(q=q, q_values=q_values),
         BiAnchorSearchAlgorithm(),
     )
     naive.build(sentences)
@@ -101,8 +102,9 @@ def _assert_queries_match(
     queries: tuple[str, ...],
     *,
     q: int,
+    q_values: tuple[int, ...] | None = None,
 ) -> None:
-    naive, bi_anchor = _engines(sentence_texts, q)
+    naive, bi_anchor = _engines(sentence_texts, q, q_values)
     for query in queries:
         expected = _canonical(naive.search(query))
         actual = _canonical(bi_anchor.search(query))
@@ -162,3 +164,64 @@ def test_exhaustive_small_alphabet_differential() -> None:
     assert len(corpus) == 121
     assert len(queries) == 364
     _assert_queries_match(corpus, queries, q=2)
+
+
+SHORT_QUERY_CORPUS = (
+    "the fastest test of the tested system",
+    "testing a short query path",
+    "a test",
+    "unrelated content here",
+    "aaaa bbbb",
+    "ab ab ab",
+    "hello world",
+    "banana bread and banana split",
+    "x",
+    "zz",
+)
+
+
+def _short_query_lengths(length: int) -> tuple[str, ...]:
+    """Every corpus substring of one length, plus one-edit neighbours."""
+    substrings = {
+        text[start : start + length]
+        for sentence in SHORT_QUERY_CORPUS
+        for text in (sentence,)
+        for start in range(len(text) - length + 1)
+    }
+    mutated: set[str] = set()
+    for text in substrings:
+        for index in range(len(text)):
+            mutated.add(text[:index] + "q" + text[index + 1 :])
+            mutated.add(text[:index] + text[index + 1 :])
+            mutated.add(text[:index] + "e" + text[index:])
+    return tuple(sorted(substrings | mutated | {"q" * length}))
+
+
+def test_adaptive_short_query_differential_lengths_one_to_six() -> None:
+    """Hard gate: adaptive multi-q must equal Naive for every length 1-6."""
+    for length in range(1, 7):
+        queries = _short_query_lengths(length)
+        assert queries, length
+        _assert_queries_match(
+            SHORT_QUERY_CORPUS,
+            queries,
+            q=3,
+            q_values=(1, 2, 3),
+        )
+
+
+def test_exhaustive_short_alphabet_differential_with_multi_q() -> None:
+    alphabet = "ab "
+    corpus = tuple(
+        "".join(characters)
+        for length in range(5)
+        for characters in product(alphabet, repeat=length)
+    )
+    queries = tuple(
+        "".join(characters)
+        for length in range(1, 7)
+        for characters in product(alphabet, repeat=length)
+    )
+
+    assert len(queries) == 1092
+    _assert_queries_match(corpus, queries, q=3, q_values=(1, 2, 3))

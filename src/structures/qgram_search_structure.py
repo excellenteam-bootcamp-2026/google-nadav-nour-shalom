@@ -3,6 +3,7 @@ from dataclasses import dataclass, field
 from collections.abc import Iterator
 
 from src.autocomplete.models import PreparedSentence
+from src.contracts.search_structure import SearchStructure
 
 
 POSITION_BITS = 32
@@ -10,7 +11,7 @@ POSITION_MASK = (1 << POSITION_BITS) - 1
 
 
 @dataclass
-class QGramSearchStructure:
+class QGramSearchStructure(SearchStructure):
     q: int = 3
 
     # q=3:
@@ -87,7 +88,7 @@ class QGramSearchStructure:
                 "Sentence IDs must be sequential"
             )
 
-        text = sentence.normalized_sentence
+        text = sentence.normalized_text
 
         # Build positional indexes for q=1, q=2 and q=3.
         for gram_size in range(1, self.q + 1):
@@ -168,3 +169,10 @@ class QGramSearchStructure:
             return None
 
         return self.sentences[sentence_id]
+
+    def indexes(self) -> tuple[tuple[int, dict[str, array]], ...]:
+        """Return every configured positional index with its gram size."""
+        return tuple(
+            (gram_size, self._get_index(gram_size))
+            for gram_size in range(1, self.q + 1)
+        )

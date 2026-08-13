@@ -1,0 +1,20 @@
+{
+  "corpus_fraction": 1.0,
+  "source_files": 1,
+  "prepared_sentences": 3,
+  "total_original_characters": 216,
+  "total_normalized_characters": 216,
+  "word_occurrences": 25,
+  "unique_normalized_words": 25,
+  "preparation_time_ns": 4078000,
+  "sentence_length": {
+    "min": 69,
+    "mean": 72.0,
+    "median": 70.0,
+    "p75": 77,
+    "p90": 77,
+    "p95": 77,
+    "p99": 77,
+    "max": 77
+  }
+}
