@@ -21,4 +21,5 @@ class BiAnchorSearchStructure(SearchStructure):
     sentences_by_id: Mapping[int, PreparedSentence]
     seed_lookup: SeedLookup
     q: int
+    q_values: tuple[int, ...]
     build_stats: BiAnchorBuildStats

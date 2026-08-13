@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from src.models.seed_candidate import SeedCandidate
 
@@ -17,3 +17,7 @@ class BiAnchorSearchStats:
     verifier_calls: int = 0
     selected_seed_frequency_sum: int = 0
     last_selected_seeds: tuple[SeedCandidate, SeedCandidate] | None = None
+    last_selected_q: int | None = None
+    last_pair_cost_by_q: dict[int, int] = field(default_factory=dict)
+    selected_q_counts: dict[int, int] = field(default_factory=dict)
+    q_candidates_evaluated: int = 0

@@ -39,6 +39,30 @@ def test_builder_accepts_configured_q() -> None:
     assert structure.seed_lookup.frequency("an") == 2
 
 
+def test_builder_defaults_to_a_single_indexed_q() -> None:
+    structure = BiAnchorStructureBuilder(q=3).build([_sentence(1, "banana")])
+
+    assert structure.q_values == (3,)
+    assert structure.seed_lookup.q_values == (3,)
+
+
+def test_builder_indexes_every_configured_q_value() -> None:
+    structure = BiAnchorStructureBuilder(q=3, q_values=(1, 2, 3)).build(
+        [_sentence(1, "banana")]
+    )
+
+    assert structure.q == 3
+    assert structure.q_values == (1, 2, 3)
+    assert structure.seed_lookup.frequency("a") == 3
+    assert structure.seed_lookup.frequency("an") == 2
+    assert structure.seed_lookup.frequency("ana") == 2
+
+
+def test_builder_rejects_a_primary_q_outside_the_indexed_values() -> None:
+    with pytest.raises(ValueError, match="q=3"):
+        BiAnchorStructureBuilder(q=3, q_values=(1, 2))
+
+
 def test_builder_rejects_non_positive_q() -> None:
     with pytest.raises(ValueError, match="positive"):
         BiAnchorStructureBuilder(q=0)
