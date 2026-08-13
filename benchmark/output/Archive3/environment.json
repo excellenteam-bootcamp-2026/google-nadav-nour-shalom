@@ -1,0 +1,12 @@
+{
+  "benchmark_timestamp_utc": "2026-08-13T09:34:05.089680+00:00",
+  "python_version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "architecture": "64bit",
+  "git_commit_sha": "af26c2ce9556e3e59373a0e028caa1b3dfaeb0f3",
+  "git_branch": "main",
+  "archive_path": "C:\\Users\\nours\\Desktop\\google-nadav-nour-shalom\\data\\Archive3.zip",
+  "archive_size_bytes": 3404276,
+  "archive_sha256": "d0e7e09e3eb3aba7dccb177b1b1fbaf72ec97d773be841f256bc3de6a378e779"
+}

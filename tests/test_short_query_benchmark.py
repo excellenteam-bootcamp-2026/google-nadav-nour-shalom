@@ -2,7 +2,7 @@
 
 import pytest
 
-from src.autocomplete.short_query_benchmark import (
+from benchmark.code.short_query_benchmark import (
     LENGTHS,
     REQUIRED_TAGS,
     anchor_runtimes,

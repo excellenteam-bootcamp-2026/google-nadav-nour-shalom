@@ -1,0 +1,3367 @@
+{
+  "clock": "time.perf_counter_ns",
+  "expected_timed_searches": 96,
+  "actual_timed_searches": 96,
+  "rows": [
+    {
+      "query_id": "q000001",
+      "query_text": "u",
+      "normalized_query": "u",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        965900
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          965900
+        ],
+        "min_ns": 965900,
+        "median_ns": 965900.0,
+        "mean_ns": 965900.0,
+        "p75_ns": 965900,
+        "p90_ns": 965900,
+        "p95_ns": null,
+        "p99_ns": 965900,
+        "max_ns": 965900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 228
+    },
+    {
+      "query_id": "q000001",
+      "query_text": "u",
+      "normalized_query": "u",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        854100
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          854100
+        ],
+        "min_ns": 854100,
+        "median_ns": 854100.0,
+        "mean_ns": 854100.0,
+        "p75_ns": 854100,
+        "p90_ns": 854100,
+        "p95_ns": null,
+        "p99_ns": 854100,
+        "max_ns": 854100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 228
+    },
+    {
+      "query_id": "q000001",
+      "query_text": "u",
+      "normalized_query": "u",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        177900
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          177900
+        ],
+        "min_ns": 177900,
+        "median_ns": 177900.0,
+        "mean_ns": 177900.0,
+        "p75_ns": 177900,
+        "p90_ns": 177900,
+        "p95_ns": null,
+        "p99_ns": 177900,
+        "max_ns": 177900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 29
+    },
+    {
+      "query_id": "q000001",
+      "query_text": "u",
+      "normalized_query": "u",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        868400
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          868400
+        ],
+        "min_ns": 868400,
+        "median_ns": 868400.0,
+        "mean_ns": 868400.0,
+        "p75_ns": 868400,
+        "p90_ns": 868400,
+        "p95_ns": null,
+        "p99_ns": 868400,
+        "max_ns": 868400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 228
+    },
+    {
+      "query_id": "q000002",
+      "query_text": "n",
+      "normalized_query": "n",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        812700
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          812700
+        ],
+        "min_ns": 812700,
+        "median_ns": 812700.0,
+        "mean_ns": 812700.0,
+        "p75_ns": 812700,
+        "p90_ns": 812700,
+        "p95_ns": null,
+        "p99_ns": 812700,
+        "max_ns": 812700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 254
+    },
+    {
+      "query_id": "q000002",
+      "query_text": "n",
+      "normalized_query": "n",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1229800
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1229800
+        ],
+        "min_ns": 1229800,
+        "median_ns": 1229800.0,
+        "mean_ns": 1229800.0,
+        "p75_ns": 1229800,
+        "p90_ns": 1229800,
+        "p95_ns": null,
+        "p99_ns": 1229800,
+        "max_ns": 1229800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 254
+    },
+    {
+      "query_id": "q000002",
+      "query_text": "n",
+      "normalized_query": "n",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        257900
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          257900
+        ],
+        "min_ns": 257900,
+        "median_ns": 257900.0,
+        "mean_ns": 257900.0,
+        "p75_ns": 257900,
+        "p90_ns": 257900,
+        "p95_ns": null,
+        "p99_ns": 257900,
+        "max_ns": 257900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 29
+    },
+    {
+      "query_id": "q000002",
+      "query_text": "n",
+      "normalized_query": "n",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1170700
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1170700
+        ],
+        "min_ns": 1170700,
+        "median_ns": 1170700.0,
+        "mean_ns": 1170700.0,
+        "p75_ns": 1170700,
+        "p90_ns": 1170700,
+        "p95_ns": null,
+        "p99_ns": 1170700,
+        "max_ns": 1170700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 254
+    },
+    {
+      "query_id": "q000003",
+      "query_text": "y",
+      "normalized_query": "y",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1070500
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1070500
+        ],
+        "min_ns": 1070500,
+        "median_ns": 1070500.0,
+        "mean_ns": 1070500.0,
+        "p75_ns": 1070500,
+        "p90_ns": 1070500,
+        "p95_ns": null,
+        "p99_ns": 1070500,
+        "max_ns": 1070500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 222
+    },
+    {
+      "query_id": "q000003",
+      "query_text": "y",
+      "normalized_query": "y",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        894200
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          894200
+        ],
+        "min_ns": 894200,
+        "median_ns": 894200.0,
+        "mean_ns": 894200.0,
+        "p75_ns": 894200,
+        "p90_ns": 894200,
+        "p95_ns": null,
+        "p99_ns": 894200,
+        "max_ns": 894200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 222
+    },
+    {
+      "query_id": "q000003",
+      "query_text": "y",
+      "normalized_query": "y",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        199700
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          199700
+        ],
+        "min_ns": 199700,
+        "median_ns": 199700.0,
+        "mean_ns": 199700.0,
+        "p75_ns": 199700,
+        "p90_ns": 199700,
+        "p95_ns": null,
+        "p99_ns": 199700,
+        "max_ns": 199700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 25
+    },
+    {
+      "query_id": "q000003",
+      "query_text": "y",
+      "normalized_query": "y",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        942500
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          942500
+        ],
+        "min_ns": 942500,
+        "median_ns": 942500.0,
+        "mean_ns": 942500.0,
+        "p75_ns": 942500,
+        "p90_ns": 942500,
+        "p95_ns": null,
+        "p99_ns": 942500,
+        "max_ns": 942500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 222
+    },
+    {
+      "query_id": "q000004",
+      "query_text": "i",
+      "normalized_query": "i",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        786400
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          786400
+        ],
+        "min_ns": 786400,
+        "median_ns": 786400.0,
+        "mean_ns": 786400.0,
+        "p75_ns": 786400,
+        "p90_ns": 786400,
+        "p95_ns": null,
+        "p99_ns": 786400,
+        "max_ns": 786400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 240
+    },
+    {
+      "query_id": "q000004",
+      "query_text": "i",
+      "normalized_query": "i",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1067600
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1067600
+        ],
+        "min_ns": 1067600,
+        "median_ns": 1067600.0,
+        "mean_ns": 1067600.0,
+        "p75_ns": 1067600,
+        "p90_ns": 1067600,
+        "p95_ns": null,
+        "p99_ns": 1067600,
+        "max_ns": 1067600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 240
+    },
+    {
+      "query_id": "q000004",
+      "query_text": "i",
+      "normalized_query": "i",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        224500
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          224500
+        ],
+        "min_ns": 224500,
+        "median_ns": 224500.0,
+        "mean_ns": 224500.0,
+        "p75_ns": 224500,
+        "p90_ns": 224500,
+        "p95_ns": null,
+        "p99_ns": 224500,
+        "max_ns": 224500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 26
+    },
+    {
+      "query_id": "q000004",
+      "query_text": "i",
+      "normalized_query": "i",
+      "query_length": 1,
+      "length_bucket": "1",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        785900
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          785900
+        ],
+        "min_ns": 785900,
+        "median_ns": 785900.0,
+        "mean_ns": 785900.0,
+        "p75_ns": 785900,
+        "p90_ns": 785900,
+        "p95_ns": null,
+        "p99_ns": 785900,
+        "max_ns": 785900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 240
+    },
+    {
+      "query_id": "q000005",
+      "query_text": "gh",
+      "normalized_query": "gh",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1813500
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1813500
+        ],
+        "min_ns": 1813500,
+        "median_ns": 1813500.0,
+        "mean_ns": 1813500.0,
+        "p75_ns": 1813500,
+        "p90_ns": 1813500,
+        "p95_ns": null,
+        "p99_ns": 1813500,
+        "max_ns": 1813500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 14
+    },
+    {
+      "query_id": "q000005",
+      "query_text": "gh",
+      "normalized_query": "gh",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        299900
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          299900
+        ],
+        "min_ns": 299900,
+        "median_ns": 299900.0,
+        "mean_ns": 299900.0,
+        "p75_ns": 299900,
+        "p90_ns": 299900,
+        "p95_ns": null,
+        "p99_ns": 299900,
+        "max_ns": 299900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 14
+    },
+    {
+      "query_id": "q000005",
+      "query_text": "gh",
+      "normalized_query": "gh",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        175100
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          175100
+        ],
+        "min_ns": 175100,
+        "median_ns": 175100.0,
+        "mean_ns": 175100.0,
+        "p75_ns": 175100,
+        "p90_ns": 175100,
+        "p95_ns": null,
+        "p99_ns": 175100,
+        "max_ns": 175100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 1
+    },
+    {
+      "query_id": "q000005",
+      "query_text": "gh",
+      "normalized_query": "gh",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1143400
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1143400
+        ],
+        "min_ns": 1143400,
+        "median_ns": 1143400.0,
+        "mean_ns": 1143400.0,
+        "p75_ns": 1143400,
+        "p90_ns": 1143400,
+        "p95_ns": null,
+        "p99_ns": 1143400,
+        "max_ns": 1143400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 14
+    },
+    {
+      "query_id": "q000006",
+      "query_text": "te",
+      "normalized_query": "te",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        857100
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          857100
+        ],
+        "min_ns": 857100,
+        "median_ns": 857100.0,
+        "mean_ns": 857100.0,
+        "p75_ns": 857100,
+        "p90_ns": 857100,
+        "p95_ns": null,
+        "p99_ns": 857100,
+        "max_ns": 857100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 80
+    },
+    {
+      "query_id": "q000006",
+      "query_text": "te",
+      "normalized_query": "te",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        973300
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          973300
+        ],
+        "min_ns": 973300,
+        "median_ns": 973300.0,
+        "mean_ns": 973300.0,
+        "p75_ns": 973300,
+        "p90_ns": 973300,
+        "p95_ns": null,
+        "p99_ns": 973300,
+        "max_ns": 973300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 80
+    },
+    {
+      "query_id": "q000006",
+      "query_text": "te",
+      "normalized_query": "te",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        231700
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          231700
+        ],
+        "min_ns": 231700,
+        "median_ns": 231700.0,
+        "mean_ns": 231700.0,
+        "p75_ns": 231700,
+        "p90_ns": 231700,
+        "p95_ns": null,
+        "p99_ns": 231700,
+        "max_ns": 231700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 7
+    },
+    {
+      "query_id": "q000006",
+      "query_text": "te",
+      "normalized_query": "te",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1360300
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1360300
+        ],
+        "min_ns": 1360300,
+        "median_ns": 1360300.0,
+        "mean_ns": 1360300.0,
+        "p75_ns": 1360300,
+        "p90_ns": 1360300,
+        "p95_ns": null,
+        "p99_ns": 1360300,
+        "max_ns": 1360300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 80
+    },
+    {
+      "query_id": "q000007",
+      "query_text": "cr",
+      "normalized_query": "cr",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1036400
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1036400
+        ],
+        "min_ns": 1036400,
+        "median_ns": 1036400.0,
+        "mean_ns": 1036400.0,
+        "p75_ns": 1036400,
+        "p90_ns": 1036400,
+        "p95_ns": null,
+        "p99_ns": 1036400,
+        "max_ns": 1036400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 50
+    },
+    {
+      "query_id": "q000007",
+      "query_text": "cr",
+      "normalized_query": "cr",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        729100
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          729100
+        ],
+        "min_ns": 729100,
+        "median_ns": 729100.0,
+        "mean_ns": 729100.0,
+        "p75_ns": 729100,
+        "p90_ns": 729100,
+        "p95_ns": null,
+        "p99_ns": 729100,
+        "max_ns": 729100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 50
+    },
+    {
+      "query_id": "q000007",
+      "query_text": "cr",
+      "normalized_query": "cr",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        158500
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          158500
+        ],
+        "min_ns": 158500,
+        "median_ns": 158500.0,
+        "mean_ns": 158500.0,
+        "p75_ns": 158500,
+        "p90_ns": 158500,
+        "p95_ns": null,
+        "p99_ns": 158500,
+        "max_ns": 158500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 8
+    },
+    {
+      "query_id": "q000007",
+      "query_text": "cr",
+      "normalized_query": "cr",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        804200
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          804200
+        ],
+        "min_ns": 804200,
+        "median_ns": 804200.0,
+        "mean_ns": 804200.0,
+        "p75_ns": 804200,
+        "p90_ns": 804200,
+        "p95_ns": null,
+        "p99_ns": 804200,
+        "max_ns": 804200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 50
+    },
+    {
+      "query_id": "q000008",
+      "query_text": "lt",
+      "normalized_query": "lt",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        987200
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          987200
+        ],
+        "min_ns": 987200,
+        "median_ns": 987200.0,
+        "mean_ns": 987200.0,
+        "p75_ns": 987200,
+        "p90_ns": 987200,
+        "p95_ns": null,
+        "p99_ns": 987200,
+        "max_ns": 987200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 42
+    },
+    {
+      "query_id": "q000008",
+      "query_text": "lt",
+      "normalized_query": "lt",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        420300
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          420300
+        ],
+        "min_ns": 420300,
+        "median_ns": 420300.0,
+        "mean_ns": 420300.0,
+        "p75_ns": 420300,
+        "p90_ns": 420300,
+        "p95_ns": null,
+        "p99_ns": 420300,
+        "max_ns": 420300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 42
+    },
+    {
+      "query_id": "q000008",
+      "query_text": "lt",
+      "normalized_query": "lt",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        157200
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          157200
+        ],
+        "min_ns": 157200,
+        "median_ns": 157200.0,
+        "mean_ns": 157200.0,
+        "p75_ns": 157200,
+        "p90_ns": 157200,
+        "p95_ns": null,
+        "p99_ns": 157200,
+        "max_ns": 157200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 2
+    },
+    {
+      "query_id": "q000008",
+      "query_text": "lt",
+      "normalized_query": "lt",
+      "query_length": 2,
+      "length_bucket": "2",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1289000
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1289000
+        ],
+        "min_ns": 1289000,
+        "median_ns": 1289000.0,
+        "mean_ns": 1289000.0,
+        "p75_ns": 1289000,
+        "p90_ns": 1289000,
+        "p95_ns": null,
+        "p99_ns": 1289000,
+        "max_ns": 1289000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 42
+    },
+    {
+      "query_id": "q000009",
+      "query_text": "xyz",
+      "normalized_query": "xyz",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1510600
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1510600
+        ],
+        "min_ns": 1510600,
+        "median_ns": 1510600.0,
+        "mean_ns": 1510600.0,
+        "p75_ns": 1510600,
+        "p90_ns": 1510600,
+        "p95_ns": null,
+        "p99_ns": 1510600,
+        "max_ns": 1510600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000009",
+      "query_text": "xyz",
+      "normalized_query": "xyz",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        133000
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          133000
+        ],
+        "min_ns": 133000,
+        "median_ns": 133000.0,
+        "mean_ns": 133000.0,
+        "p75_ns": 133000,
+        "p90_ns": 133000,
+        "p95_ns": null,
+        "p99_ns": 133000,
+        "max_ns": 133000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000009",
+      "query_text": "xyz",
+      "normalized_query": "xyz",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        28400
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          28400
+        ],
+        "min_ns": 28400,
+        "median_ns": 28400.0,
+        "mean_ns": 28400.0,
+        "p75_ns": 28400,
+        "p90_ns": 28400,
+        "p95_ns": null,
+        "p99_ns": 28400,
+        "max_ns": 28400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "q000009",
+      "query_text": "xyz",
+      "normalized_query": "xyz",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1478900
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1478900
+        ],
+        "min_ns": 1478900,
+        "median_ns": 1478900.0,
+        "mean_ns": 1478900.0,
+        "p75_ns": 1478900,
+        "p90_ns": 1478900,
+        "p95_ns": null,
+        "p99_ns": 1478900,
+        "max_ns": 1478900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000010",
+      "query_text": "aaa",
+      "normalized_query": "aaa",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1488700
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1488700
+        ],
+        "min_ns": 1488700,
+        "median_ns": 1488700.0,
+        "mean_ns": 1488700.0,
+        "p75_ns": 1488700,
+        "p90_ns": 1488700,
+        "p95_ns": null,
+        "p99_ns": 1488700,
+        "max_ns": 1488700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 25
+    },
+    {
+      "query_id": "q000010",
+      "query_text": "aaa",
+      "normalized_query": "aaa",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        530900
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          530900
+        ],
+        "min_ns": 530900,
+        "median_ns": 530900.0,
+        "mean_ns": 530900.0,
+        "p75_ns": 530900,
+        "p90_ns": 530900,
+        "p95_ns": null,
+        "p99_ns": 530900,
+        "max_ns": 530900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 25
+    },
+    {
+      "query_id": "q000010",
+      "query_text": "aaa",
+      "normalized_query": "aaa",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        31400
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          31400
+        ],
+        "min_ns": 31400,
+        "median_ns": 31400.0,
+        "mean_ns": 31400.0,
+        "p75_ns": 31400,
+        "p90_ns": 31400,
+        "p95_ns": null,
+        "p99_ns": 31400,
+        "max_ns": 31400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 3
+    },
+    {
+      "query_id": "q000010",
+      "query_text": "aaa",
+      "normalized_query": "aaa",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1501800
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1501800
+        ],
+        "min_ns": 1501800,
+        "median_ns": 1501800.0,
+        "mean_ns": 1501800.0,
+        "p75_ns": 1501800,
+        "p90_ns": 1501800,
+        "p95_ns": null,
+        "p99_ns": 1501800,
+        "max_ns": 1501800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 25
+    },
+    {
+      "query_id": "q000011",
+      "query_text": "dar",
+      "normalized_query": "dar",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1492600
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1492600
+        ],
+        "min_ns": 1492600,
+        "median_ns": 1492600.0,
+        "mean_ns": 1492600.0,
+        "p75_ns": 1492600,
+        "p90_ns": 1492600,
+        "p95_ns": null,
+        "p99_ns": 1492600,
+        "max_ns": 1492600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 9
+    },
+    {
+      "query_id": "q000011",
+      "query_text": "dar",
+      "normalized_query": "dar",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        655400
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          655400
+        ],
+        "min_ns": 655400,
+        "median_ns": 655400.0,
+        "mean_ns": 655400.0,
+        "p75_ns": 655400,
+        "p90_ns": 655400,
+        "p95_ns": null,
+        "p99_ns": 655400,
+        "max_ns": 655400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 9
+    },
+    {
+      "query_id": "q000011",
+      "query_text": "dar",
+      "normalized_query": "dar",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        20800
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          20800
+        ],
+        "min_ns": 20800,
+        "median_ns": 20800.0,
+        "mean_ns": 20800.0,
+        "p75_ns": 20800,
+        "p90_ns": 20800,
+        "p95_ns": null,
+        "p99_ns": 20800,
+        "max_ns": 20800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "q000011",
+      "query_text": "dar",
+      "normalized_query": "dar",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1598500
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1598500
+        ],
+        "min_ns": 1598500,
+        "median_ns": 1598500.0,
+        "mean_ns": 1598500.0,
+        "p75_ns": 1598500,
+        "p90_ns": 1598500,
+        "p95_ns": null,
+        "p99_ns": 1598500,
+        "max_ns": 1598500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 9
+    },
+    {
+      "query_id": "q000012",
+      "query_text": "for",
+      "normalized_query": "for",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        923600
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          923600
+        ],
+        "min_ns": 923600,
+        "median_ns": 923600.0,
+        "mean_ns": 923600.0,
+        "p75_ns": 923600,
+        "p90_ns": 923600,
+        "p95_ns": null,
+        "p99_ns": 923600,
+        "max_ns": 923600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 9
+    },
+    {
+      "query_id": "q000012",
+      "query_text": "for",
+      "normalized_query": "for",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        535600
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          535600
+        ],
+        "min_ns": 535600,
+        "median_ns": 535600.0,
+        "mean_ns": 535600.0,
+        "p75_ns": 535600,
+        "p90_ns": 535600,
+        "p95_ns": null,
+        "p99_ns": 535600,
+        "max_ns": 535600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 9
+    },
+    {
+      "query_id": "q000012",
+      "query_text": "for",
+      "normalized_query": "for",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        36500
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          36500
+        ],
+        "min_ns": 36500,
+        "median_ns": 36500.0,
+        "mean_ns": 36500.0,
+        "p75_ns": 36500,
+        "p90_ns": 36500,
+        "p95_ns": null,
+        "p99_ns": 36500,
+        "max_ns": 36500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 2
+    },
+    {
+      "query_id": "q000012",
+      "query_text": "for",
+      "normalized_query": "for",
+      "query_length": 3,
+      "length_bucket": "3",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        970800
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          970800
+        ],
+        "min_ns": 970800,
+        "median_ns": 970800.0,
+        "mean_ns": 970800.0,
+        "p75_ns": 970800,
+        "p90_ns": 970800,
+        "p95_ns": null,
+        "p99_ns": 970800,
+        "max_ns": 970800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 9
+    },
+    {
+      "query_id": "q000013",
+      "query_text": "c be",
+      "normalized_query": "c be",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1396700
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1396700
+        ],
+        "min_ns": 1396700,
+        "median_ns": 1396700.0,
+        "mean_ns": 1396700.0,
+        "p75_ns": 1396700,
+        "p90_ns": 1396700,
+        "p95_ns": null,
+        "p99_ns": 1396700,
+        "max_ns": 1396700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000013",
+      "query_text": "c be",
+      "normalized_query": "c be",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        66100
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          66100
+        ],
+        "min_ns": 66100,
+        "median_ns": 66100.0,
+        "mean_ns": 66100.0,
+        "p75_ns": 66100,
+        "p90_ns": 66100,
+        "p95_ns": null,
+        "p99_ns": 66100,
+        "max_ns": 66100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000013",
+      "query_text": "c be",
+      "normalized_query": "c be",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        9500
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          9500
+        ],
+        "min_ns": 9500,
+        "median_ns": 9500.0,
+        "mean_ns": 9500.0,
+        "p75_ns": 9500,
+        "p90_ns": 9500,
+        "p95_ns": null,
+        "p99_ns": 9500,
+        "max_ns": 9500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "q000013",
+      "query_text": "c be",
+      "normalized_query": "c be",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1010700
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1010700
+        ],
+        "min_ns": 1010700,
+        "median_ns": 1010700.0,
+        "mean_ns": 1010700.0,
+        "p75_ns": 1010700,
+        "p90_ns": 1010700,
+        "p95_ns": null,
+        "p99_ns": 1010700,
+        "max_ns": 1010700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000014",
+      "query_text": "hmar",
+      "normalized_query": "hmar",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1580900
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1580900
+        ],
+        "min_ns": 1580900,
+        "median_ns": 1580900.0,
+        "mean_ns": 1580900.0,
+        "p75_ns": 1580900,
+        "p90_ns": 1580900,
+        "p95_ns": null,
+        "p99_ns": 1580900,
+        "max_ns": 1580900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000014",
+      "query_text": "hmar",
+      "normalized_query": "hmar",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        93800
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          93800
+        ],
+        "min_ns": 93800,
+        "median_ns": 93800.0,
+        "mean_ns": 93800.0,
+        "p75_ns": 93800,
+        "p90_ns": 93800,
+        "p95_ns": null,
+        "p99_ns": 93800,
+        "max_ns": 93800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000014",
+      "query_text": "hmar",
+      "normalized_query": "hmar",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        15500
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          15500
+        ],
+        "min_ns": 15500,
+        "median_ns": 15500.0,
+        "mean_ns": 15500.0,
+        "p75_ns": 15500,
+        "p90_ns": 15500,
+        "p95_ns": null,
+        "p99_ns": 15500,
+        "max_ns": 15500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "q000014",
+      "query_text": "hmar",
+      "normalized_query": "hmar",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1150600
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1150600
+        ],
+        "min_ns": 1150600,
+        "median_ns": 1150600.0,
+        "mean_ns": 1150600.0,
+        "p75_ns": 1150600,
+        "p90_ns": 1150600,
+        "p95_ns": null,
+        "p99_ns": 1150600,
+        "max_ns": 1150600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000015",
+      "query_text": "icie",
+      "normalized_query": "icie",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1636600
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1636600
+        ],
+        "min_ns": 1636600,
+        "median_ns": 1636600.0,
+        "mean_ns": 1636600.0,
+        "p75_ns": 1636600,
+        "p90_ns": 1636600,
+        "p95_ns": null,
+        "p99_ns": 1636600,
+        "max_ns": 1636600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000015",
+      "query_text": "icie",
+      "normalized_query": "icie",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        148500
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          148500
+        ],
+        "min_ns": 148500,
+        "median_ns": 148500.0,
+        "mean_ns": 148500.0,
+        "p75_ns": 148500,
+        "p90_ns": 148500,
+        "p95_ns": null,
+        "p99_ns": 148500,
+        "max_ns": 148500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000015",
+      "query_text": "icie",
+      "normalized_query": "icie",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        29700
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          29700
+        ],
+        "min_ns": 29700,
+        "median_ns": 29700.0,
+        "mean_ns": 29700.0,
+        "p75_ns": 29700,
+        "p90_ns": 29700,
+        "p95_ns": null,
+        "p99_ns": 29700,
+        "max_ns": 29700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "q000015",
+      "query_text": "icie",
+      "normalized_query": "icie",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1661800
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1661800
+        ],
+        "min_ns": 1661800,
+        "median_ns": 1661800.0,
+        "mean_ns": 1661800.0,
+        "p75_ns": 1661800,
+        "p90_ns": 1661800,
+        "p95_ns": null,
+        "p99_ns": 1661800,
+        "max_ns": 1661800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000016",
+      "query_text": "mark",
+      "normalized_query": "mark",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1173800
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1173800
+        ],
+        "min_ns": 1173800,
+        "median_ns": 1173800.0,
+        "mean_ns": 1173800.0,
+        "p75_ns": 1173800,
+        "p90_ns": 1173800,
+        "p95_ns": null,
+        "p99_ns": 1173800,
+        "max_ns": 1173800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000016",
+      "query_text": "mark",
+      "normalized_query": "mark",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        92300
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          92300
+        ],
+        "min_ns": 92300,
+        "median_ns": 92300.0,
+        "mean_ns": 92300.0,
+        "p75_ns": 92300,
+        "p90_ns": 92300,
+        "p95_ns": null,
+        "p99_ns": 92300,
+        "max_ns": 92300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000016",
+      "query_text": "mark",
+      "normalized_query": "mark",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        20800
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          20800
+        ],
+        "min_ns": 20800,
+        "median_ns": 20800.0,
+        "mean_ns": 20800.0,
+        "p75_ns": 20800,
+        "p90_ns": 20800,
+        "p95_ns": null,
+        "p99_ns": 20800,
+        "max_ns": 20800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "q000016",
+      "query_text": "mark",
+      "normalized_query": "mark",
+      "query_length": 4,
+      "length_bucket": "4",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1238300
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1238300
+        ],
+        "min_ns": 1238300,
+        "median_ns": 1238300.0,
+        "mean_ns": 1238300.0,
+        "p75_ns": 1238300,
+        "p90_ns": 1238300,
+        "p95_ns": null,
+        "p99_ns": 1238300,
+        "max_ns": 1238300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000017",
+      "query_text": "pqrst",
+      "normalized_query": "pqrst",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1512000
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1512000
+        ],
+        "min_ns": 1512000,
+        "median_ns": 1512000.0,
+        "mean_ns": 1512000.0,
+        "p75_ns": 1512000,
+        "p90_ns": 1512000,
+        "p95_ns": null,
+        "p99_ns": 1512000,
+        "max_ns": 1512000,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000017",
+      "query_text": "pqrst",
+      "normalized_query": "pqrst",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        96900
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          96900
+        ],
+        "min_ns": 96900,
+        "median_ns": 96900.0,
+        "mean_ns": 96900.0,
+        "p75_ns": 96900,
+        "p90_ns": 96900,
+        "p95_ns": null,
+        "p99_ns": 96900,
+        "max_ns": 96900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000017",
+      "query_text": "pqrst",
+      "normalized_query": "pqrst",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        22800
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          22800
+        ],
+        "min_ns": 22800,
+        "median_ns": 22800.0,
+        "mean_ns": 22800.0,
+        "p75_ns": 22800,
+        "p90_ns": 22800,
+        "p95_ns": null,
+        "p99_ns": 22800,
+        "max_ns": 22800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "q000017",
+      "query_text": "pqrst",
+      "normalized_query": "pqrst",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        3068700
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          3068700
+        ],
+        "min_ns": 3068700,
+        "median_ns": 3068700.0,
+        "mean_ns": 3068700.0,
+        "p75_ns": 3068700,
+        "p90_ns": 3068700,
+        "p95_ns": null,
+        "p99_ns": 3068700,
+        "max_ns": 3068700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000018",
+      "query_text": "s cro",
+      "normalized_query": "s cro",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1200100
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1200100
+        ],
+        "min_ns": 1200100,
+        "median_ns": 1200100.0,
+        "mean_ns": 1200100.0,
+        "p75_ns": 1200100,
+        "p90_ns": 1200100,
+        "p95_ns": null,
+        "p99_ns": 1200100,
+        "max_ns": 1200100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000018",
+      "query_text": "s cro",
+      "normalized_query": "s cro",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        208100
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          208100
+        ],
+        "min_ns": 208100,
+        "median_ns": 208100.0,
+        "mean_ns": 208100.0,
+        "p75_ns": 208100,
+        "p90_ns": 208100,
+        "p95_ns": null,
+        "p99_ns": 208100,
+        "max_ns": 208100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000018",
+      "query_text": "s cro",
+      "normalized_query": "s cro",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        26300
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          26300
+        ],
+        "min_ns": 26300,
+        "median_ns": 26300.0,
+        "mean_ns": 26300.0,
+        "p75_ns": 26300,
+        "p90_ns": 26300,
+        "p95_ns": null,
+        "p99_ns": 26300,
+        "max_ns": 26300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "q000018",
+      "query_text": "s cro",
+      "normalized_query": "s cro",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1254700
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1254700
+        ],
+        "min_ns": 1254700,
+        "median_ns": 1254700.0,
+        "mean_ns": 1254700.0,
+        "p75_ns": 1254700,
+        "p90_ns": 1254700,
+        "p95_ns": null,
+        "p99_ns": 1254700,
+        "max_ns": 1254700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000019",
+      "query_text": "jklmn",
+      "normalized_query": "jklmn",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1091400
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1091400
+        ],
+        "min_ns": 1091400,
+        "median_ns": 1091400.0,
+        "mean_ns": 1091400.0,
+        "p75_ns": 1091400,
+        "p90_ns": 1091400,
+        "p95_ns": null,
+        "p99_ns": 1091400,
+        "max_ns": 1091400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000019",
+      "query_text": "jklmn",
+      "normalized_query": "jklmn",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        55500
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          55500
+        ],
+        "min_ns": 55500,
+        "median_ns": 55500.0,
+        "mean_ns": 55500.0,
+        "p75_ns": 55500,
+        "p90_ns": 55500,
+        "p95_ns": null,
+        "p99_ns": 55500,
+        "max_ns": 55500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000019",
+      "query_text": "jklmn",
+      "normalized_query": "jklmn",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        23100
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          23100
+        ],
+        "min_ns": 23100,
+        "median_ns": 23100.0,
+        "mean_ns": 23100.0,
+        "p75_ns": 23100,
+        "p90_ns": 23100,
+        "p95_ns": null,
+        "p99_ns": 23100,
+        "max_ns": 23100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "q000019",
+      "query_text": "jklmn",
+      "normalized_query": "jklmn",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1155800
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1155800
+        ],
+        "min_ns": 1155800,
+        "median_ns": 1155800.0,
+        "mean_ns": 1155800.0,
+        "p75_ns": 1155800,
+        "p90_ns": 1155800,
+        "p95_ns": null,
+        "p99_ns": 1155800,
+        "max_ns": 1155800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000020",
+      "query_text": "undar",
+      "normalized_query": "undar",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1468800
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1468800
+        ],
+        "min_ns": 1468800,
+        "median_ns": 1468800.0,
+        "mean_ns": 1468800.0,
+        "p75_ns": 1468800,
+        "p90_ns": 1468800,
+        "p95_ns": null,
+        "p99_ns": 1468800,
+        "max_ns": 1468800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000020",
+      "query_text": "undar",
+      "normalized_query": "undar",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        165300
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          165300
+        ],
+        "min_ns": 165300,
+        "median_ns": 165300.0,
+        "mean_ns": 165300.0,
+        "p75_ns": 165300,
+        "p90_ns": 165300,
+        "p95_ns": null,
+        "p99_ns": 165300,
+        "max_ns": 165300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000020",
+      "query_text": "undar",
+      "normalized_query": "undar",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        24400
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          24400
+        ],
+        "min_ns": 24400,
+        "median_ns": 24400.0,
+        "mean_ns": 24400.0,
+        "p75_ns": 24400,
+        "p90_ns": 24400,
+        "p95_ns": null,
+        "p99_ns": 24400,
+        "max_ns": 24400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "q000020",
+      "query_text": "undar",
+      "normalized_query": "undar",
+      "query_length": 5,
+      "length_bucket": "5",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1163400
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1163400
+        ],
+        "min_ns": 1163400,
+        "median_ns": 1163400.0,
+        "mean_ns": 1163400.0,
+        "p75_ns": 1163400,
+        "p90_ns": 1163400,
+        "p95_ns": null,
+        "p99_ns": 1163400,
+        "max_ns": 1163400,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000021",
+      "query_text": "eplace",
+      "normalized_query": "eplace",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1763600
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          1763600
+        ],
+        "min_ns": 1763600,
+        "median_ns": 1763600.0,
+        "mean_ns": 1763600.0,
+        "p75_ns": 1763600,
+        "p90_ns": 1763600,
+        "p95_ns": null,
+        "p99_ns": 1763600,
+        "max_ns": 1763600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000021",
+      "query_text": "eplace",
+      "normalized_query": "eplace",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        74100
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          74100
+        ],
+        "min_ns": 74100,
+        "median_ns": 74100.0,
+        "mean_ns": 74100.0,
+        "p75_ns": 74100,
+        "p90_ns": 74100,
+        "p95_ns": null,
+        "p99_ns": 74100,
+        "max_ns": 74100,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000021",
+      "query_text": "eplace",
+      "normalized_query": "eplace",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        34800
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          34800
+        ],
+        "min_ns": 34800,
+        "median_ns": 34800.0,
+        "mean_ns": 34800.0,
+        "p75_ns": 34800,
+        "p90_ns": 34800,
+        "p95_ns": null,
+        "p99_ns": 34800,
+        "max_ns": 34800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 1
+    },
+    {
+      "query_id": "q000021",
+      "query_text": "eplace",
+      "normalized_query": "eplace",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        144900
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          144900
+        ],
+        "min_ns": 144900,
+        "median_ns": 144900.0,
+        "mean_ns": 144900.0,
+        "p75_ns": 144900,
+        "p90_ns": 144900,
+        "p95_ns": null,
+        "p99_ns": 144900,
+        "max_ns": 144900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000022",
+      "query_text": "ulti w",
+      "normalized_query": "ulti w",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1488200
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          1488200
+        ],
+        "min_ns": 1488200,
+        "median_ns": 1488200.0,
+        "mean_ns": 1488200.0,
+        "p75_ns": 1488200,
+        "p90_ns": 1488200,
+        "p95_ns": null,
+        "p99_ns": 1488200,
+        "max_ns": 1488200,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000022",
+      "query_text": "ulti w",
+      "normalized_query": "ulti w",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        66600
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          66600
+        ],
+        "min_ns": 66600,
+        "median_ns": 66600.0,
+        "mean_ns": 66600.0,
+        "p75_ns": 66600,
+        "p90_ns": 66600,
+        "p95_ns": null,
+        "p99_ns": 66600,
+        "max_ns": 66600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000022",
+      "query_text": "ulti w",
+      "normalized_query": "ulti w",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        19600
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          19600
+        ],
+        "min_ns": 19600,
+        "median_ns": 19600.0,
+        "mean_ns": 19600.0,
+        "p75_ns": 19600,
+        "p90_ns": 19600,
+        "p95_ns": null,
+        "p99_ns": 19600,
+        "max_ns": 19600,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "q000022",
+      "query_text": "ulti w",
+      "normalized_query": "ulti w",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        110300
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          110300
+        ],
+        "min_ns": 110300,
+        "median_ns": 110300.0,
+        "mean_ns": 110300.0,
+        "p75_ns": 110300,
+        "p90_ns": 110300,
+        "p95_ns": null,
+        "p99_ns": 110300,
+        "max_ns": 110300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000023",
+      "query_text": "are mu",
+      "normalized_query": "are mu",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1759700
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          1759700
+        ],
+        "min_ns": 1759700,
+        "median_ns": 1759700.0,
+        "mean_ns": 1759700.0,
+        "p75_ns": 1759700,
+        "p90_ns": 1759700,
+        "p95_ns": null,
+        "p99_ns": 1759700,
+        "max_ns": 1759700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000023",
+      "query_text": "are mu",
+      "normalized_query": "are mu",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        73800
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          73800
+        ],
+        "min_ns": 73800,
+        "median_ns": 73800.0,
+        "mean_ns": 73800.0,
+        "p75_ns": 73800,
+        "p90_ns": 73800,
+        "p95_ns": null,
+        "p99_ns": 73800,
+        "max_ns": 73800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000023",
+      "query_text": "are mu",
+      "normalized_query": "are mu",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        16500
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          16500
+        ],
+        "min_ns": 16500,
+        "median_ns": 16500.0,
+        "mean_ns": 16500.0,
+        "p75_ns": 16500,
+        "p90_ns": 16500,
+        "p95_ns": null,
+        "p99_ns": 16500,
+        "max_ns": 16500,
+        "stdev_ns": 0.0
+      },
+      "result_count": 0
+    },
+    {
+      "query_id": "q000023",
+      "query_text": "are mu",
+      "normalized_query": "are mu",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        116300
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          116300
+        ],
+        "min_ns": 116300,
+        "median_ns": 116300.0,
+        "mean_ns": 116300.0,
+        "p75_ns": 116300,
+        "p90_ns": 116300,
+        "p95_ns": null,
+        "p99_ns": 116300,
+        "max_ns": 116300,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000024",
+      "query_text": "bounda",
+      "normalized_query": "bounda",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "naive",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        1718900
+      ],
+      "order_positions": [
+        1
+      ],
+      "timing": {
+        "samples": [
+          1718900
+        ],
+        "min_ns": 1718900,
+        "median_ns": 1718900.0,
+        "mean_ns": 1718900.0,
+        "p75_ns": 1718900,
+        "p90_ns": 1718900,
+        "p95_ns": null,
+        "p99_ns": 1718900,
+        "max_ns": 1718900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000024",
+      "query_text": "bounda",
+      "normalized_query": "bounda",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_verifier",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        66900
+      ],
+      "order_positions": [
+        2
+      ],
+      "timing": {
+        "samples": [
+          66900
+        ],
+        "min_ns": 66900,
+        "median_ns": 66900.0,
+        "mean_ns": 66900.0,
+        "p75_ns": 66900,
+        "p90_ns": 66900,
+        "p95_ns": null,
+        "p99_ns": 66900,
+        "max_ns": 66900,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    },
+    {
+      "query_id": "q000024",
+      "query_text": "bounda",
+      "normalized_query": "bounda",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "qgram_tree_hybrid",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        37800
+      ],
+      "order_positions": [
+        3
+      ],
+      "timing": {
+        "samples": [
+          37800
+        ],
+        "min_ns": 37800,
+        "median_ns": 37800.0,
+        "mean_ns": 37800.0,
+        "p75_ns": 37800,
+        "p90_ns": 37800,
+        "p95_ns": null,
+        "p99_ns": 37800,
+        "max_ns": 37800,
+        "stdev_ns": 0.0
+      },
+      "result_count": 3
+    },
+    {
+      "query_id": "q000024",
+      "query_text": "bounda",
+      "normalized_query": "bounda",
+      "query_length": 6,
+      "length_bucket": "6",
+      "category": "exact",
+      "categories": [
+        "exact"
+      ],
+      "algorithm_id": "bi_anchor",
+      "repetitions_requested": 1,
+      "repetitions_completed": 1,
+      "raw_samples_ns": [
+        128700
+      ],
+      "order_positions": [
+        0
+      ],
+      "timing": {
+        "samples": [
+          128700
+        ],
+        "min_ns": 128700,
+        "median_ns": 128700.0,
+        "mean_ns": 128700.0,
+        "p75_ns": 128700,
+        "p90_ns": 128700,
+        "p95_ns": null,
+        "p99_ns": 128700,
+        "max_ns": 128700,
+        "stdev_ns": 0.0
+      },
+      "result_count": 5
+    }
+  ]
+}

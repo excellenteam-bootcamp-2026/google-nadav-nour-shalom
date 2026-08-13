@@ -1,0 +1,3 @@
+abcdefghijklmnopqrstuvwxyz whole words cross boundary patterns repeated aaaaa
+another sufficiently long sentence for deterministic benchmark queries
+replacement insertion deletion common uncommon rare multi word ending

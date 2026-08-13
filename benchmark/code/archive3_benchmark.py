@@ -1515,7 +1515,7 @@ def render_report(payload: dict[str, object]) -> str:
         "",
         "## Reproduction command",
         "",
-        "```powershell\npython -m src.autocomplete.archive3_benchmark --archive data/Archive3.zip --output benchmark/archive3 --reuse-queries\n```",
+        "```powershell\npython -m benchmark.code.archive3_benchmark --archive data/Archive3.zip --output benchmark/output/Archive3 --reuse-queries\n```",
     ]
     return "\n".join(lines) + "\n"
 
@@ -1721,7 +1721,7 @@ def run_benchmark(args: argparse.Namespace) -> None:
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--archive", default="data/Archive3.zip")
-    parser.add_argument("--output", default="benchmark/archive3")
+    parser.add_argument("--output", default="benchmark/output/Archive3")
     parser.add_argument("--seed", type=int, default=20260812)
     parser.add_argument("--target-queries", type=int, default=55)
     parser.add_argument("--per-short-length", type=int, default=5)

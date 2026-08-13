@@ -123,7 +123,7 @@ The production entry point in `src/main.py` remains configured for Naive until t
 
 ## Benchmark and Evaluation
 
-The existing `src/autocomplete/benchmark.py` is extended instead of adding a competing framework. It compares Naive and Bi-Anchor using the same prepared corpus, normalized queries, shared verifier, and full candidate canonicalization.
+The existing `benchmark/code/legacy_benchmark.py` is extended instead of adding a competing framework. It compares Naive and Bi-Anchor using the same prepared corpus, normalized queries, shared verifier, and full candidate canonicalization.
 
 Correctness is reported independently from performance: total queries, matching sets, mismatches, false negatives, and false positives. Timing uses repeated `perf_counter_ns()` samples and reports mean, median, p95, category speedups, and overall speedup. Candidate metrics include verifier calls, expanded occurrences, candidate contexts before and after deduplication, fallback rate, average selected-seed frequency, and reduction ratios. Offline metrics include index build time, index cardinalities, and practical `tracemalloc` memory.
 

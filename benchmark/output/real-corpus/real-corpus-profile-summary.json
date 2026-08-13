@@ -1,0 +1,1365 @@
+{
+  "corpus_fraction": 0.1,
+  "sentences": 19440,
+  "methodology": "cProfile/pstats; profile corpus is a stable prefix for practical runtime",
+  "algorithms": {
+    "naive": {
+      "build": {
+        "status": "ok",
+        "elapsed_ns": 3033100,
+        "result_count": null,
+        "error": null,
+        "hottest": [
+          {
+            "function": "real_corpus_benchmark.py:199(_construct_algorithm)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 1.8900000000000002e-05,
+            "cumulative_seconds": 0.0001474
+          },
+          {
+            "function": "naive_structure_builder.py:11(build)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 0.0001238,
+            "cumulative_seconds": 0.0001276
+          },
+          {
+            "function": "~:0(<method 'disable' of '_lsprof.Profiler' objects>)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 5.33e-05,
+            "cumulative_seconds": 5.33e-05
+          },
+          {
+            "function": "naive_search_algorithm.py:14(__init__)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 5.000000000000001e-07,
+            "cumulative_seconds": 5.000000000000001e-07
+          },
+          {
+            "function": "<string>:2(__init__)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 4.0000000000000003e-07,
+            "cumulative_seconds": 4.0000000000000003e-07
+          }
+        ]
+      },
+      "queries": {
+        "typical_fast": {
+          "status": "ok",
+          "elapsed_ns": 8471253600,
+          "result_count": 0,
+          "error": null,
+          "hottest": [
+            {
+              "function": "real_corpus_benchmark.py:84(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 3.2000000000000003e-06,
+              "cumulative_seconds": 8.4711367
+            },
+            {
+              "function": "naive_search_algorithm.py:17(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.011374200000000001,
+              "cumulative_seconds": 8.4711335
+            },
+            {
+              "function": "naive_search_algorithm.py:46(_search_sentence)",
+              "primitive_calls": 19440,
+              "total_calls": 19440,
+              "self_seconds": 0.3175286,
+              "cumulative_seconds": 8.4572055
+            },
+            {
+              "function": "naive_search_algorithm.py:64(_check_from_position)",
+              "primitive_calls": 750617,
+              "total_calls": 750617,
+              "self_seconds": 1.2285753000000001,
+              "cumulative_seconds": 8.0450955
+            },
+            {
+              "function": "one_edit_verifier.py:9(compare)",
+              "primitive_calls": 1089631,
+              "total_calls": 1089631,
+              "self_seconds": 0.9591500000000001,
+              "cumulative_seconds": 6.423857600000001
+            },
+            {
+              "function": "one_edit_verifier.py:83(_check_missing_character)",
+              "primitive_calls": 349811,
+              "total_calls": 349811,
+              "self_seconds": 2.025878,
+              "cumulative_seconds": 2.0531964
+            },
+            {
+              "function": "one_edit_verifier.py:110(_check_extra_character)",
+              "primitive_calls": 376697,
+              "total_calls": 376697,
+              "self_seconds": 2.0101940000000003,
+              "cumulative_seconds": 2.0393957
+            },
+            {
+              "function": "one_edit_verifier.py:43(_check_equal_length)",
+              "primitive_calls": 363123,
+              "total_calls": 363123,
+              "self_seconds": 0.9940338000000001,
+              "cumulative_seconds": 1.0298288
+            },
+            {
+              "function": "~:0(<built-in method builtins.len>)",
+              "primitive_calls": 8497211,
+              "total_calls": 8497211,
+              "self_seconds": 0.6771743,
+              "cumulative_seconds": 0.6771743
+            },
+            {
+              "function": "~:0(<method 'extend' of 'list' objects>)",
+              "primitive_calls": 1859688,
+              "total_calls": 1859688,
+              "self_seconds": 0.24722500000000003,
+              "cumulative_seconds": 0.24722500000000003
+            },
+            {
+              "function": "~:0(<method 'disable' of '_lsprof.Profiler' objects>)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 5.6800000000000005e-05,
+              "cumulative_seconds": 5.6800000000000005e-05
+            },
+            {
+              "function": "~:0(<built-in method builtins.isinstance>)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 3.0000000000000004e-07,
+              "cumulative_seconds": 3.0000000000000004e-07
+            }
+          ],
+          "query": "zzzzzzbenchmarknear miss",
+          "tags": [
+            "no_match"
+          ]
+        },
+        "typical_medium": {
+          "status": "ok",
+          "elapsed_ns": 8344182100,
+          "result_count": 7995,
+          "error": null,
+          "hottest": [
+            {
+              "function": "real_corpus_benchmark.py:84(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 2.0000000000000003e-06,
+              "cumulative_seconds": 8.3440869
+            },
+            {
+              "function": "naive_search_algorithm.py:17(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.011465000000000001,
+              "cumulative_seconds": 8.3440849
+            },
+            {
+              "function": "naive_search_algorithm.py:46(_search_sentence)",
+              "primitive_calls": 19440,
+              "total_calls": 19440,
+              "self_seconds": 0.32288680000000003,
+              "cumulative_seconds": 8.3296741
+            },
+            {
+              "function": "naive_search_algorithm.py:64(_check_from_position)",
+              "primitive_calls": 750617,
+              "total_calls": 750617,
+              "self_seconds": 1.6412315000000002,
+              "cumulative_seconds": 7.9088124
+            },
+            {
+              "function": "one_edit_verifier.py:9(compare)",
+              "primitive_calls": 1850457,
+              "total_calls": 1850457,
+              "self_seconds": 1.5749921,
+              "cumulative_seconds": 5.7708504000000005
+            },
+            {
+              "function": "one_edit_verifier.py:83(_check_missing_character)",
+              "primitive_calls": 598542,
+              "total_calls": 598542,
+              "self_seconds": 1.3276782,
+              "cumulative_seconds": 1.379745
+            },
+            {
+              "function": "one_edit_verifier.py:110(_check_extra_character)",
+              "primitive_calls": 635244,
+              "total_calls": 635244,
+              "self_seconds": 1.2155517,
+              "cumulative_seconds": 1.2705000000000002
+            },
+            {
+              "function": "~:0(<built-in method builtins.len>)",
+              "primitive_calls": 12317665,
+              "total_calls": 12317665,
+              "self_seconds": 0.9940828,
+              "cumulative_seconds": 0.9940828
+            },
+            {
+              "function": "one_edit_verifier.py:43(_check_equal_length)",
+              "primitive_calls": 616671,
+              "total_calls": 616671,
+              "self_seconds": 0.8961911,
+              "cumulative_seconds": 0.9587368000000001
+            },
+            {
+              "function": "~:0(<method 'extend' of 'list' objects>)",
+              "primitive_calls": 2620514,
+              "total_calls": 2620514,
+              "self_seconds": 0.35072000000000003,
+              "cumulative_seconds": 0.35072000000000003
+            },
+            {
+              "function": "<string>:2(__init__)",
+              "primitive_calls": 7995,
+              "total_calls": 7995,
+              "self_seconds": 0.0082582,
+              "cumulative_seconds": 0.0082582
+            },
+            {
+              "function": "~:0(<method 'append' of 'list' objects>)",
+              "primitive_calls": 6130,
+              "total_calls": 6130,
+              "self_seconds": 0.0010273,
+              "cumulative_seconds": 0.0010273
+            },
+            {
+              "function": "~:0(<method 'disable' of '_lsprof.Profiler' objects>)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 4.53e-05,
+              "cumulative_seconds": 4.53e-05
+            },
+            {
+              "function": "~:0(<built-in method builtins.isinstance>)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 2.0000000000000002e-07,
+              "cumulative_seconds": 2.0000000000000002e-07
+            }
+          ],
+          "query": "pyobject",
+          "tags": [
+            "inside_word",
+            "medium_exact"
+          ]
+        },
+        "representative_worst": {
+          "status": "ok",
+          "elapsed_ns": 8838887900,
+          "result_count": 145,
+          "error": null,
+          "hottest": [
+            {
+              "function": "real_corpus_benchmark.py:84(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 2.9e-06,
+              "cumulative_seconds": 8.8387656
+            },
+            {
+              "function": "naive_search_algorithm.py:17(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.0122673,
+              "cumulative_seconds": 8.8387627
+            },
+            {
+              "function": "naive_search_algorithm.py:46(_search_sentence)",
+              "primitive_calls": 19440,
+              "total_calls": 19440,
+              "self_seconds": 0.3353975,
+              "cumulative_seconds": 8.823838700000001
+            },
+            {
+              "function": "naive_search_algorithm.py:64(_check_from_position)",
+              "primitive_calls": 750617,
+              "total_calls": 750617,
+              "self_seconds": 1.6345491,
+              "cumulative_seconds": 8.389233800000001
+            },
+            {
+              "function": "one_edit_verifier.py:9(compare)",
+              "primitive_calls": 1742555,
+              "total_calls": 1742555,
+              "self_seconds": 1.5401332,
+              "cumulative_seconds": 6.26222
+            },
+            {
+              "function": "one_edit_verifier.py:83(_check_missing_character)",
+              "primitive_calls": 563256,
+              "total_calls": 563256,
+              "self_seconds": 1.5553345,
+              "cumulative_seconds": 1.6004754
+            },
+            {
+              "function": "one_edit_verifier.py:110(_check_extra_character)",
+              "primitive_calls": 598542,
+              "total_calls": 598542,
+              "self_seconds": 1.4825026000000001,
+              "cumulative_seconds": 1.5303801000000001
+            },
+            {
+              "function": "one_edit_verifier.py:43(_check_equal_length)",
+              "primitive_calls": 580757,
+              "total_calls": 580757,
+              "self_seconds": 0.9751385,
+              "cumulative_seconds": 1.0335856
+            },
+            {
+              "function": "~:0(<built-in method builtins.len>)",
+              "primitive_calls": 11770367,
+              "total_calls": 11770367,
+              "self_seconds": 0.9629031,
+              "cumulative_seconds": 0.9629031
+            },
+            {
+              "function": "~:0(<method 'extend' of 'list' objects>)",
+              "primitive_calls": 2512612,
+              "total_calls": 2512612,
+              "self_seconds": 0.340299,
+              "cumulative_seconds": 0.340299
+            },
+            {
+              "function": "<string>:2(__init__)",
+              "primitive_calls": 145,
+              "total_calls": 145,
+              "self_seconds": 0.00021180000000000003,
+              "cumulative_seconds": 0.00021180000000000003
+            },
+            {
+              "function": "~:0(<method 'disable' of '_lsprof.Profiler' objects>)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 6.63e-05,
+              "cumulative_seconds": 6.63e-05
+            },
+            {
+              "function": "~:0(<method 'append' of 'list' objects>)",
+              "primitive_calls": 114,
+              "total_calls": 114,
+              "self_seconds": 2.5900000000000003e-05,
+              "cumulative_seconds": 2.5900000000000003e-05
+            },
+            {
+              "function": "~:0(<built-in method builtins.isinstance>)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 2.0000000000000002e-07,
+              "cumulative_seconds": 2.0000000000000002e-07
+            }
+          ],
+          "query": "installing",
+          "tags": [
+            "inside_word",
+            "repeated"
+          ]
+        }
+      }
+    },
+    "qgram_positional": {
+      "build": {
+        "status": "error",
+        "elapsed_ns": 514800,
+        "result_count": null,
+        "error": "AttributeError: 'PreparedSentence' object has no attribute 'normalized_sentence'",
+        "hottest": [
+          {
+            "function": "real_corpus_benchmark.py:199(_construct_algorithm)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 9.600000000000001e-06,
+            "cumulative_seconds": 0.00041180000000000003
+          },
+          {
+            "function": "qgram_structure_builder.py:11(build)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 1.27e-05,
+            "cumulative_seconds": 0.0003993
+          },
+          {
+            "function": "qgram_search_structure.py:76(add_sentence)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 0.0003713,
+            "cumulative_seconds": 0.00037210000000000005
+          },
+          {
+            "function": "~:0(<method 'disable' of '_lsprof.Profiler' objects>)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 3.57e-05,
+            "cumulative_seconds": 3.57e-05
+          },
+          {
+            "function": "<string>:2(__init__)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 4.1000000000000006e-06,
+            "cumulative_seconds": 1.45e-05
+          },
+          {
+            "function": "qgram_search_structure.py:35(__post_init__)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 8.5e-06,
+            "cumulative_seconds": 1.04e-05
+          },
+          {
+            "function": "qgram_search_algorithm.py:9(__init__)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 2.6e-06,
+            "cumulative_seconds": 2.6e-06
+          },
+          {
+            "function": "~:0(<method 'setdefault' of 'dict' objects>)",
+            "primitive_calls": 2,
+            "total_calls": 2,
+            "self_seconds": 1.9e-06,
+            "cumulative_seconds": 1.9e-06
+          },
+          {
+            "function": "~:0(<method 'append' of 'list' objects>)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 4.0000000000000003e-07,
+            "cumulative_seconds": 4.0000000000000003e-07
+          },
+          {
+            "function": "~:0(<built-in method builtins.len>)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 4.0000000000000003e-07,
+            "cumulative_seconds": 4.0000000000000003e-07
+          },
+          {
+            "function": "qgram_structure_builder.py:8(__init__)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 3.0000000000000004e-07,
+            "cumulative_seconds": 3.0000000000000004e-07
+          }
+        ]
+      },
+      "queries": {}
+    },
+    "qgram_tree_hybrid": {
+      "build": {
+        "status": "ok",
+        "elapsed_ns": 1727885300,
+        "result_count": null,
+        "error": null,
+        "hottest": [
+          {
+            "function": "real_corpus_benchmark.py:199(_construct_algorithm)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 1.4700000000000002e-05,
+            "cumulative_seconds": 1.7277736000000001
+          },
+          {
+            "function": "qgram_trie_search_algorithm.py:48(build)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 0.086743,
+            "cumulative_seconds": 1.7277551000000002
+          },
+          {
+            "function": "qgram_trie_search_algorithm.py:63(_insert_word)",
+            "primitive_calls": 118286,
+            "total_calls": 118286,
+            "self_seconds": 1.5526746,
+            "cumulative_seconds": 1.6009275
+          },
+          {
+            "function": "~:0(<method 'append' of 'list' objects>)",
+            "primitive_calls": 201859,
+            "total_calls": 201859,
+            "self_seconds": 0.0340673,
+            "cumulative_seconds": 0.0340673
+          },
+          {
+            "function": "~:0(<method 'setdefault' of 'dict' objects>)",
+            "primitive_calls": 83573,
+            "total_calls": 83573,
+            "self_seconds": 0.022701700000000002,
+            "cumulative_seconds": 0.022701700000000002
+          },
+          {
+            "function": "~:0(<built-in method builtins.len>)",
+            "primitive_calls": 127425,
+            "total_calls": 127425,
+            "self_seconds": 0.011929700000000001,
+            "cumulative_seconds": 0.011929700000000001
+          },
+          {
+            "function": "trie_node.py:21(__init__)",
+            "primitive_calls": 44631,
+            "total_calls": 44631,
+            "self_seconds": 0.0101247,
+            "cumulative_seconds": 0.0101247
+          },
+          {
+            "function": "~:0(<method 'split' of 'str' objects>)",
+            "primitive_calls": 19440,
+            "total_calls": 19440,
+            "self_seconds": 0.0095148,
+            "cumulative_seconds": 0.0095148
+          },
+          {
+            "function": "~:0(<method 'disable' of '_lsprof.Profiler' objects>)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 6.03e-05,
+            "cumulative_seconds": 6.03e-05
+          },
+          {
+            "function": "qgram_trie_search_algorithm.py:39(__init__)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 2.8000000000000003e-06,
+            "cumulative_seconds": 3.5000000000000004e-06
+          },
+          {
+            "function": "<string>:2(__init__)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 3.0000000000000004e-07,
+            "cumulative_seconds": 3.0000000000000004e-07
+          }
+        ]
+      },
+      "queries": {
+        "typical_fast": {
+          "status": "ok",
+          "elapsed_ns": 3626200,
+          "result_count": 0,
+          "error": null,
+          "hottest": [
+            {
+              "function": "real_corpus_benchmark.py:84(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 2.16e-05,
+              "cumulative_seconds": 0.0035065
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:87(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.0003321,
+              "cumulative_seconds": 0.0034849000000000004
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:178(_fuzzy_compare)",
+              "primitive_calls": 363,
+              "total_calls": 363,
+              "self_seconds": 0.0003843,
+              "cumulative_seconds": 0.002383
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:239(_check_deletion)",
+              "primitive_calls": 121,
+              "total_calls": 121,
+              "self_seconds": 0.0008057,
+              "cumulative_seconds": 0.000822
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:136(_get_candidates)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.0004336,
+              "cumulative_seconds": 0.0007569
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:228(_check_insertion)",
+              "primitive_calls": 91,
+              "total_calls": 91,
+              "self_seconds": 0.0006270000000000001,
+              "cumulative_seconds": 0.0006383000000000001
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:215(_check_equal_length)",
+              "primitive_calls": 104,
+              "total_calls": 104,
+              "self_seconds": 0.0003709,
+              "cumulative_seconds": 0.00038770000000000005
+            },
+            {
+              "function": "~:0(<built-in method builtins.len>)",
+              "primitive_calls": 1044,
+              "total_calls": 1044,
+              "self_seconds": 0.0001955,
+              "cumulative_seconds": 0.0001955
+            },
+            {
+              "function": "~:0(<method 'add' of 'set' objects>)",
+              "primitive_calls": 363,
+              "total_calls": 363,
+              "self_seconds": 0.00011080000000000001,
+              "cumulative_seconds": 0.00011080000000000001
+            },
+            {
+              "function": "~:0(<built-in method builtins.id>)",
+              "primitive_calls": 389,
+              "total_calls": 389,
+              "self_seconds": 0.00010740000000000001,
+              "cumulative_seconds": 0.00010740000000000001
+            },
+            {
+              "function": "~:0(<method 'append' of 'list' objects>)",
+              "primitive_calls": 363,
+              "total_calls": 363,
+              "self_seconds": 8.730000000000001e-05,
+              "cumulative_seconds": 8.730000000000001e-05
+            },
+            {
+              "function": "~:0(<method 'disable' of '_lsprof.Profiler' objects>)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 5.84e-05,
+              "cumulative_seconds": 5.84e-05
+            },
+            {
+              "function": "~:0(<method 'get' of 'dict' objects>)",
+              "primitive_calls": 22,
+              "total_calls": 22,
+              "self_seconds": 1.74e-05,
+              "cumulative_seconds": 1.74e-05
+            },
+            {
+              "function": "enum.py:1299(__hash__)",
+              "primitive_calls": 4,
+              "total_calls": 4,
+              "self_seconds": 9.3e-06,
+              "cumulative_seconds": 1.0300000000000001e-05
+            },
+            {
+              "function": "~:0(<method 'sort' of 'list' objects>)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 2.6e-06,
+              "cumulative_seconds": 2.6e-06
+            }
+          ],
+          "query": "zzzzzzbenchmarknear miss",
+          "tags": [
+            "no_match"
+          ]
+        },
+        "typical_medium": {
+          "status": "ok",
+          "elapsed_ns": 23220900,
+          "result_count": 2000,
+          "error": null,
+          "hottest": [
+            {
+              "function": "real_corpus_benchmark.py:84(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 4.92e-05,
+              "cumulative_seconds": 0.0230846
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:87(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.0042450000000000005,
+              "cumulative_seconds": 0.0230354
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:178(_fuzzy_compare)",
+              "primitive_calls": 979,
+              "total_calls": 979,
+              "self_seconds": 0.0020374,
+              "cumulative_seconds": 0.0100818
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:136(_get_candidates)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.0030481,
+              "cumulative_seconds": 0.0044244
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:228(_check_insertion)",
+              "primitive_calls": 928,
+              "total_calls": 928,
+              "self_seconds": 0.0027365000000000002,
+              "cumulative_seconds": 0.0028633
+            },
+            {
+              "function": "<string>:2(__init__)",
+              "primitive_calls": 2000,
+              "total_calls": 2000,
+              "self_seconds": 0.0028217000000000003,
+              "cumulative_seconds": 0.0028217000000000003
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:239(_check_deletion)",
+              "primitive_calls": 965,
+              "total_calls": 965,
+              "self_seconds": 0.0025645000000000004,
+              "cumulative_seconds": 0.0027519000000000003
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:215(_check_equal_length)",
+              "primitive_calls": 944,
+              "total_calls": 944,
+              "self_seconds": 0.0019064000000000002,
+              "cumulative_seconds": 0.0020522
+            },
+            {
+              "function": "~:0(<built-in method builtins.len>)",
+              "primitive_calls": 7082,
+              "total_calls": 7082,
+              "self_seconds": 0.001039,
+              "cumulative_seconds": 0.001039
+            },
+            {
+              "function": "~:0(<built-in method builtins.id>)",
+              "primitive_calls": 5177,
+              "total_calls": 5177,
+              "self_seconds": 0.0009167000000000001,
+              "cumulative_seconds": 0.0009167000000000001
+            },
+            {
+              "function": "~:0(<method 'append' of 'list' objects>)",
+              "primitive_calls": 3833,
+              "total_calls": 3833,
+              "self_seconds": 0.0007972000000000001,
+              "cumulative_seconds": 0.0007972000000000001
+            },
+            {
+              "function": "~:0(<method 'sort' of 'list' objects>)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.000153,
+              "cumulative_seconds": 0.000669
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:114(<lambda>)",
+              "primitive_calls": 427,
+              "total_calls": 427,
+              "self_seconds": 0.0001385,
+              "cumulative_seconds": 0.0005160000000000001
+            },
+            {
+              "function": "~:0(<method 'get' of 'dict' objects>)",
+              "primitive_calls": 433,
+              "total_calls": 433,
+              "self_seconds": 0.00020830000000000002,
+              "cumulative_seconds": 0.0003866
+            },
+            {
+              "function": "~:0(<method 'add' of 'set' objects>)",
+              "primitive_calls": 979,
+              "total_calls": 979,
+              "self_seconds": 0.0002346,
+              "cumulative_seconds": 0.0002346
+            }
+          ],
+          "query": "pyobject",
+          "tags": [
+            "inside_word",
+            "medium_exact"
+          ]
+        },
+        "representative_worst": {
+          "status": "ok",
+          "elapsed_ns": 14619200,
+          "result_count": 62,
+          "error": null,
+          "hottest": [
+            {
+              "function": "real_corpus_benchmark.py:84(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 5.66e-05,
+              "cumulative_seconds": 0.014505500000000001
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:87(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.0011942,
+              "cumulative_seconds": 0.0144489
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:178(_fuzzy_compare)",
+              "primitive_calls": 1361,
+              "total_calls": 1361,
+              "self_seconds": 0.0020358,
+              "cumulative_seconds": 0.010479500000000001
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:239(_check_deletion)",
+              "primitive_calls": 1012,
+              "total_calls": 1012,
+              "self_seconds": 0.0031968,
+              "cumulative_seconds": 0.0033234000000000002
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:228(_check_insertion)",
+              "primitive_calls": 765,
+              "total_calls": 765,
+              "self_seconds": 0.0026389,
+              "cumulative_seconds": 0.0027273
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:136(_get_candidates)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.0015103,
+              "cumulative_seconds": 0.0026406000000000003
+            },
+            {
+              "function": "qgram_trie_search_algorithm.py:215(_check_equal_length)",
+              "primitive_calls": 873,
+              "total_calls": 873,
+              "self_seconds": 0.001838,
+              "cumulative_seconds": 0.001964
+            },
+            {
+              "function": "~:0(<built-in method builtins.len>)",
+              "primitive_calls": 5437,
+              "total_calls": 5437,
+              "self_seconds": 0.0007786000000000001,
+              "cumulative_seconds": 0.0007786000000000001
+            },
+            {
+              "function": "~:0(<method 'add' of 'set' objects>)",
+              "primitive_calls": 1361,
+              "total_calls": 1361,
+              "self_seconds": 0.0004358,
+              "cumulative_seconds": 0.0004358
+            },
+            {
+              "function": "~:0(<built-in method builtins.id>)",
+              "primitive_calls": 1713,
+              "total_calls": 1713,
+              "self_seconds": 0.0004068,
+              "cumulative_seconds": 0.0004068
+            },
+            {
+              "function": "~:0(<method 'append' of 'list' objects>)",
+              "primitive_calls": 1427,
+              "total_calls": 1427,
+              "self_seconds": 0.0002926,
+              "cumulative_seconds": 0.0002926
+            },
+            {
+              "function": "<string>:2(__init__)",
+              "primitive_calls": 62,
+              "total_calls": 62,
+              "self_seconds": 8.960000000000001e-05,
+              "cumulative_seconds": 8.960000000000001e-05
+            },
+            {
+              "function": "~:0(<method 'disable' of '_lsprof.Profiler' objects>)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 5.78e-05,
+              "cumulative_seconds": 5.78e-05
+            },
+            {
+              "function": "~:0(<method 'get' of 'dict' objects>)",
+              "primitive_calls": 10,
+              "total_calls": 10,
+              "self_seconds": 1.32e-05,
+              "cumulative_seconds": 1.45e-05
+            },
+            {
+              "function": "enum.py:1299(__hash__)",
+              "primitive_calls": 6,
+              "total_calls": 6,
+              "self_seconds": 1.04e-05,
+              "cumulative_seconds": 1.22e-05
+            }
+          ],
+          "query": "installing",
+          "tags": [
+            "inside_word",
+            "repeated"
+          ]
+        }
+      }
+    },
+    "bi_anchor": {
+      "build": {
+        "status": "ok",
+        "elapsed_ns": 859887500,
+        "result_count": null,
+        "error": null,
+        "hottest": [
+          {
+            "function": "real_corpus_benchmark.py:199(_construct_algorithm)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 1.9e-05,
+            "cumulative_seconds": 0.8597207
+          },
+          {
+            "function": "bi_anchor_structure_builder.py:22(build)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 0.0202336,
+            "cumulative_seconds": 0.8597005000000001
+          },
+          {
+            "function": "hash_seed_lookup.py:32(build)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 0.49760930000000003,
+            "cumulative_seconds": 0.839447
+          },
+          {
+            "function": "~:0(<method 'append' of 'list' objects>)",
+            "primitive_calls": 502319,
+            "total_calls": 502319,
+            "self_seconds": 0.09396460000000001,
+            "cumulative_seconds": 0.09396460000000001
+          },
+          {
+            "function": "hash_seed_lookup.py:107(_word_ranges)",
+            "primitive_calls": 19440,
+            "total_calls": 19440,
+            "self_seconds": 0.0303912,
+            "cumulative_seconds": 0.048228700000000006
+          },
+          {
+            "function": "~:0(<method 'get' of 'dict' objects>)",
+            "primitive_calls": 118286,
+            "total_calls": 118286,
+            "self_seconds": 0.025282000000000002,
+            "cumulative_seconds": 0.025282000000000002
+          },
+          {
+            "function": "hash_seed_lookup.py:112(<genexpr>)",
+            "primitive_calls": 137726,
+            "total_calls": 137726,
+            "self_seconds": 0.017837500000000003,
+            "cumulative_seconds": 0.017837500000000003
+          },
+          {
+            "function": "~:0(<built-in method builtins.sum>)",
+            "primitive_calls": 3,
+            "total_calls": 3,
+            "self_seconds": 0.0024064,
+            "cumulative_seconds": 0.009769400000000001
+          },
+          {
+            "function": "~:0(<built-in method builtins.len>)",
+            "primitive_calls": 53878,
+            "total_calls": 53878,
+            "self_seconds": 0.0073825,
+            "cumulative_seconds": 0.0073825
+          },
+          {
+            "function": "hash_seed_lookup.py:86(<genexpr>)",
+            "primitive_calls": 9140,
+            "total_calls": 9140,
+            "self_seconds": 0.0033923,
+            "cumulative_seconds": 0.0045425000000000005
+          },
+          {
+            "function": "hash_seed_lookup.py:91(<genexpr>)",
+            "primitive_calls": 5182,
+            "total_calls": 5182,
+            "self_seconds": 0.0014384,
+            "cumulative_seconds": 0.0019153000000000002
+          },
+          {
+            "function": "hash_seed_lookup.py:95(<genexpr>)",
+            "primitive_calls": 1838,
+            "total_calls": 1838,
+            "self_seconds": 0.0006922,
+            "cumulative_seconds": 0.0009052000000000001
+          },
+          {
+            "function": "~:0(<method 'disable' of '_lsprof.Profiler' objects>)",
+            "primitive_calls": 1,
+            "total_calls": 1,
+            "self_seconds": 7.340000000000001e-05,
+            "cumulative_seconds": 7.340000000000001e-05
+          },
+          {
+            "function": "~:0(<built-in method time.perf_counter_ns>)",
+            "primitive_calls": 2,
+            "total_calls": 2,
+            "self_seconds": 8.200000000000001e-06,
+            "cumulative_seconds": 8.200000000000001e-06
+          },
+          {
+            "function": "~:0(<method 'values' of 'dict' objects>)",
+            "primitive_calls": 3,
+            "total_calls": 3,
+            "self_seconds": 5.2e-06,
+            "cumulative_seconds": 5.2e-06
+          }
+        ]
+      },
+      "queries": {
+        "typical_fast": {
+          "status": "ok",
+          "elapsed_ns": 784000,
+          "result_count": 0,
+          "error": null,
+          "hottest": [
+            {
+              "function": "real_corpus_benchmark.py:84(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 8.1e-06,
+              "cumulative_seconds": 0.0006945
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:21(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 1.58e-05,
+              "cumulative_seconds": 0.0006864000000000001
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:100(_query_seeds)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 1.16e-05,
+              "cumulative_seconds": 0.0006263
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:106(<genexpr>)",
+              "primitive_calls": 23,
+              "total_calls": 23,
+              "self_seconds": 4.78e-05,
+              "cumulative_seconds": 0.0006145
+            },
+            {
+              "function": "hash_seed_lookup.py:122(frequency)",
+              "primitive_calls": 22,
+              "total_calls": 22,
+              "self_seconds": 2.8800000000000002e-05,
+              "cumulative_seconds": 0.0005376000000000001
+            },
+            {
+              "function": "~:0(<built-in method builtins.sum>)",
+              "primitive_calls": 19,
+              "total_calls": 19,
+              "self_seconds": 7.32e-05,
+              "cumulative_seconds": 0.0004894000000000001
+            },
+            {
+              "function": "hash_seed_lookup.py:126(<genexpr>)",
+              "primitive_calls": 408,
+              "total_calls": 408,
+              "self_seconds": 0.0003664,
+              "cumulative_seconds": 0.00041620000000000003
+            },
+            {
+              "function": "~:0(<built-in method builtins.len>)",
+              "primitive_calls": 394,
+              "total_calls": 394,
+              "self_seconds": 5.1000000000000006e-05,
+              "cumulative_seconds": 5.1000000000000006e-05
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:118(_select_seed_pair)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 4.3100000000000004e-05,
+              "cumulative_seconds": 4.3100000000000004e-05
+            },
+            {
+              "function": "~:0(<method 'disable' of '_lsprof.Profiler' objects>)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 3.6700000000000004e-05,
+              "cumulative_seconds": 3.6700000000000004e-05
+            },
+            {
+              "function": "<string>:2(__init__)",
+              "primitive_calls": 22,
+              "total_calls": 22,
+              "self_seconds": 2.9100000000000003e-05,
+              "cumulative_seconds": 2.9100000000000003e-05
+            },
+            {
+              "function": "~:0(<method 'get' of 'mappingproxy' objects>)",
+              "primitive_calls": 22,
+              "total_calls": 22,
+              "self_seconds": 1.88e-05,
+              "cumulative_seconds": 1.88e-05
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:216(_increment)",
+              "primitive_calls": 2,
+              "total_calls": 2,
+              "self_seconds": 5.000000000000001e-07,
+              "cumulative_seconds": 5.000000000000001e-07
+            },
+            {
+              "function": "~:0(<built-in method builtins.isinstance>)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 3.0000000000000004e-07,
+              "cumulative_seconds": 3.0000000000000004e-07
+            }
+          ],
+          "query": "zzzzzzbenchmarknear miss",
+          "tags": [
+            "no_match"
+          ]
+        },
+        "typical_medium": {
+          "status": "ok",
+          "elapsed_ns": 305140100,
+          "result_count": 7995,
+          "error": null,
+          "hottest": [
+            {
+              "function": "real_corpus_benchmark.py:84(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.0021497,
+              "cumulative_seconds": 0.305027
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:21(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.029150500000000003,
+              "cumulative_seconds": 0.3028773
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:144(_candidate_contexts)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.0776194,
+              "cumulative_seconds": 0.15009650000000002
+            },
+            {
+              "function": "one_edit_verifier.py:9(compare)",
+              "primitive_calls": 30490,
+              "total_calls": 30490,
+              "self_seconds": 0.025890700000000003,
+              "cumulative_seconds": 0.10596610000000001
+            },
+            {
+              "function": "one_edit_verifier.py:83(_check_missing_character)",
+              "primitive_calls": 9630,
+              "total_calls": 9630,
+              "self_seconds": 0.022929,
+              "cumulative_seconds": 0.0267137
+            },
+            {
+              "function": "one_edit_verifier.py:110(_check_extra_character)",
+              "primitive_calls": 10557,
+              "total_calls": 10557,
+              "self_seconds": 0.0218157,
+              "cumulative_seconds": 0.0262574
+            },
+            {
+              "function": "~:0(<built-in method builtins.len>)",
+              "primitive_calls": 209611,
+              "total_calls": 209611,
+              "self_seconds": 0.0186673,
+              "cumulative_seconds": 0.0186673
+            },
+            {
+              "function": "<string>:23(__hash__)",
+              "primitive_calls": 43786,
+              "total_calls": 43786,
+              "self_seconds": 0.0121189,
+              "cumulative_seconds": 0.018208500000000002
+            },
+            {
+              "function": "one_edit_verifier.py:43(_check_equal_length)",
+              "primitive_calls": 10303,
+              "total_calls": 10303,
+              "self_seconds": 0.0150343,
+              "cumulative_seconds": 0.0176324
+            },
+            {
+              "function": "hash_seed_lookup.py:133(occurrences)",
+              "primitive_calls": 2,
+              "total_calls": 2,
+              "self_seconds": 0.0010497,
+              "cumulative_seconds": 0.010624300000000001
+            },
+            {
+              "function": "hash_seed_lookup.py:137(<genexpr>)",
+              "primitive_calls": 5496,
+              "total_calls": 5496,
+              "self_seconds": 0.0061782,
+              "cumulative_seconds": 0.0095712
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:198(_deduplicate_matches)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.0020534,
+              "cumulative_seconds": 0.0070143
+            },
+            {
+              "function": "~:0(<built-in method builtins.hash>)",
+              "primitive_calls": 51781,
+              "total_calls": 51781,
+              "self_seconds": 0.006837800000000001,
+              "cumulative_seconds": 0.006837800000000001
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:216(_increment)",
+              "primitive_calls": 74277,
+              "total_calls": 74277,
+              "self_seconds": 0.006511500000000001,
+              "cumulative_seconds": 0.006511500000000001
+            },
+            {
+              "function": "~:0(<method 'setdefault' of 'dict' objects>)",
+              "primitive_calls": 7995,
+              "total_calls": 7995,
+              "self_seconds": 0.0029001,
+              "cumulative_seconds": 0.00496
+            }
+          ],
+          "query": "pyobject",
+          "tags": [
+            "inside_word",
+            "medium_exact"
+          ]
+        },
+        "representative_worst": {
+          "status": "ok",
+          "elapsed_ns": 53307700,
+          "result_count": 145,
+          "error": null,
+          "hottest": [
+            {
+              "function": "real_corpus_benchmark.py:84(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.0004334,
+              "cumulative_seconds": 0.053209900000000004
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:21(search)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.006422000000000001,
+              "cumulative_seconds": 0.052776500000000004
+            },
+            {
+              "function": "one_edit_verifier.py:9(compare)",
+              "primitive_calls": 7079,
+              "total_calls": 7079,
+              "self_seconds": 0.006070300000000001,
+              "cumulative_seconds": 0.024101900000000002
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:144(_candidate_contexts)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 0.0101797,
+              "cumulative_seconds": 0.0194212
+            },
+            {
+              "function": "one_edit_verifier.py:83(_check_missing_character)",
+              "primitive_calls": 2255,
+              "total_calls": 2255,
+              "self_seconds": 0.0058479000000000005,
+              "cumulative_seconds": 0.0060825
+            },
+            {
+              "function": "one_edit_verifier.py:110(_check_extra_character)",
+              "primitive_calls": 2457,
+              "total_calls": 2457,
+              "self_seconds": 0.0056207,
+              "cumulative_seconds": 0.005889
+            },
+            {
+              "function": "one_edit_verifier.py:43(_check_equal_length)",
+              "primitive_calls": 2367,
+              "total_calls": 2367,
+              "self_seconds": 0.0036789,
+              "cumulative_seconds": 0.0039221
+            },
+            {
+              "function": "~:0(<built-in method builtins.len>)",
+              "primitive_calls": 45205,
+              "total_calls": 45205,
+              "self_seconds": 0.0035719000000000002,
+              "cumulative_seconds": 0.0035719000000000002
+            },
+            {
+              "function": "<string>:23(__hash__)",
+              "primitive_calls": 7328,
+              "total_calls": 7328,
+              "self_seconds": 0.0017389,
+              "cumulative_seconds": 0.0025545000000000003
+            },
+            {
+              "function": "hash_seed_lookup.py:133(occurrences)",
+              "primitive_calls": 2,
+              "total_calls": 2,
+              "self_seconds": 0.00014010000000000002,
+              "cumulative_seconds": 0.0012252
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:100(_query_seeds)",
+              "primitive_calls": 1,
+              "total_calls": 1,
+              "self_seconds": 6.200000000000001e-06,
+              "cumulative_seconds": 0.0011633000000000001
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:106(<genexpr>)",
+              "primitive_calls": 9,
+              "total_calls": 9,
+              "self_seconds": 1.46e-05,
+              "cumulative_seconds": 0.001157
+            },
+            {
+              "function": "hash_seed_lookup.py:122(frequency)",
+              "primitive_calls": 8,
+              "total_calls": 8,
+              "self_seconds": 9.5e-06,
+              "cumulative_seconds": 0.001134
+            },
+            {
+              "function": "bi_anchor_search_algorithm.py:216(_increment)",
+              "primitive_calls": 14408,
+              "total_calls": 14408,
+              "self_seconds": 0.0011293,
+              "cumulative_seconds": 0.0011293
+            },
+            {
+              "function": "~:0(<built-in method builtins.sum>)",
+              "primitive_calls": 8,
+              "total_calls": 8,
+              "self_seconds": 0.00017480000000000002,
+              "cumulative_seconds": 0.0011164
+            }
+          ],
+          "query": "installing",
+          "tags": [
+            "inside_word",
+            "repeated"
+          ]
+        }
+      }
+    }
+  }
+}

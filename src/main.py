@@ -37,7 +37,7 @@ def build_default_search_engine(
 
 
 def main() -> None:
-    source = PROJECT_ROOT / "data" / "Archive3.zip"
+    source = PROJECT_ROOT / "data" / "Archive.zip"
 
     print("Loading the files and preparing the system...")
 
@@ -64,8 +64,8 @@ def main() -> None:
             f"({sentence.source_path} {sentence.offset})"
         )
 
-    search_engine = QGramTrieSearchAlgorithm()
-    search_engine.build(prepared_sentences)
+    # search_engine = QGramTrieSearchAlgorithm()
+    # search_engine.build(prepared_sentences)
     search_engine = build_default_search_engine(prepared_sentences)
     print("Search engine is ready.")
 

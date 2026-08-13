@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-08-13T10:48:55.045343+00:00",
+  "python_version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "process_architecture": "64bit",
+  "git_branch": "adaptive-multi-q-bi-anchor",
+  "git_commit_sha": "c95961417ecf0f6a14fc0516ed509da56b8f3486",
+  "source_path": "C:\\Users\\nours\\Desktop\\google-nadav-nour-shalom\\tests\\artifact-output\\benchmark-runner-source.txt",
+  "source_size_bytes": 219,
+  "source_sha256": "e0e80b9d13c0f40234af536613c91cec849d747137ba178a887f7b7960d6c7ed",
+  "benchmark_mode": "QUICK",
+  "benchmark_arguments": {
+    "queries": 24,
+    "repetitions": 1,
+    "build_repetitions": 1,
+    "seed": 42,
+    "query_file": null,
+    "q_study": false
+  }
+}

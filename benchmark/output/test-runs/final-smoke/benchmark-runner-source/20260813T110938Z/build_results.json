@@ -1,0 +1,135 @@
+{
+  "naive": {
+    "algorithm_id": "naive",
+    "build_repetitions": 1,
+    "build_time_ns": {
+      "samples": [
+        15900
+      ],
+      "min_ns": 15900,
+      "median_ns": 15900.0,
+      "mean_ns": 15900.0,
+      "p75_ns": 15900,
+      "p90_ns": 15900,
+      "p95_ns": null,
+      "p99_ns": 15900,
+      "max_ns": 15900,
+      "stdev_ns": 0.0
+    },
+    "memory_method": "tracemalloc dedicated build",
+    "peak_build_memory_bytes": 1368,
+    "approx_retained_memory_bytes": 1104,
+    "structure_metrics": {
+      "sentence_count": 3
+    },
+    "final_online_build_separate": true
+  },
+  "qgram_verifier": {
+    "algorithm_id": "qgram_verifier",
+    "build_repetitions": 1,
+    "build_time_ns": {
+      "samples": [
+        568500
+      ],
+      "min_ns": 568500,
+      "median_ns": 568500.0,
+      "mean_ns": 568500.0,
+      "p75_ns": 568500,
+      "p90_ns": 568500,
+      "p95_ns": null,
+      "p99_ns": 568500,
+      "max_ns": 568500,
+      "stdev_ns": 0.0
+    },
+    "memory_method": "tracemalloc dedicated build",
+    "peak_build_memory_bytes": 68541,
+    "approx_retained_memory_bytes": 68033,
+    "structure_metrics": {
+      "q": 3,
+      "qgram_keys": 356,
+      "posting_lists": 356,
+      "posting_entries": 639,
+      "largest_posting_length": 24,
+      "median_posting_length": 1.0,
+      "p95_posting_length": 4
+    },
+    "final_online_build_separate": true
+  },
+  "qgram_tree_hybrid": {
+    "algorithm_id": "qgram_tree_hybrid",
+    "build_repetitions": 1,
+    "build_time_ns": {
+      "samples": [
+        137100
+      ],
+      "min_ns": 137100,
+      "median_ns": 137100.0,
+      "mean_ns": 137100.0,
+      "p75_ns": 137100,
+      "p90_ns": 137100,
+      "p95_ns": null,
+      "p99_ns": 137100,
+      "max_ns": 137100,
+      "stdev_ns": 0.0
+    },
+    "memory_method": "tracemalloc dedicated build",
+    "peak_build_memory_bytes": 75379,
+    "approx_retained_memory_bytes": 75323,
+    "structure_metrics": {
+      "q": 3,
+      "qgram_keys": 129,
+      "qgram_references": 144,
+      "tree_nodes": 179,
+      "tree_edges": 178,
+      "terminals": 25,
+      "word_occurrences": 25
+    },
+    "final_online_build_separate": true
+  },
+  "bi_anchor": {
+    "algorithm_id": "bi_anchor",
+    "build_repetitions": 1,
+    "build_time_ns": {
+      "samples": [
+        301400
+      ],
+      "min_ns": 301400,
+      "median_ns": 301400.0,
+      "mean_ns": 301400.0,
+      "p75_ns": 301400,
+      "p90_ns": 301400,
+      "p95_ns": null,
+      "p99_ns": 301400,
+      "max_ns": 301400,
+      "stdev_ns": 0.0
+    },
+    "memory_method": "tracemalloc dedicated build",
+    "peak_build_memory_bytes": 73176,
+    "approx_retained_memory_bytes": 52656,
+    "structure_metrics": {
+      "unique_words": 25,
+      "word_occurrences": 25,
+      "intra_word_seed_keys": 129,
+      "intra_word_seed_references": 144,
+      "boundary_seed_keys": 61,
+      "boundary_occurrences": 66,
+      "per_q": {
+        "3": {
+          "q": 3,
+          "intra_word_seed_keys": 129,
+          "intra_word_seed_references": 144,
+          "boundary_seed_keys": 61,
+          "boundary_occurrences": 66
+        }
+      },
+      "q": 3,
+      "q_values": [
+        3
+      ],
+      "largest_seed_frequency": 4,
+      "median_seed_frequency": 1.0,
+      "p95_seed_frequency": 2
+    },
+    "final_online_build_separate": true
+  }
+}

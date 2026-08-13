@@ -919,7 +919,11 @@ def main() -> None:
     parser.add_argument("--expansion-guard", type=int, default=None)
     parser.add_argument("--skip-index-study", action="store_true")
     parser.add_argument("--prefix", default="short-query")
-    parser.add_argument("--output-dir", type=Path, default=Path("benchmark"))
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=Path("benchmark/output/short-query"),
+    )
     arguments = parser.parse_args()
     payload = run_study(
         archive=arguments.archive,
